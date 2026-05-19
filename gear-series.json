@@ -1,0 +1,2541 @@
+﻿{
+  "version": 1,
+  "description": "User-defined gear series. A series can group official sets, custom sets, and loose gear pieces.",
+  "idRules": {
+    "idPrefix": "gear-series-custom-",
+    "example": "gear-series-custom-000001",
+    "note": "Series ids must be strings, not numbers, so they never conflict with game item ids or official set ids."
+  },
+  "templates": {
+    "emptyGearSeries": {
+      "id": "gear-series-custom-000001",
+      "name": "装备系列名称",
+      "status": "draft",
+      "gameSetIds": [],
+      "customSetIds": [],
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "tags": [],
+      "note": "这里写人工判断，例如：同主题、同来源、同外观风格、同版本或同模型系列。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      },
+      "pieceIds": []
+    }
+  },
+  "series": [
+    {
+      "id": "gear-series-custom-000001",
+      "name": "世传系列",
+      "status": "draft",
+      "gameSetIds": [
+        51547,
+        51548,
+        51549,
+        51550,
+        51551,
+        51552,
+        51553
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "世传"
+      ],
+      "minItemLevel": 485,
+      "maxItemLevel": 485,
+      "minEquipLevel": 80,
+      "maxEquipLevel": 80,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000002",
+      "name": "亚拉戈末世系列",
+      "status": "draft",
+      "gameSetIds": [
+        45357,
+        45358,
+        45359,
+        45360,
+        45361,
+        45362,
+        45363
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "亚拉戈末世"
+      ],
+      "minItemLevel": 1,
+      "maxItemLevel": 1,
+      "minEquipLevel": 1,
+      "maxEquipLevel": 1,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000003",
+      "name": "人趣系列",
+      "status": "draft",
+      "gameSetIds": [
+        51561,
+        51562,
+        51563,
+        51564,
+        51565,
+        51566,
+        51567
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "人趣"
+      ],
+      "minItemLevel": 520,
+      "maxItemLevel": 520,
+      "minEquipLevel": 81,
+      "maxEquipLevel": 81,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000004",
+      "name": "佐莫系列",
+      "status": "draft",
+      "gameSetIds": [
+        51631,
+        51632,
+        51633,
+        51634,
+        51635,
+        51636,
+        51637
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "佐莫"
+      ],
+      "minItemLevel": 660,
+      "maxItemLevel": 660,
+      "minEquipLevel": 93,
+      "maxEquipLevel": 93,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000005",
+      "name": "先锋系列",
+      "status": "draft",
+      "gameSetIds": [
+        51645,
+        51646,
+        51647,
+        51648,
+        51649,
+        51650,
+        51651
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "先锋"
+      ],
+      "minItemLevel": 672,
+      "maxItemLevel": 672,
+      "minEquipLevel": 97,
+      "maxEquipLevel": 97,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000006",
+      "name": "冥魂系列",
+      "status": "draft",
+      "gameSetIds": [
+        51603,
+        51604,
+        51605,
+        51606,
+        51607,
+        51608,
+        51609
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "冥魂"
+      ],
+      "minItemLevel": 605,
+      "maxItemLevel": 605,
+      "minEquipLevel": 90,
+      "maxEquipLevel": 90,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000007",
+      "name": "前魔导系列",
+      "status": "draft",
+      "gameSetIds": [
+        51680,
+        51681,
+        51682,
+        51683,
+        51684,
+        51685,
+        51686
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "前魔导"
+      ],
+      "minItemLevel": 765,
+      "maxItemLevel": 765,
+      "minEquipLevel": 100,
+      "maxEquipLevel": 100,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000008",
+      "name": "堕狱系列",
+      "status": "draft",
+      "gameSetIds": [
+        51463,
+        51464,
+        51465,
+        51466,
+        51467,
+        51468,
+        51469
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "堕狱"
+      ],
+      "minItemLevel": 325,
+      "maxItemLevel": 325,
+      "minEquipLevel": 70,
+      "maxEquipLevel": 70,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000009",
+      "name": "塔底系列",
+      "status": "draft",
+      "gameSetIds": [
+        51659,
+        51660,
+        51661,
+        51662,
+        51663,
+        51664,
+        51665
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "塔底"
+      ],
+      "minItemLevel": 725,
+      "maxItemLevel": 725,
+      "minEquipLevel": 100,
+      "maxEquipLevel": 100,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000010",
+      "name": "复制品空贼系列",
+      "status": "draft",
+      "gameSetIds": [
+        45379,
+        45380,
+        45381,
+        45382,
+        45383,
+        45384,
+        45385
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "复制品空贼"
+      ],
+      "minItemLevel": 1,
+      "maxItemLevel": 1,
+      "minEquipLevel": 1,
+      "maxEquipLevel": 1,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000011",
+      "name": "复制品空鼠系列",
+      "status": "draft",
+      "gameSetIds": [
+        45386,
+        45387,
+        45388,
+        45389,
+        45390,
+        45391,
+        45392
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "复制品空鼠"
+      ],
+      "minItemLevel": 1,
+      "maxItemLevel": 1,
+      "minEquipLevel": 1,
+      "maxEquipLevel": 1,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000012",
+      "name": "奇坦那系列",
+      "status": "draft",
+      "gameSetIds": [
+        51505,
+        51506,
+        51507,
+        51508,
+        51509,
+        51510,
+        51511
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "奇坦那"
+      ],
+      "minItemLevel": 406,
+      "maxItemLevel": 406,
+      "minEquipLevel": 75,
+      "maxEquipLevel": 75,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000013",
+      "name": "威望亚拉戈高位系列",
+      "status": "draft",
+      "gameSetIds": [
+        45511,
+        45512,
+        45513,
+        45514,
+        45515,
+        45516,
+        45517
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "威望亚拉戈高位"
+      ],
+      "minItemLevel": 1,
+      "maxItemLevel": 1,
+      "minEquipLevel": 1,
+      "maxEquipLevel": 1,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000014",
+      "name": "孚布特系列",
+      "status": "draft",
+      "gameSetIds": [
+        51498,
+        51499,
+        51500,
+        51501,
+        51502,
+        51503,
+        51504
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "孚布特"
+      ],
+      "minItemLevel": 400,
+      "maxItemLevel": 400,
+      "minEquipLevel": 73,
+      "maxEquipLevel": 73,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000015",
+      "name": "宽恕系列",
+      "status": "draft",
+      "gameSetIds": [
+        51519,
+        51520,
+        51521,
+        51522,
+        51523,
+        51524,
+        51525
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "宽恕"
+      ],
+      "minItemLevel": 418,
+      "maxItemLevel": 418,
+      "minEquipLevel": 79,
+      "maxEquipLevel": 79,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000016",
+      "name": "帕戈尔赞系列",
+      "status": "draft",
+      "gameSetIds": [
+        51554,
+        51555,
+        51556,
+        51557,
+        51558,
+        51559,
+        51560
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "帕戈尔赞"
+      ],
+      "minItemLevel": 505,
+      "maxItemLevel": 505,
+      "minEquipLevel": 80,
+      "maxEquipLevel": 80,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000017",
+      "name": "帝国系列",
+      "status": "draft",
+      "gameSetIds": [
+        51568,
+        51569,
+        51570,
+        51571,
+        51572,
+        51573,
+        51574
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "帝国"
+      ],
+      "minItemLevel": 530,
+      "maxItemLevel": 530,
+      "minEquipLevel": 83,
+      "maxEquipLevel": 83,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000018",
+      "name": "座狼系列",
+      "status": "draft",
+      "gameSetIds": [
+        51526,
+        51527,
+        51528,
+        51529,
+        51530,
+        51531,
+        51532
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "座狼"
+      ],
+      "minItemLevel": 445,
+      "maxItemLevel": 445,
+      "minEquipLevel": 80,
+      "maxEquipLevel": 80,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000019",
+      "name": "廷臣系列",
+      "status": "draft",
+      "gameSetIds": [
+        51589,
+        51590,
+        51591,
+        51592,
+        51593,
+        51594,
+        51595
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "廷臣"
+      ],
+      "minItemLevel": 575,
+      "maxItemLevel": 575,
+      "minEquipLevel": 90,
+      "maxEquipLevel": 90,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000020",
+      "name": "志愿兵系列",
+      "status": "draft",
+      "gameSetIds": [
+        51477,
+        51478,
+        51479,
+        51480,
+        51481,
+        51482,
+        51483
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "志愿兵"
+      ],
+      "minItemLevel": 355,
+      "maxItemLevel": 355,
+      "minEquipLevel": 70,
+      "maxEquipLevel": 70,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000021",
+      "name": "拿巴示艾兰系列",
+      "status": "draft",
+      "gameSetIds": [
+        51512,
+        51513,
+        51514,
+        51515,
+        51516,
+        51517,
+        51518
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "拿巴示艾兰"
+      ],
+      "minItemLevel": 412,
+      "maxItemLevel": 412,
+      "minEquipLevel": 77,
+      "maxEquipLevel": 77,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000022",
+      "name": "斯卡拉系列",
+      "status": "draft",
+      "gameSetIds": [
+        51456,
+        51457,
+        51458,
+        51459,
+        51460,
+        51461,
+        51462
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "斯卡拉"
+      ],
+      "minItemLevel": 315,
+      "maxItemLevel": 315,
+      "minEquipLevel": 70,
+      "maxEquipLevel": 70,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000023",
+      "name": "正教系列",
+      "status": "draft",
+      "gameSetIds": [
+        51348,
+        51349,
+        51350,
+        51351,
+        51352,
+        51353,
+        51354
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "正教"
+      ],
+      "minItemLevel": 136,
+      "maxItemLevel": 136,
+      "minEquipLevel": 55,
+      "maxEquipLevel": 55,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000024",
+      "name": "河流之息系列",
+      "status": "draft",
+      "gameSetIds": [
+        51624,
+        51625,
+        51626,
+        51627,
+        51628,
+        51629,
+        51630
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "河流之息"
+      ],
+      "minItemLevel": 650,
+      "maxItemLevel": 650,
+      "minEquipLevel": 91,
+      "maxEquipLevel": 91,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000025",
+      "name": "波洛伽系列",
+      "status": "draft",
+      "gameSetIds": [
+        51575,
+        51576,
+        51577,
+        51578,
+        51579,
+        51580,
+        51581
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "波洛伽"
+      ],
+      "minItemLevel": 536,
+      "maxItemLevel": 536,
+      "minEquipLevel": 85,
+      "maxEquipLevel": 85,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000026",
+      "name": "深空系列",
+      "status": "draft",
+      "gameSetIds": [
+        51638,
+        51639,
+        51640,
+        51641,
+        51642,
+        51643,
+        51644
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "深空"
+      ],
+      "minItemLevel": 666,
+      "maxItemLevel": 666,
+      "minEquipLevel": 95,
+      "maxEquipLevel": 95,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000027",
+      "name": "游牧系列",
+      "status": "draft",
+      "gameSetIds": [
+        51428,
+        51429,
+        51430,
+        51431,
+        51432,
+        51433,
+        51434
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "游牧"
+      ],
+      "minItemLevel": 276,
+      "maxItemLevel": 276,
+      "minEquipLevel": 65,
+      "maxEquipLevel": 65,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000028",
+      "name": "煽动兵系列",
+      "status": "draft",
+      "gameSetIds": [
+        51407,
+        51408,
+        51409,
+        51410,
+        51411,
+        51412,
+        51413
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "煽动兵"
+      ],
+      "minItemLevel": 245,
+      "maxItemLevel": 245,
+      "minEquipLevel": 60,
+      "maxEquipLevel": 60,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000029",
+      "name": "特罗亚系列",
+      "status": "draft",
+      "gameSetIds": [
+        51596,
+        51597,
+        51598,
+        51599,
+        51600,
+        51601,
+        51602
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "特罗亚"
+      ],
+      "minItemLevel": 595,
+      "maxItemLevel": 595,
+      "minEquipLevel": 90,
+      "maxEquipLevel": 90,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000030",
+      "name": "玉韦亚瓦塔系列",
+      "status": "draft",
+      "gameSetIds": [
+        51652,
+        51653,
+        51654,
+        51655,
+        51656,
+        51657,
+        51658
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "玉韦亚瓦塔"
+      ],
+      "minItemLevel": 705,
+      "maxItemLevel": 705,
+      "minEquipLevel": 100,
+      "maxEquipLevel": 100,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000031",
+      "name": "瓦尔基里系列",
+      "status": "draft",
+      "gameSetIds": [
+        51400,
+        51401,
+        51402,
+        51403,
+        51404,
+        51405,
+        51406
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "瓦尔基里"
+      ],
+      "minItemLevel": 225,
+      "maxItemLevel": 225,
+      "minEquipLevel": 60,
+      "maxEquipLevel": 60,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000032",
+      "name": "联盟系列",
+      "status": "draft",
+      "gameSetIds": [
+        51484,
+        51485,
+        51486,
+        51487,
+        51488,
+        51489,
+        51490
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "联盟"
+      ],
+      "minItemLevel": 375,
+      "maxItemLevel": 375,
+      "minEquipLevel": 70,
+      "maxEquipLevel": 70,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000033",
+      "name": "莫影系列",
+      "status": "draft",
+      "gameSetIds": [
+        51540,
+        51541,
+        51542,
+        51543,
+        51544,
+        51545,
+        51546
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "莫影"
+      ],
+      "minItemLevel": 475,
+      "maxItemLevel": 475,
+      "minEquipLevel": 80,
+      "maxEquipLevel": 80,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000034",
+      "name": "虚月系列",
+      "status": "draft",
+      "gameSetIds": [
+        51617,
+        51618,
+        51619,
+        51620,
+        51621,
+        51622,
+        51623
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "虚月"
+      ],
+      "minItemLevel": 635,
+      "maxItemLevel": 635,
+      "minEquipLevel": 90,
+      "maxEquipLevel": 90,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000035",
+      "name": "血盟系列",
+      "status": "draft",
+      "gameSetIds": [
+        45178,
+        45238
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "血盟"
+      ],
+      "minItemLevel": 1,
+      "maxItemLevel": 1,
+      "minEquipLevel": 1,
+      "maxEquipLevel": 1,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000036",
+      "name": "追忆馆系列",
+      "status": "draft",
+      "gameSetIds": [
+        51533,
+        51534,
+        51535,
+        51536,
+        51537,
+        51538,
+        51539
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "追忆馆"
+      ],
+      "minItemLevel": 455,
+      "maxItemLevel": 455,
+      "minEquipLevel": 80,
+      "maxEquipLevel": 80,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000037",
+      "name": "造物院系列",
+      "status": "draft",
+      "gameSetIds": [
+        51582,
+        51583,
+        51584,
+        51585,
+        51586,
+        51587,
+        51588
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "造物院"
+      ],
+      "minItemLevel": 542,
+      "maxItemLevel": 542,
+      "minEquipLevel": 87,
+      "maxEquipLevel": 87,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000038",
+      "name": "间隔系列",
+      "status": "draft",
+      "gameSetIds": [
+        51610,
+        51611,
+        51612,
+        51613,
+        51614,
+        51615,
+        51616
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "间隔"
+      ],
+      "minItemLevel": 625,
+      "maxItemLevel": 625,
+      "minEquipLevel": 90,
+      "maxEquipLevel": 90,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000039",
+      "name": "雷克兰德系列",
+      "status": "draft",
+      "gameSetIds": [
+        51491,
+        51492,
+        51493,
+        51494,
+        51495,
+        51496,
+        51497
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "雷克兰德"
+      ],
+      "minItemLevel": 390,
+      "maxItemLevel": 390,
+      "minEquipLevel": 71,
+      "maxEquipLevel": 71,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000040",
+      "name": "雾忆系列",
+      "status": "draft",
+      "gameSetIds": [
+        51666,
+        51667,
+        51668,
+        51669,
+        51670,
+        51671,
+        51672
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "雾忆"
+      ],
+      "minItemLevel": 735,
+      "maxItemLevel": 735,
+      "minEquipLevel": 100,
+      "maxEquipLevel": 100,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000041",
+      "name": "雾迹系列",
+      "status": "draft",
+      "gameSetIds": [
+        51673,
+        51674,
+        51675,
+        51676,
+        51677,
+        51678,
+        51679
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "雾迹"
+      ],
+      "minItemLevel": 755,
+      "maxItemLevel": 755,
+      "minEquipLevel": 100,
+      "maxEquipLevel": 100,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": true,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000042",
+      "name": "鬼船系列",
+      "status": "draft",
+      "gameSetIds": [
+        51414,
+        51415,
+        51416,
+        51417,
+        51418,
+        51419,
+        51420
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "鬼船"
+      ],
+      "minItemLevel": 260,
+      "maxItemLevel": 260,
+      "minEquipLevel": 61,
+      "maxEquipLevel": 61,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    },
+    {
+      "id": "gear-series-custom-000043",
+      "name": "龙堡系列",
+      "status": "draft",
+      "gameSetIds": [
+        51386,
+        51387,
+        51388,
+        51389,
+        51390,
+        51391,
+        51392
+      ],
+      "customSetIds": [],
+      "keywords": [
+        "龙堡"
+      ],
+      "minItemLevel": 195,
+      "maxItemLevel": 195,
+      "minEquipLevel": 60,
+      "maxEquipLevel": 60,
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "canDresserSet": true,
+      "canArmoire": false,
+      "seriesKind": "official",
+      "method": "role-prefix",
+      "confidence": "medium",
+      "collectionNote": "",
+      "note": "半自动候选：根据套装名中职能词前的共同前缀归组，请人工确认。",
+      "previewImages": {
+        "original": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye1": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dye2": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "dyeDouble": {
+          "common": "",
+          "male": "",
+          "female": ""
+        },
+        "crest": {
+          "common": "",
+          "male": "",
+          "female": ""
+        }
+      }
+    }
+  ]
+}

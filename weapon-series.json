@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "User-defined weapon series. A weapon series groups weapon pieces only.",
+  "idRules": {
+    "idPrefix": "weapon-series-custom-",
+    "example": "weapon-series-custom-000001",
+    "note": "Weapon series ids must be strings, not numbers."
+  },
+  "templates": {
+    "emptyWeaponSeries": {
+      "id": "weapon-series-custom-000001",
+      "name": "武器系列名称",
+      "status": "draft",
+      "weaponIds": [],
+      "keywords": [],
+      "minItemLevel": "",
+      "maxItemLevel": "",
+      "minEquipLevel": "",
+      "maxEquipLevel": "",
+      "sourceCategory": "",
+      "sourceSubCategory": "",
+      "method": "manual",
+      "confidence": "",
+      "note": ""
+    }
+  },
+  "series": []
+}

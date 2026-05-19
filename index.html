@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>冒险者的衣柜</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="floating-scroll-tools">
+  <button id="floatScrollTopButton" title="回到顶部">⤒</button>
+  <button id="floatScrollCurrentButton" title="回到当前查看的装备">◎</button>
+  <button id="floatScrollUpButton" title="向上滚动">↑</button>
+  <button id="floatScrollDownButton" title="向下滚动">↓</button>
+</div>
+
+<div class="top-search-shell">
+  <div class="brand-panel">
+    <h1>
+      <span class="brand-title-main">冒险者的衣柜</span>
+      <span class="brand-title-subtitle">FFXIV装备查询系统 作者：管弦乐琴@白金幻象</span>
+    </h1>
+
+    <nav class="engine-nav" aria-label="外观资料库分类">
+      <button class="engine-tab active" type="button" data-engine="gearPieces">装备散件</button>
+      <button class="engine-tab" type="button" data-engine="gearSets">装备套装</button>
+      <button class="engine-tab" type="button" data-engine="gearSeries">装备系列</button>
+      <span class="engine-tab-break" aria-hidden="true"></span>
+      <button class="engine-tab" type="button" data-engine="weaponPieces">武器散件</button>
+      <button class="engine-tab" type="button" data-engine="weaponSeries">武器系列</button>
+    </nav>
+
+    <button id="appHelpButton" class="app-brand-action-button app-help-button" type="button" title="Q&amp;A" aria-label="&#25171;&#24320; Q&amp;A">
+      ?
+    </button>
+
+    <button id="appNoticeButton" class="app-brand-action-button app-notice-button" type="button" title="Changelog / &#21453;&#39304;" aria-label="&#25171;&#24320; Changelog &#21644;&#21453;&#39304;&#28192;&#36947;">
+      !
+    </button>
+
+    <button id="appSettingsButton" class="app-brand-action-button app-settings-button" type="button" title="&#35774;&#32622;" aria-label="&#25171;&#24320;&#35774;&#32622;">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M12 8.2a3.8 3.8 0 1 0 0 7.6 3.8 3.8 0 0 0 0-7.6Z"></path>
+        <path d="M19.4 13.5a7.9 7.9 0 0 0 0-3l2-1.5-2-3.4-2.4 1a8.4 8.4 0 0 0-2.6-1.5L14.1 2h-4.2l-.3 3.1A8.4 8.4 0 0 0 7 6.6l-2.4-1-2 3.4 2 1.5a7.9 7.9 0 0 0 0 3l-2 1.5 2 3.4 2.4-1a8.4 8.4 0 0 0 2.6 1.5l.3 3.1h4.2l.3-3.1a8.4 8.4 0 0 0 2.6-1.5l2.4 1 2-3.4-2-1.5Z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <div class="filter-box">
+
+    <div id="basicSearchFilterGroup" class="filter-group">
+      <div class="filter-title">基础搜索</div>
+
+      <input id="searchInput" type="text" placeholder="" />
+
+      <select id="equipSlotFilter">
+        <option value="all">全部装备栏部位</option>
+        <option value="套装">套装</option>
+        <option value="头部">头部</option>
+        <option value="身体">身体</option>
+        <option value="手部">手部</option>
+        <option value="腿部">腿部</option>
+        <option value="脚部">脚部</option>
+        <option value="耳饰">耳饰</option>
+        <option value="项链">项链</option>
+        <option value="手镯">手镯</option>
+        <option value="戒指">戒指</option>
+      </select>
+
+      <select id="weaponTypeFilter" class="hidden">
+        <option value="all">全部武器类型</option>
+      </select>
+
+      <div id="gearPieceCategoryFilterRow" class="filter-row">
+        <label>
+          <input type="checkbox" id="armorOnly">
+          只看防具
+        </label>
+
+        <label>
+          <input type="checkbox" id="accessoryOnly">
+          只看饰品
+        </label>
+      </div>
+
+      <div id="weaponSlotFilterRow" class="filter-row hidden">
+        <label>
+          <input type="checkbox" id="mainHandOnly">
+          只看主手
+        </label>
+
+        <label>
+          <input type="checkbox" id="offHandOnly">
+          只看副手
+        </label>
+      </div>
+
+      <div id="recommendToggleBar" class="quick-toggle-bar">
+        <label>
+          <input id="recommendedGearOnly" type="checkbox" />
+          <span id="recommendedFilterLabel">只看推荐装备</span>
+          <span class="recommend-reset-note">重置筛选时不清除</span>
+        </label>
+      </div>
+    </div>
+
+    <div id="levelFilters" class="filter-group">
+      <div class="filter-title">等级</div>
+
+      <div class="range-filter-group">
+        <div class="range-filter-title">物品品级</div>
+        <div class="range-input-row">
+          <input id="minItemLevelInput" type="number" placeholder="最小" />
+          <input id="maxItemLevelInput" type="number" placeholder="最大" />
+        </div>
+      </div>
+
+      <div class="range-filter-group">
+        <div class="range-filter-title">装备等级</div>
+        <div class="range-input-row">
+          <input id="minEquipLevelInput" type="number" placeholder="最小" />
+          <input id="maxEquipLevelInput" type="number" placeholder="最大" />
+        </div>
+      </div>
+    </div>
+
+    <div id="gearSetFilters" class="filter-group">
+      <div class="gear-set-source-column">
+        <div class="filter-title">来源</div>
+
+        <select id="gearSetSourceCategoryFilter">
+          <option value="all">全部来源</option>
+          <option value="onlineStore">商城</option>
+          <option value="crafted">制作</option>
+          <option value="battleContent">战斗内容</option>
+          <option value="currencyExchange">点数/货币兑换</option>
+          <option value="specialGameplay">特殊玩法</option>
+          <option value="pvp">PVP</option>
+          <option value="questAchievement">任务/成就</option>
+          <option value="seasonalEvent">活动</option>
+          <option value="npcPurchase">NPC购买</option>
+          <option value="other">其他</option>
+          <option value="uncategorized">未分类</option>
+        </select>
+
+        <select id="gearSetSourceSubcategoryFilter">
+          <option value="all">全部来源细分</option>
+        </select>
+
+        <select id="gearSetSourceDetailFilter">
+          <option value="all">全部三级细分</option>
+        </select>
+      </div>
+
+      <div class="gear-set-collection-column">
+        <div class="filter-title">游戏内收录</div>
+
+        <div class="collection-row">
+          <span>成套加入投影台</span>
+          <label><input type="checkbox" id="gearSetDresserSetOnly">可</label>
+          <label><input type="checkbox" id="gearSetLooseOnly">不可</label>
+        </div>
+
+        <div class="collection-row">
+          <span>加入收藏柜</span>
+          <label><input type="checkbox" id="gearSetArmoireOnly">可</label>
+          <label><input type="checkbox" id="gearSetNotArmoireOnly">不可</label>
+        </div>
+
+        <div class="collection-row">
+          <span id="similarFilterLabel">相似装备</span>
+          <label><input type="checkbox" id="gearSetHasModelLinksOnly">有</label>
+          <label><input type="checkbox" id="gearSetNoModelLinksOnly">无</label>
+        </div>
+
+        <label id="marketOnlyFilterLabel">
+          <input id="marketOnly" type="checkbox" />
+          只看市场板有售
+        </label>
+      </div>
+
+      <select id="sourceFilter" class="hidden" aria-hidden="true">
+        <option value="all">全部来源</option>
+        <option value="制作">制作</option>
+        <option value="NPC购买">NPC购买</option>
+        <option value="NPC兑换">NPC兑换</option>
+        <option value="副本掉落">副本掉落</option>
+        <option value="讨伐歼灭战">讨伐歼灭战</option>
+        <option value="大型任务">大型任务</option>
+        <option value="任务奖励">任务奖励</option>
+        <option value="成就奖励">成就奖励</option>
+        <option value="金碟兑换">金碟兑换</option>
+        <option value="PVP兑换">PVP兑换</option>
+        <option value="季节活动">季节活动</option>
+        <option value="商城">商城</option>
+        <option value="探索玩法">探索玩法</option>
+        <option value="其他">其他</option>
+      </select>
+    </div>
+
+    <div id="pieceGlamourFilterGroup" class="filter-group">
+      <div class="filter-title">排序</div>
+
+      <select id="sortFilter">
+        <option value="default">默认排序</option>
+        <option value="itemLevelDesc">品级从高到低</option>
+        <option value="equipLevelDesc">装备等级从高到低</option>
+        <option value="armoireFirst">收藏柜优先</option>
+        <option value="dualDyeFirst">双染优先</option>
+        <option value="dresserFirst">投影台优先</option>
+        <option value="crestFirst" data-gear-piece-only="true">部队徽记优先</option>
+        <option value="marketFirst">市场板可售优先</option>
+      </select>
+
+      <div class="filter-title sub-filter-title">染色与徽记</div>
+
+      <div id="dyeScopeNote" class="filter-hint hidden">染色情况仅针对防具，不针对饰品。</div>
+
+      <div class="dye-checkbox-grid">
+        <label><input id="dualDyeOnly" type="checkbox" />双染</label>
+        <label><input id="dyeOnly" type="checkbox" />单染</label>
+        <label><input id="noDyeOnly" type="checkbox" />不可染</label>
+        <label id="crestOnlyFilterLabel" class="wide-check"><input id="crestOnly" type="checkbox" />可添加部队徽记</label>
+      </div>
+
+      <div class="hidden">
+        <label id="dresserOnlyFilterLabel"><input id="dresserOnly" type="checkbox" />只看可加入投影台</label>
+        <label id="dresserSetOnlyFilterLabel"><input type="checkbox" id="dresserSetOnly">只看能成套加入投影台</label>
+        <label id="armoireOnlyFilterLabel"><input id="armoireOnly" type="checkbox" />只看可进收藏柜</label>
+      </div>
+    </div>
+
+    <div class="filter-actions">
+      <button id="applyFilterButton">应用筛选</button>
+      <button id="resetButton">重置筛选</button>
+    </div>
+  </div></div>
+</div>
+
+<button id="wishlistFloatingButton" class="wishlist-floating-button hidden" type="button" title="打开愿望单" aria-label="打开愿望单">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M4.2 5.2h2.1l1.7 9.1a1.7 1.7 0 0 0 1.7 1.4h7.5a1.7 1.7 0 0 0 1.6-1.2l1.2-5.3H7.2"></path>
+    <circle cx="10" cy="19" r="1.2"></circle>
+    <circle cx="17" cy="19" r="1.2"></circle>
+  </svg>
+  <span id="wishlistFloatingCount">0</span>
+</button>
+
+<div class="page-layout">
+  <section class="left-panel">
+
+    <h2>搜索结果（共 <span id="resultCount">0</span> 条）</h2>
+    <div id="activeFilters" class="active-filters">当前筛选：全部装备</div>
+<div id="resultList">
+  <p>正在加载装备数据……</p>
+</div>
+
+<button id="loadMoreButton" class="load-more-button hidden">加载更多</button>
+
+  </section>
+
+  <section class="right-panel">
+    <h2>装备详情</h2>
+    <div id="detailBox">请先点击装备。</div>
+  </section>
+
+</div>
+
+<footer class="app-copyright">
+  FINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved. 本工具为玩家自用查询与反馈测试页面，相关游戏资料、图标与图片版权归 SQUARE ENIX 所有。
+</footer>
+
+<div id="imageModal" class="image-modal hidden">
+  <button id="closeImageModal" class="image-modal-close">×</button>
+
+  <div class="image-modal-toolbar">
+    <button id="zoomOutButton" type="button">－</button>
+    <button id="zoomResetButton" type="button">100%</button>
+    <button id="zoomInButton" type="button">＋</button>
+  </div>
+
+  <img id="modalImage" class="image-modal-img" src="" alt="">
+  <div id="modalCaption" class="image-modal-caption"></div>
+</div>
+
+<script src="app.js"></script>
+
+<script>
+(function () {
+  function mergeDetailTagsIntoOneLine() {
+    const detailBox = document.getElementById("detailBox");
+    if (!detailBox) return;
+
+    const tagLine = Array.from(detailBox.children).find(function (el) {
+      return el.classList && el.classList.contains("tag-line");
+    });
+
+    const tradeLine = Array.from(detailBox.children).find(function (el) {
+      return el.classList && el.classList.contains("trade-line");
+    });
+
+    if (!tagLine || !tradeLine || tradeLine.dataset.mergedIntoTagLine === "true") return;
+
+    Array.from(tradeLine.children).forEach(function (child) {
+      tagLine.appendChild(child);
+    });
+
+    tradeLine.dataset.mergedIntoTagLine = "true";
+    tradeLine.classList.add("detail-tags-merged-line");
+    tradeLine.style.display = "none";
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    mergeDetailTagsIntoOneLine();
+
+    const detailBox = document.getElementById("detailBox");
+    if (!detailBox) return;
+
+    const observer = new MutationObserver(function () {
+      window.requestAnimationFrame(mergeDetailTagsIntoOneLine);
+    });
+
+    observer.observe(detailBox, {
+      childList: true,
+      subtree: false
+    });
+  });
+})();
+</script>
+
+<script>
+(function () {
+  function getTopLevelChild(detailBox, element) {
+    let node = element;
+    while (node && node.parentElement && node.parentElement !== detailBox) {
+      node = node.parentElement;
+    }
+    return node && node.parentElement === detailBox ? node : null;
+  }
+
+  function isSectionTitleNode(node) {
+    if (!node || node.nodeType !== 1) return false;
+    const text = (node.textContent || "").trim();
+    return (
+      node.classList.contains("section-title-row") ||
+      /^当前装备配色对比/.test(text) ||
+      /^同模信息横向对比/.test(text) ||
+      /^获取方式/.test(text)
+    );
+  }
+
+  function findSectionStart(detailBox, titleText) {
+    const candidates = Array.from(detailBox.querySelectorAll("h3, h4, summary, .section-title-row, .source-title, div"));
+    const titleElement = candidates.find(function (el) {
+      const text = (el.textContent || "").trim();
+      return text.includes(titleText) && el !== detailBox;
+    });
+
+    return titleElement ? getTopLevelChild(detailBox, titleElement) : null;
+  }
+
+  function collectSection(detailBox, startNode) {
+    if (!startNode) return [];
+
+    const nodes = [startNode];
+    let node = startNode.nextElementSibling;
+
+    while (node) {
+      if (node.classList.contains("source-box")) break;
+      if (isSectionTitleNode(node)) break;
+
+      nodes.push(node);
+      node = node.nextElementSibling;
+    }
+
+    return nodes;
+  }
+
+  function moveNodesBefore(nodes, target) {
+    if (!nodes.length || !target || !target.parentNode) return;
+
+    const parent = target.parentNode;
+    const fragment = document.createDocumentFragment();
+
+    nodes.forEach(function (node) {
+      fragment.appendChild(node);
+    });
+
+    parent.insertBefore(fragment, target);
+  }
+
+  function reorderDetailSections() {
+    const detailBox = document.getElementById("detailBox");
+    if (!detailBox) return;
+
+    const currentStart = findSectionStart(detailBox, "当前装备配色对比");
+    const sameModelStart = findSectionStart(detailBox, "同模信息横向对比");
+
+    if (!currentStart || !sameModelStart || currentStart === sameModelStart) return;
+
+    const children = Array.from(detailBox.children);
+    const currentIndex = children.indexOf(currentStart);
+    const sameModelIndex = children.indexOf(sameModelStart);
+
+    if (currentIndex === -1 || sameModelIndex === -1) return;
+
+    /*
+      目标：整块互换顺序，不只动标题。
+      如果“当前装备配色对比”在“同模信息横向对比”下面，就把它连标题和内容一起搬到同模信息前面。
+    */
+    if (currentIndex > sameModelIndex) {
+      const currentSectionNodes = collectSection(detailBox, currentStart);
+      moveNodesBefore(currentSectionNodes, sameModelStart);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    reorderDetailSections();
+
+    const detailBox = document.getElementById("detailBox");
+    if (!detailBox) return;
+
+    const observer = new MutationObserver(function () {
+      window.requestAnimationFrame(reorderDetailSections);
+    });
+
+    observer.observe(detailBox, {
+      childList: true,
+      subtree: true
+    });
+  });
+})();
+</script>
+
+<script>
+(function () {
+  function getCurrentEngine() {
+    const activeTab = document.querySelector(".engine-tab.active");
+    return activeTab ? activeTab.dataset.engine : "gearPieces";
+  }
+
+  function setVisible(element, shouldShow) {
+    if (!element) return;
+    element.classList.toggle("hidden", !shouldShow);
+  }
+
+  function resetControl(element) {
+    if (!element) return;
+
+    if (element.type === "checkbox") {
+      element.checked = false;
+      return;
+    }
+
+    if ("value" in element) {
+      element.value = "all";
+    }
+  }
+
+  function syncSearchBarByEngine() {
+    const currentEngine = getCurrentEngine();
+
+    const isGearEngine =
+      currentEngine === "gearPieces" ||
+      currentEngine === "gearSets" ||
+      currentEngine === "gearSeries";
+
+    const isGearPiece = currentEngine === "gearPieces";
+    const isWeaponPiece = currentEngine === "weaponPieces";
+    const isWeaponEngine =
+      currentEngine === "weaponPieces" ||
+      currentEngine === "weaponSeries";
+
+    const equipSlotFilter = document.getElementById("equipSlotFilter");
+    const weaponTypeFilter = document.getElementById("weaponTypeFilter");
+    const gearPieceCategoryFilterRow = document.getElementById("gearPieceCategoryFilterRow");
+
+    const armorOnly = document.getElementById("armorOnly");
+    const accessoryOnly = document.getElementById("accessoryOnly");
+
+    /*
+      五个引擎的基础搜索栏显示规则：
+      - 装备散件：装备栏部位 + 只看防具/饰品
+      - 装备套装：装备栏部位，不显示只看防具/饰品
+      - 装备系列：装备栏部位，不显示只看防具/饰品
+      - 武器散件：武器类型，不显示装备栏部位，不显示只看防具/饰品
+      - 武器系列：不显示装备栏部位，不显示武器类型，不显示只看防具/饰品
+    */
+
+    setVisible(equipSlotFilter, isGearEngine);
+    setVisible(weaponTypeFilter, isWeaponPiece);
+    setVisible(gearPieceCategoryFilterRow, isGearPiece);
+
+    if (!isGearEngine) {
+      resetControl(equipSlotFilter);
+    }
+
+    if (!isWeaponPiece) {
+      resetControl(weaponTypeFilter);
+    }
+
+    if (!isGearPiece) {
+      resetControl(armorOnly);
+      resetControl(accessoryOnly);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    syncSearchBarByEngine();
+
+    document.querySelectorAll(".engine-tab").forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        window.requestAnimationFrame(syncSearchBarByEngine);
+        window.setTimeout(syncSearchBarByEngine, 0);
+      });
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

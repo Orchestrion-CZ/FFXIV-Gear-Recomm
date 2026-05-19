@@ -1,0 +1,4603 @@
+/*
+  CSS maintenance map
+  -------------------
+  This stylesheet is intentionally order-sensitive. Many later sections are
+  compatibility overrides for earlier UI decisions, so keep the existing order
+  unless a visual regression has been checked in the app.
+
+  Main areas:
+  1. Base layout, brand panel, engine tabs, shared controls.
+  2. Original filter/detail/result styles.
+  3. v3-v23 legacy override history. These are preserved for cascade safety.
+  4. Wishlist and recommendation modal styles.
+  5. Latest global overrides at the end. New cross-engine filter layout fixes
+     should go there so all five engines share the same frame.
+*/
+
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  margin: 18px;
+  background: #f3f4f7;
+  color: #222;
+}
+
+.top-search-shell {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 20px;
+  align-items: stretch;
+  margin: -18px -18px 16px;
+  padding: 18px 18px 12px;
+  background: rgba(243, 244, 247, 0.96);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #d8dce5;
+}
+
+.brand-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  min-width: 0;
+  padding-right: 54px;
+}
+
+.brand-panel h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  margin-left: 12px;
+}
+
+.engine-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.engine-tab-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.engine-tab {
+  border: 1px solid #c8cede;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #30394b;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.engine-tab:hover {
+  background: #eef3ff;
+}
+
+.engine-tab.active {
+  background: #30394b;
+  border-color: #30394b;
+  color: #ffffff;
+}
+
+.app-brand-action-button {
+  position: absolute;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #c8cfdd;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #30394b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(31, 41, 55, 0.12);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  transition:
+    background 120ms ease,
+    border-color 120ms ease,
+    color 120ms ease,
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.app-brand-action-button:hover {
+  border-color: #4f68d7;
+  background: #f7f9ff;
+  color: #3656d4;
+  box-shadow: 0 8px 22px rgba(31, 41, 55, 0.16);
+}
+
+.app-brand-action-button:active {
+  transform: translateY(1px);
+}
+
+.app-help-button {
+  bottom: 92px;
+}
+
+.app-notice-button {
+  bottom: 46px;
+}
+
+.app-settings-button {
+  bottom: 0;
+}
+
+.app-settings-button svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.app-notice-button {
+  color: #7a5a00;
+}
+
+.app-info-modal {
+  max-width: 560px !important;
+}
+
+.app-info-modal-body {
+  color: #30394b;
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.app-info-modal-body h4 {
+  margin: 14px 0 6px;
+  color: #232a3a;
+  font-size: 15px;
+}
+
+.app-info-modal-body h4:first-child {
+  margin-top: 0;
+}
+
+.app-info-modal-body p {
+  margin: 0 0 10px;
+}
+
+.app-info-modal-body ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+
+.app-info-modal-body li {
+  margin: 3px 0;
+}
+
+.app-info-modal-body code {
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #eef1f7;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
+.app-info-loading,
+.app-info-error {
+  color: #687083;
+}
+
+.app-first-run-modal {
+  max-width: 640px !important;
+}
+
+.app-first-run-modal .wishlist-recommend-header p {
+  margin: 4px 0 0;
+  color: #687083;
+  font-size: 13px;
+}
+
+.app-primary-modal-button {
+  background: #4f68d7 !important;
+  border-color: #4f68d7 !important;
+  color: #ffffff !important;
+}
+
+.app-primary-modal-button:hover {
+  background: #3d54c0 !important;
+  border-color: #3d54c0 !important;
+}
+
+.item-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.item-card:hover {
+  background: #eef3ff;
+}
+
+.item-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #ddd;
+  flex-shrink: 0;
+}
+
+.item-info {
+  line-height: 1.5;
+}
+
+.item-id-hint {
+  color: #888;
+  font-size: 12px;
+  margin-left: 6px;
+  font-weight: normal;
+}
+
+.quick-toggle-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 8px;
+  padding: 8px 10px;
+  border: 1px solid #d8dce8;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+.quick-toggle-bar label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 0;
+  font-weight: 700;
+  color: #30394b;
+}
+
+.quick-toggle-bar span {
+  color: #777;
+  font-size: 12px;
+}
+
+.filter-box .quick-toggle-bar {
+  display: inline-flex;
+  width: 100%;
+  margin: 2px 0 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.filter-box .quick-toggle-bar label {
+  font-size: 13px;
+}
+
+#detailBox {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 120px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 700px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #ddd;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.same-model-row {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+}
+
+.compare-table th,
+.compare-table td {
+  border: 1px solid #d8dce5;
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.compare-table th {
+  background: #eef1f7;
+}
+
+.recommend-box {
+  margin-top: 14px;
+  padding: 12px;
+  background: #fff4cf;
+  border: 1px solid #e4c96a;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+}
+
+.compare-table th,
+.compare-table td {
+  border: 1px solid #d8dce5;
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.compare-table th {
+  background: #eef1f7;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.gallery-card {
+  width: 180px;
+  background: #fff;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.gallery-card-wide {
+  width: 360px;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+.gallery-title {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.gallery-meta {
+  margin-top: 4px;
+  color: #555;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.filter-hint {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 2px 0 8px;
+}
+
+.tag-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.status-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  line-height: 1.4;
+}
+
+.tag-muted {
+  background: #eeeeee;
+  color: #666666;
+  border-color: #dddddd;
+}
+
+.tag-dye {
+  background: #e7f0ff;
+  color: #234b86;
+  border-color: #b7cff7;
+}
+
+.tag-dual-dye {
+  background: #efe6ff;
+  color: #57358f;
+  border-color: #cdb7f3;
+}
+
+.tag-dresser {
+  background: #e6f7ef;
+  color: #206443;
+  border-color: #a9dec3;
+}
+
+.tag-dresser-set {
+  background: #fff1cc;
+  color: #765000;
+  border-color: #e4c46a;
+}
+
+.tag-armoire {
+  background: #e6f6f8;
+  color: #235f69;
+  border-color: #acdce3;
+}
+
+.dye-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background: white;
+}
+
+.corner-icon {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.selected-card {
+  border-color: #4f68d7;
+  background: #eef3ff;
+  box-shadow: 0 0 0 2px rgba(79, 104, 215, 0.18);
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 20px;
+  align-items: start;
+  height: calc(100vh - 190px);
+}
+
+.left-panel,
+.right-panel {
+  min-width: 0;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.filter-box {
+  background: white;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  min-width: 0;
+  overflow-x: visible;
+  padding: 10px 12px;
+  margin: 0;
+}
+
+.filter-box *,
+.filter-box *::before,
+.filter-box *::after {
+  box-sizing: border-box;
+}
+
+.filter-box input[type="text"],
+.filter-box input[type="number"],
+.filter-box select {
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 6px 8px;
+  font-size: 13px;
+  min-height: 30px;
+}
+
+.filter-box select {
+  width: 170px;
+  max-width: 170px;
+}
+
+.range-input-row input {
+  margin-bottom: 0;
+}
+
+.filter-box label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 4px 8px 4px 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.filter-box button {
+  margin-top: 0;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background: #30394b;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.filter-box button:hover {
+  background: #46536d;
+}
+
+.right-panel {
+  position: static;
+}
+
+.gear-info-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: #1f1f1f;
+  color: #eeeeee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #444;
+}
+
+.gear-info-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: #333;
+  flex-shrink: 0;
+}
+
+.gear-info-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.gear-info-name {
+  color: #69a3ff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.gear-info-subtitle {
+  color: #dddddd;
+  margin-bottom: 14px;
+}
+
+.gear-info-source-note {
+  margin-top: 4px;
+  color: #c83434;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.gear-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 10px 16px;
+}
+
+.info-label {
+  display: block;
+  color: #d8c38a;
+  font-size: 13px;
+}
+
+.info-value {
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.tag-crest {
+  background: #f0e6ff;
+  color: #5f348f;
+  border-color: #d7bdf2;
+}
+
+.trade-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.trade-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid transparent;
+}
+
+.trade-market-yes {
+  background: #e1f4e8;
+  color: #23633a;
+  border-color: #a9d8b7;
+}
+
+.trade-market-no {
+  background: #f8dddd;
+  color: #8a2f2f;
+  border-color: #e5aaaa;
+}
+
+.trade-repeatable {
+  background: #eeeeee;
+  color: #666666;
+  border-color: #d8d8d8;
+}
+
+.trade-unique {
+  background: #fff0c2;
+  color: #765000;
+  border-color: #e4c46a;
+}
+
+.filter-group {
+  border-bottom: none;
+  border-left: 2px solid #222a3a;
+  padding: 0 12px;
+  margin: 0;
+  min-width: 0;
+}
+
+.filter-box > .filter-group:first-child {
+  border-left: none;
+  width: 255px;
+  flex: 0 0 255px;
+  padding-left: 0;
+}
+
+#levelFilters {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+#levelFilters .range-filter-row {
+  display: block;
+}
+
+#levelFilters .range-filter-group {
+  margin-bottom: 8px;
+}
+
+#levelFilters .range-input-row {
+  display: flex;
+  gap: 6px;
+}
+
+#levelFilters .range-input-row input {
+  width: 62px !important;
+  flex: 0 0 62px !important;
+  max-width: 62px !important;
+  min-width: 0 !important;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-sizing: border-box;
+}
+
+.filter-box #levelFilters input[type="number"] {
+  width: 62px !important;
+  max-width: 62px !important;
+  flex: 0 0 62px !important;
+}
+
+#gearSetFilters {
+  width: 480px;
+  flex: 0 0 480px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 4px 16px;
+  align-content: start;
+}
+
+#gearSetFilters.hidden {
+  display: none;
+}
+
+#gearSetFilters > .filter-title:first-child,
+#gearSetFilters > select {
+  grid-column: 1;
+}
+
+#marketOnlyFilterLabel {
+  grid-column: 1;
+}
+
+#gearSetFilters > .filter-title:nth-of-type(2),
+#gearSetFilters > .filter-row {
+  grid-column: 2;
+}
+
+#pieceGlamourFilterGroup {
+  width: 330px;
+  flex: 0 0 330px;
+}
+
+.filter-box > .filter-group:nth-of-type(4) {
+  width: 190px;
+  flex: 0 0 190px;
+}
+
+.filter-actions {
+  flex: 0 0 104px;
+}
+
+.filter-group:last-of-type {
+  border-bottom: none;
+}
+
+.filter-title {
+  font-weight: bold;
+  color: #30394b;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.filter-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  gap: 8px;
+  min-width: 104px;
+  border-left: 2px solid #222a3a;
+  padding-left: 12px;
+  margin: 0;
+}
+
+#applyFilterButton {
+  width: 100%;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  background: #4f68d7;
+  color: white;
+  cursor: pointer;
+}
+
+#applyFilterButton:hover {
+  background: #3f55b5;
+}
+
+#resetButton {
+  width: 100%;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  background: #30394b;
+  color: white;
+  cursor: pointer;
+}
+
+#resetButton:hover {
+  background: #46536d;
+}
+
+.preview-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.preview-dual-single {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.preview-gender-block img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  background: #ddd;
+}
+
+.preview-gender-label {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.clickable-card {
+  cursor: pointer;
+}
+
+.clickable-card:hover {
+  background: #eef3ff;
+  border-color: #4f68d7;
+  box-shadow: 0 0 0 2px rgba(79, 104, 215, 0.12);
+}
+
+.table-link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #2f5fd0;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+}
+
+.table-link:hover {
+  color: #1f3f9a;
+}
+
+.compare-name-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  vertical-align: middle;
+}
+
+.compare-name-icon {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.compare-item-id-hint {
+  color: #888;
+  font-size: 12px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.current-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #fff0c2;
+  color: #765000;
+  border: 1px solid #e4c46a;
+  font-size: 12px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.current-row {
+  background: #fffaf0;
+}
+
+.current-gallery-card {
+  border-color: #e4c46a;
+  background: #fffaf0;
+  box-shadow: 0 0 0 2px rgba(228, 196, 106, 0.18);
+}
+
+.left-panel::-webkit-scrollbar,
+.right-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.left-panel::-webkit-scrollbar-thumb,
+.right-panel::-webkit-scrollbar-thumb {
+  background: #c8cede;
+  border-radius: 999px;
+}
+
+.left-panel::-webkit-scrollbar-track,
+.right-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.source-box {
+  background: #f8f9fc;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.source-title {
+  font-weight: bold;
+  color: #30394b;
+  margin-bottom: 8px;
+}
+
+.source-simple {
+  color: #333;
+  line-height: 1.6;
+}
+
+.source-item {
+  border-top: 1px solid #e1e4ec;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.source-item:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.source-type {
+  font-weight: bold;
+  color: #2f5fd0;
+  margin-bottom: 4px;
+}
+
+.source-row {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.source-box {
+  background: #f8f9fc;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.source-title {
+  font-weight: bold;
+  color: #30394b;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.source-box[open] .source-title {
+  margin-bottom: 8px;
+}
+
+.source-box:not([open]) .source-title {
+  margin-bottom: 0;
+}
+
+.source-simple {
+  color: #333;
+  line-height: 1.6;
+}
+
+.source-item {
+  border-top: 1px solid #e1e4ec;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.source-item:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.source-type {
+  font-weight: bold;
+  color: #2f5fd0;
+  margin-bottom: 4px;
+}
+
+.source-row {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.section-note {
+  margin-top: -4px;
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  overflow: auto;
+}
+
+.image-modal.hidden {
+  display: none;
+}
+
+.image-modal-img {
+  max-width: 90vw;
+  max-height: 78vh;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #222;
+  transition: transform 0.15s ease;
+  cursor: zoom-in;
+}
+
+.image-modal-caption {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.image-modal-close {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 999px;
+  background: white;
+  color: #222;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.image-modal-toolbar {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 6px;
+  border-radius: 999px;
+}
+
+.image-modal-toolbar button {
+  min-width: 44px;
+  height: 32px;
+  border: 1px solid #c8cede;
+  border-radius: 999px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.image-modal-toolbar button:hover {
+  background: #eef3ff;
+}
+
+.gallery-card img {
+  cursor: zoom-in;
+}
+
+.gallery-link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #2f5fd0;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  text-align: left;
+}
+
+.gallery-link:hover {
+  color: #1f3f9a;
+}
+
+.detail-link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.detail-link-card {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 10px;
+  align-items: center;
+  min-height: 82px;
+  border: 1px solid #d8dce5;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 8px;
+}
+
+.detail-link-card-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #ddd;
+}
+
+.detail-link-card-body {
+  min-width: 0;
+}
+
+.detail-link-card-title {
+  display: inline;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.detail-link-card-meta {
+  margin-top: 4px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.detail-preview-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.detail-preview-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 340px;
+  border: 1px solid #d8dce5;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.detail-preview-card-wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 640px) {
+  .detail-preview-card-wide {
+    grid-column: span 1;
+  }
+}
+
+.detail-preview-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.detail-preview-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 6px;
+  cursor: zoom-in;
+  background: #f8f9fc;
+}
+
+.detail-preview-card-image img.preview-thumb-missing {
+  position: relative;
+  min-height: 100%;
+  border: 1px dashed #d4dae8;
+  cursor: pointer;
+}
+
+.detail-preview-card-body {
+  padding: 10px 12px 12px;
+  border-top: 1px solid #eef0f5;
+}
+
+.detail-preview-card-title {
+  display: inline;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.detail-preview-card-meta {
+  margin-top: 5px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.detail-preview-card-note {
+  margin-top: 5px;
+  color: #765000;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.load-more-button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 10px;
+  border: 1px solid #c8cede;
+  border-radius: 8px;
+  background: #f5f6fa;
+  color: #333;
+  cursor: pointer;
+}
+
+.load-more-button:hover {
+  background: #e9ecf5;
+}
+
+.focused-list-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 9px 10px;
+  border: 1px solid #d7deed;
+  border-radius: 8px;
+  background: #f8f9fc;
+  color: #35405a;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.focused-list-notice button {
+  flex: 0 0 auto;
+  padding: 5px 9px;
+  border: 1px solid #c8cede;
+  border-radius: 7px;
+  background: #fff;
+  color: #2f5fb3;
+  cursor: pointer;
+}
+
+.focused-list-notice button:hover {
+  background: #eef3ff;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.empty-result {
+  background: #f8f9fc;
+  border: 1px dashed #c8cede;
+  border-radius: 10px;
+  padding: 14px;
+  color: #333;
+}
+
+.empty-result p {
+  margin: 0;
+}
+
+.empty-result-tip {
+  margin-top: 6px !important;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.range-input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.range-input-row input {
+  min-width: 0;
+}
+
+.range-filter-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.range-filter-group {
+  min-width: 0;
+}
+
+.range-filter-title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #30394b;
+  margin-bottom: 5px;
+}
+
+.range-input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.range-input-row input {
+  min-width: 0;
+  width: 100%;
+}
+
+.range-filter-row {
+  margin-bottom: 0;
+}
+
+.range-input-row input {
+  margin-bottom: 0;
+}
+
+.same-set-box {
+  background: #f8f9fc;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.same-set-box h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.same-set-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.same-set-list li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.same-set-meta {
+  color: #777;
+  font-size: 13px;
+}
+
+.same-set-group {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #d8dce5;
+}
+
+.same-set-group:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.same-set-group h5 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  color: #333;
+}
+
+.same-set-current {
+  font-weight: 700;
+  color: #555;
+}
+
+.same-set-card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.same-set-card {
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 12px;
+}
+
+.same-set-card h5 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.same-set-card .same-set-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.same-set-card .same-set-list li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.same-set-current {
+  font-weight: 700;
+  color: #555;
+}
+
+.same-set-meta {
+  color: #777;
+  font-size: 13px;
+}
+
+.section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.section-title-row h4 {
+  margin: 0;
+}
+
+.same-model-toggle-button {
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.secondary-button {
+  border: 1px solid #c9ced8;
+  background: #ffffff;
+  color: #333;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background: #f2f4f8;
+}
+
+.floating-scroll-tools {
+  position: fixed;
+  left: 18px;
+  bottom: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.floating-scroll-tools button {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #c9ced8;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #333;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.floating-scroll-tools button:hover {
+  background: #f2f4f8;
+}
+
+.filter-row {
+  display: flex;
+  gap: 8px 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.filter-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 2px 0;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.filter-row-two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 12px;
+  row-gap: 6px;
+}
+
+.filter-row-two-col label {
+  min-width: 0;
+}
+
+
+/* =========================================================
+   TOP FILTER BAR FINAL CLEANUP
+   基础搜索 / 来源+游戏内收录 / 排序+染色徽记
+   ========================================================= */
+
+.top-search-shell {
+  grid-template-columns: 520px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 18px 10px;
+  align-items: stretch;
+}
+
+.brand-panel {
+  justify-content: center;
+  gap: 16px;
+}
+
+.brand-panel h1 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.engine-nav {
+  gap: 8px;
+}
+
+.engine-tab-break {
+  display: none;
+}
+
+.engine-tab {
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+.filter-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+  min-width: 0;
+  overflow: visible;
+  padding: 8px 10px;
+  margin: 0;
+  background: white;
+  border: 1px solid #d8dce5;
+  border-radius: 10px;
+}
+
+.filter-group {
+  min-width: 0;
+  padding: 0 10px;
+  margin: 0;
+  border-left: 2px solid #222a3a;
+  border-bottom: none;
+}
+
+.filter-box > .filter-group:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.filter-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #30394b;
+}
+
+.sub-filter-title {
+  margin-top: 8px;
+}
+
+.filter-box input[type="text"],
+.filter-box input[type="number"],
+.filter-box select {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  height: 32px;
+  min-height: 32px;
+  margin: 0 0 7px;
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #9aa3b4;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.filter-box label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 2px 0;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.filter-box input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+/* 基础搜索：标题、只看防具、只看饰品同一行 */
+#basicSearchFilterGroup {
+  width: 255px;
+  flex: 0 0 255px;
+}
+
+#basicSearchFilterGroup .basic-search-title-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 6px;
+}
+
+#basicSearchFilterGroup .filter-title {
+  margin: 0;
+  white-space: nowrap;
+}
+
+#basicSearchFilterGroup #gearPieceCategoryFilterRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+#basicSearchFilterGroup #gearPieceCategoryFilterRow label {
+  margin: 0;
+}
+
+#basicSearchFilterGroup .quick-toggle-bar {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+#basicSearchFilterGroup .quick-toggle-bar label {
+  margin: 0;
+  font-weight: 700;
+  color: #30394b;
+}
+
+/* 等级栏 */
+#levelFilters {
+  width: 150px;
+  flex: 0 0 150px;
+}
+
+#levelFilters .range-filter-row {
+  display: block;
+  margin: 0;
+}
+
+#levelFilters .range-filter-group {
+  margin-bottom: 8px;
+}
+
+#levelFilters .range-filter-title {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #30394b;
+}
+
+#levelFilters .range-input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin: 0;
+}
+
+#levelFilters .range-input-row input,
+.filter-box #levelFilters input[type="number"] {
+  width: 100% !important;
+  max-width: none !important;
+  flex: none !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+
+/* 套装页：来源 + 游戏内收录左右两栏 */
+#gearSetFilters {
+  width: 490px;
+  flex: 0 0 490px;
+  display: grid;
+  grid-template-columns: 210px 260px;
+  column-gap: 14px;
+  align-content: start;
+}
+
+#gearSetFilters.hidden {
+  display: none !important;
+}
+
+.gear-set-source-column,
+.gear-set-collection-column {
+  min-width: 0;
+}
+
+.gear-set-source-column select {
+  width: 100%;
+  max-width: none;
+  height: 32px;
+  min-height: 32px;
+  margin-bottom: 8px;
+}
+
+.gear-set-source-column label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 6px 0 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.gear-set-collection-column .filter-title {
+  margin-bottom: 10px;
+}
+
+.collection-row {
+  display: grid;
+  grid-template-columns: 128px 48px 48px;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.collection-row > span {
+  text-align: right;
+  justify-self: end;
+}
+
+.collection-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* 散件页：装备来源 */
+#pieceSourceFilterGroup {
+  width: 170px;
+  flex: 0 0 170px;
+}
+
+#pieceSourceFilterGroup select {
+  width: 100%;
+  max-width: none;
+}
+
+/* 排序 + 染色与徽记二合一 */
+#pieceGlamourFilterGroup {
+  width: 255px;
+  flex: 0 0 255px;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  min-width: 0;
+}
+
+#pieceGlamourFilterGroup select {
+  width: 100%;
+  max-width: none;
+  margin-bottom: 6px;
+}
+
+#pieceGlamourFilterGroup .sub-filter-title {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.dye-checkbox-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 12px;
+  row-gap: 8px;
+  align-items: center;
+}
+
+.dye-checkbox-grid label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.dye-checkbox-grid .wide-check {
+  grid-column: 1 / -1;
+}
+
+#pieceGlamourFilterGroup .filter-hint {
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* 操作按钮 */
+.filter-actions {
+  flex: 0 0 96px;
+  min-width: 96px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  gap: 8px;
+  padding-left: 10px;
+  margin: 0;
+  border-left: 2px solid #222a3a;
+}
+
+#applyFilterButton,
+#resetButton {
+  width: 100%;
+  padding: 9px 6px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#applyFilterButton {
+  background: #4f68d7;
+}
+
+#resetButton {
+  background: #30394b;
+}
+
+#applyFilterButton:hover {
+  background: #3f55b5;
+}
+
+#resetButton:hover {
+  background: #46536d;
+}
+
+
+/* ===== 最终调整：来源与游戏内收录两栏紧凑；删除独立装备来源栏 ===== */
+
+#pieceSourceFilterGroup {
+  display: none !important;
+}
+
+#gearSetFilters {
+  width: 520px;
+  flex: 0 0 520px;
+  display: grid;
+  grid-template-columns: 205px 285px;
+  column-gap: 20px;
+  align-content: start;
+}
+
+#gearSetFilters.hidden {
+  display: none !important;
+}
+
+.gear-set-source-column,
+.gear-set-collection-column {
+  min-width: 0;
+}
+
+.gear-set-source-column select {
+  width: 100%;
+  max-width: none;
+  height: 32px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
+.gear-set-source-column label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 7px 0 0;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.gear-set-collection-column .filter-title {
+  margin-bottom: 12px;
+}
+
+.collection-row {
+  display: grid;
+  grid-template-columns: 128px 50px 50px;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.collection-row > span {
+  text-align: right;
+  justify-self: end;
+}
+
+.collection-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.collection-row input[type="checkbox"],
+.gear-set-source-column input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+/* ===== v3：顶部左右分栏对齐下方内容区；引擎按钮装备/武器分两行 ===== */
+.top-search-shell {
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 20px;
+  padding: 18px 18px 12px;
+}
+
+.brand-panel {
+  gap: 18px;
+}
+
+.brand-panel h1 {
+  font-size: 34px;
+}
+
+.engine-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-content: flex-start;
+}
+
+.engine-tab-break {
+  display: block;
+  flex-basis: 100%;
+  width: 0;
+  height: 0;
+}
+
+.engine-tab {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+
+/* ===== v4：基础搜索栏改回纵向；防具/饰品行在推荐装备上方；宽度取自然内容 ===== */
+#basicSearchFilterGroup {
+  width: max-content;
+  flex: 0 0 max-content;
+  min-width: 0;
+}
+
+#basicSearchFilterGroup .basic-search-title-row {
+  display: contents;
+}
+
+#basicSearchFilterGroup > .filter-title {
+  margin: 0 0 6px;
+  white-space: nowrap;
+}
+
+#basicSearchFilterGroup input[type="text"],
+#basicSearchFilterGroup select {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+#basicSearchFilterGroup #gearPieceCategoryFilterRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  margin: 0 0 6px;
+}
+
+#basicSearchFilterGroup #gearPieceCategoryFilterRow label {
+  margin: 0;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+#basicSearchFilterGroup .quick-toggle-bar {
+  display: block;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+#basicSearchFilterGroup .quick-toggle-bar label {
+  margin: 0;
+  font-weight: 700;
+  color: #30394b;
+  white-space: nowrap;
+}
+
+/* ===== v5：游戏内收录列缩宽，标题与第一行文字左缘对齐 ===== */
+#gearSetFilters {
+  width: 430px;
+  flex: 0 0 430px;
+  display: grid;
+  grid-template-columns: 205px max-content;
+  column-gap: 16px;
+  align-content: start;
+}
+
+.gear-set-collection-column {
+  width: max-content;
+  min-width: 0;
+}
+
+.gear-set-collection-column .filter-title {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.collection-row {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.collection-row > span {
+  text-align: right;
+  justify-self: stretch;
+}
+
+.collection-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.collection-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+/* ===== v6：游戏内收录保持三行列对齐，同时缩窄列宽 ===== */
+#gearSetFilters {
+  width: 430px;
+  flex: 0 0 430px;
+  display: grid;
+  grid-template-columns: 205px max-content;
+  column-gap: 16px;
+  align-content: start;
+}
+
+.gear-set-collection-column {
+  width: max-content;
+  min-width: 0;
+}
+
+.gear-set-collection-column .filter-title {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.collection-row {
+  display: grid;
+  grid-template-columns: 128px 50px 58px;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.collection-row > span {
+  text-align: right;
+  justify-self: stretch;
+}
+
+.collection-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.collection-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+
+/* ===== v7：染色与徽记紧凑排列，列宽按三项 checkbox 行自然宽度收缩 ===== */
+#pieceGlamourFilterGroup {
+  width: max-content;
+  flex: 0 0 max-content;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
+#pieceGlamourFilterGroup select {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.dye-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  column-gap: 10px;
+  row-gap: 6px;
+  align-items: center;
+  width: max-content;
+}
+
+.dye-checkbox-grid label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.dye-checkbox-grid input[type="checkbox"],
+#pieceGlamourFilterGroup input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.dye-checkbox-grid .wide-check {
+  grid-column: 1 / -1;
+}
+
+
+/* ===== v8：修复排序/染色列溢出与按钮重叠 =====
+   问题原因：v7 把 #pieceGlamourFilterGroup 设成 width:max-content，
+   这一列会按 checkbox 行收缩，但排序 select 仍然需要更宽，导致下拉框和后面的按钮区重叠。
+   这里改成：外栏宽度按排序下拉框控制；染色 checkbox 行在栏内按自然宽度紧凑排列。
+*/
+
+#pieceGlamourFilterGroup {
+  width: 240px;
+  flex: 0 0 240px;
+  min-width: 240px;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  overflow: visible;
+}
+
+#pieceGlamourFilterGroup .filter-title {
+  margin: 0 0 6px;
+  line-height: 1.2;
+}
+
+#pieceGlamourFilterGroup .sub-filter-title {
+  margin: 8px 0 6px;
+}
+
+#pieceGlamourFilterGroup select {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  height: 32px;
+  min-height: 32px;
+  margin: 0 0 4px;
+  box-sizing: border-box;
+}
+
+.dye-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  column-gap: 10px;
+  row-gap: 6px;
+  align-items: center;
+  justify-content: start;
+  width: max-content;
+  max-width: 100%;
+}
+
+.dye-checkbox-grid label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.dye-checkbox-grid input[type="checkbox"],
+#pieceGlamourFilterGroup input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.dye-checkbox-grid .wide-check {
+  grid-column: 1 / -1;
+}
+
+/* 给按钮区留出明确边界，避免被前一栏视觉压上来 */
+.filter-actions {
+  flex: 0 0 104px;
+  min-width: 104px;
+  width: 104px;
+}
+
+/* 游戏内收录保持三列整齐，不要让列宽被其他 collection-row 旧规则污染 */
+.gear-set-collection-column .collection-row {
+  display: grid;
+  grid-template-columns: 128px 48px 48px;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.gear-set-collection-column .collection-row > span {
+  text-align: right;
+  justify-self: end;
+}
+
+.gear-set-collection-column .collection-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* 基础搜索栏：按“只看防具/只看饰品”自然宽度收缩，但输入框不要撑满整块大区域 */
+#basicSearchFilterGroup {
+  width: max-content;
+  flex: 0 0 max-content;
+  min-width: 0;
+}
+
+#basicSearchFilterGroup input[type="text"],
+#basicSearchFilterGroup select {
+  width: 300px;
+  max-width: 300px;
+}
+
+/* 来源 + 游戏内收录整体继续紧凑 */
+#gearSetFilters {
+  width: max-content;
+  flex: 0 0 max-content;
+  grid-template-columns: max-content max-content;
+  column-gap: 18px;
+}
+
+.gear-set-source-column {
+  width: 220px;
+}
+
+.gear-set-source-column select {
+  width: 220px;
+  max-width: 220px;
+}
+
+
+/* ===== v9：重整顶部筛选栏；不要让旧补丁继续互相污染 ===== */
+
+.top-search-shell {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: grid !important;
+  grid-template-columns: 420px minmax(0, 1fr) !important;
+  gap: 20px !important;
+  align-items: stretch !important;
+  margin: -18px -18px 16px !important;
+  padding: 18px 18px 12px !important;
+  background: rgba(243, 244, 247, 0.96) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #d8dce5;
+}
+
+.brand-panel {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 18px !important;
+  min-width: 0 !important;
+}
+
+.brand-panel h1 {
+  margin: 0 !important;
+  font-size: 34px !important;
+  line-height: 1.1 !important;
+}
+
+.engine-nav {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
+
+.engine-tab-break {
+  flex-basis: 100% !important;
+  display: block !important;
+  height: 0 !important;
+}
+
+.engine-tab {
+  padding: 8px 12px !important;
+  font-size: 14px !important;
+}
+
+.filter-box {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  overflow: visible !important;
+  padding: 10px 12px !important;
+  margin: 0 !important;
+  background: #ffffff !important;
+  border: 1px solid #d8dce5 !important;
+  border-radius: 10px !important;
+}
+
+.filter-box *,
+.filter-box *::before,
+.filter-box *::after {
+  box-sizing: border-box !important;
+}
+
+.filter-group {
+  border-left: 2px solid #222a3a !important;
+  border-bottom: none !important;
+  padding: 0 10px !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+}
+
+.filter-box > .filter-group:first-child {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+.filter-title {
+  font-weight: 700 !important;
+  color: #30394b !important;
+  margin: 0 0 6px !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+}
+
+.sub-filter-title {
+  margin-top: 8px !important;
+}
+
+.filter-box input[type="text"],
+.filter-box input[type="number"],
+.filter-box select {
+  height: 32px !important;
+  min-height: 32px !important;
+  margin: 0 0 7px !important;
+  padding: 5px 8px !important;
+  font-size: 13px !important;
+  border: 1px solid #9da8bd !important;
+  border-radius: 4px !important;
+  background: #ffffff !important;
+}
+
+.filter-box label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  margin: 0 !important;
+  white-space: nowrap !important;
+  font-size: 13px !important;
+  line-height: 1.25 !important;
+}
+
+.filter-box input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+  flex: 0 0 auto !important;
+}
+
+/* 基础搜索：控件纵向，不再把搜索框和下拉框排成一行 */
+#basicSearchFilterGroup {
+  flex: 0 0 250px !important;
+  width: 250px !important;
+  max-width: 250px !important;
+}
+
+#basicSearchFilterGroup input[type="text"],
+#basicSearchFilterGroup select {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+}
+
+#gearPieceCategoryFilterRow,
+#weaponSlotFilterRow {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 10px !important;
+  align-items: center !important;
+  margin: 2px 0 6px !important;
+}
+
+#recommendToggleBar {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+#recommendToggleBar label {
+  font-weight: 700 !important;
+  color: #30394b !important;
+}
+
+/* 等级 */
+#levelFilters {
+  flex: 0 0 135px !important;
+  width: 135px !important;
+  max-width: 135px !important;
+}
+
+#levelFilters .range-filter-row,
+#levelFilters .range-filter-group {
+  display: block !important;
+  margin: 0 0 8px !important;
+}
+
+#levelFilters .range-filter-title {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #30394b !important;
+  margin: 0 0 5px !important;
+}
+
+#levelFilters .range-input-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 6px !important;
+  margin: 0 !important;
+}
+
+#levelFilters .range-input-row input,
+.filter-box #levelFilters input[type="number"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  flex: none !important;
+  margin: 0 !important;
+}
+
+/* 来源 + 游戏内收录：左右紧凑两栏 */
+#gearSetFilters {
+  flex: 0 0 475px !important;
+  width: 475px !important;
+  max-width: 475px !important;
+  display: grid !important;
+  grid-template-columns: 210px 235px !important;
+  column-gap: 16px !important;
+  align-content: start !important;
+}
+
+#gearSetFilters.hidden {
+  display: none !important;
+}
+
+.gear-set-source-column,
+.gear-set-collection-column {
+  min-width: 0 !important;
+}
+
+.gear-set-source-column select {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.gear-set-source-column label {
+  margin-top: 4px !important;
+}
+
+.gear-set-collection-column .filter-title {
+  margin-bottom: 10px !important;
+}
+
+.gear-set-collection-column .collection-row {
+  display: grid !important;
+  grid-template-columns: 118px 45px 45px !important;
+  column-gap: 8px !important;
+  align-items: center !important;
+  margin: 0 0 12px !important;
+  font-size: 13px !important;
+  white-space: nowrap !important;
+}
+
+.gear-set-collection-column .collection-row > span {
+  text-align: right !important;
+  justify-self: end !important;
+}
+
+.gear-set-collection-column .collection-row label {
+  margin: 0 !important;
+}
+
+/* 排序 + 染色与徽记 */
+#pieceGlamourFilterGroup {
+  flex: 0 0 205px !important;
+  width: 205px !important;
+  max-width: 205px !important;
+  min-width: 205px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-content: start !important;
+  overflow: visible !important;
+}
+
+#pieceGlamourFilterGroup select {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#pieceGlamourFilterGroup .sub-filter-title {
+  margin-top: 8px !important;
+  margin-bottom: 6px !important;
+}
+
+.dye-checkbox-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, max-content) !important;
+  column-gap: 8px !important;
+  row-gap: 6px !important;
+  justify-content: start !important;
+  align-items: center !important;
+  width: max-content !important;
+  max-width: 100% !important;
+}
+
+.dye-checkbox-grid label {
+  margin: 0 !important;
+  gap: 4px !important;
+  font-size: 13px !important;
+}
+
+.dye-checkbox-grid .wide-check {
+  grid-column: 1 / -1 !important;
+}
+
+/* 按钮 */
+.filter-actions {
+  flex: 0 0 96px !important;
+  width: 96px !important;
+  min-width: 96px !important;
+  border-left: 2px solid #222a3a !important;
+  padding-left: 10px !important;
+  margin: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  align-content: center !important;
+  gap: 8px !important;
+}
+
+.filter-actions button,
+#applyFilterButton,
+#resetButton {
+  width: 100% !important;
+  padding: 9px 6px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 13px !important;
+}
+
+#applyFilterButton {
+  background: #4f68d7 !important;
+}
+
+#resetButton {
+  background: #30394b !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+/* ===== v10：武器类型筛选只允许在“武器散件”中显示 ===== */
+#weaponTypeFilter.hidden {
+  display: none !important;
+}
+
+
+/* ===== v11：基础搜索栏按“只看防具 / 只看饰品”这一行的宽度收缩 ===== */
+#basicSearchFilterGroup {
+  --basic-search-natural-width: 185px;
+  flex: 0 0 var(--basic-search-natural-width) !important;
+  width: var(--basic-search-natural-width) !important;
+  max-width: var(--basic-search-natural-width) !important;
+  min-width: var(--basic-search-natural-width) !important;
+}
+
+#basicSearchFilterGroup input[type="text"],
+#basicSearchFilterGroup select {
+  width: var(--basic-search-natural-width) !important;
+  max-width: var(--basic-search-natural-width) !important;
+  min-width: 0 !important;
+}
+
+#gearPieceCategoryFilterRow,
+#weaponSlotFilterRow {
+  width: var(--basic-search-natural-width) !important;
+  max-width: var(--basic-search-natural-width) !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  margin: 2px 0 6px !important;
+}
+
+#gearPieceCategoryFilterRow label,
+#weaponSlotFilterRow label {
+  font-size: 13px !important;
+  gap: 4px !important;
+}
+
+#recommendToggleBar {
+  width: var(--basic-search-natural-width) !important;
+  max-width: var(--basic-search-natural-width) !important;
+}
+
+
+/* ===== v12：页面在浏览器 100% 缩放下不出现大窗口滚动条 =====
+   思路：
+   1. html/body 固定为 100vh，禁止页面级滚动；
+   2. 顶部 headbar 不再 sticky 占用额外滚动空间；
+   3. 下方左右两栏自己内部滚动；
+   4. 页面高度用 grid 精确分配：顶部 auto，下方 1fr。
+*/
+
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+
+body {
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  display: grid !important;
+  grid-template-rows: auto minmax(0, 1fr) 14px !important;
+  padding: 18px 18px 4px !important;
+  box-sizing: border-box !important;
+  background: #f3f4f7 !important;
+}
+
+/* 顶部不参与页面滚动；去掉原先用负 margin 模拟贴边的写法 */
+.top-search-shell {
+  position: static !important;
+  top: auto !important;
+  margin: 0 0 16px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 下方区域吃掉剩余高度，不再用固定 100vh - xxx 这种容易算错的方式 */
+.page-layout {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  display: grid !important;
+  grid-template-columns: 420px minmax(0, 1fr) !important;
+  gap: 20px !important;
+  align-items: stretch !important;
+  overflow: hidden !important;
+}
+
+/* 左右面板内部滚动，页面外层不滚动 */
+.left-panel,
+.right-panel {
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding-right: 6px !important;
+  box-sizing: border-box !important;
+}
+
+/* 防止顶部筛选栏自己把页面横向撑出滚动条 */
+.filter-box {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+.top-search-shell,
+.page-layout,
+.left-panel,
+.right-panel,
+.filter-box,
+.brand-panel {
+  min-width: 0 !important;
+}
+
+/* 浮动按钮不应制造页面滚动尺寸 */
+.floating-scroll-tools {
+  position: fixed !important;
+}
+
+
+/* ===== v13：游戏内收录列按最长行收缩；统一三个文字样式 ===== */
+
+/* 游戏内收录：整列宽度按“成套加入投影台 [ ] 可 [ ] 不可”这一行自然宽度来 */
+#gearSetFilters {
+  width: max-content !important;
+  max-width: max-content !important;
+  flex: 0 0 max-content !important;
+  grid-template-columns: 210px max-content !important;
+  column-gap: 16px !important;
+}
+
+.gear-set-collection-column {
+  width: max-content !important;
+  max-width: max-content !important;
+  min-width: 0 !important;
+}
+
+.gear-set-collection-column .collection-row {
+  display: grid !important;
+  grid-template-columns: max-content 45px 45px !important;
+  column-gap: 8px !important;
+  align-items: center !important;
+  width: max-content !important;
+  max-width: max-content !important;
+  margin: 0 0 12px !important;
+}
+
+.gear-set-collection-column .collection-row > span {
+  width: 118px !important;
+  text-align: right !important;
+  justify-self: end !important;
+}
+
+.gear-set-collection-column .collection-row label {
+  width: 45px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  margin: 0 !important;
+}
+
+/* “只看推荐装备”、“物品品级”、“装备等级”改成和普通筛选项一致的字样式 */
+#recommendToggleBar label,
+#levelFilters .range-filter-title {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #222 !important;
+  line-height: 1.25 !important;
+}
+
+
+/* ===== v14：浅色分隔线 + 外框闭合 ===== */
+
+/* 顶部筛选卡片外框：强制完整闭合在右侧内容区内 */
+.filter-box {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  border: 1px solid #d8dce5 !important;
+  border-radius: 10px !important;
+  background: #ffffff !important;
+}
+
+/* 所有大栏之间的分隔线：改成和外框一致的颜色、粗细 */
+.filter-group {
+  border-left: 1px solid #d8dce5 !important;
+  border-bottom: none !important;
+}
+
+.filter-box > .filter-group:first-child {
+  border-left: none !important;
+}
+
+/* 按钮栏前面的分隔线也统一，不再用黑线 */
+.filter-actions {
+  border-left: 1px solid #d8dce5 !important;
+}
+
+/* 来源组内部：来源 / 游戏内收录之间也补一条浅色线 */
+.gear-set-collection-column {
+  border-left: 1px solid #d8dce5 !important;
+  padding-left: 16px !important;
+}
+
+/* 让“来源 + 游戏内收录”整体宽度把内部浅线也算进去 */
+#gearSetFilters {
+  grid-template-columns: 210px max-content !important;
+  column-gap: 16px !important;
+}
+
+/* 防止最右侧按钮栏把外框顶出屏幕，确保右边框可见 */
+.top-search-shell {
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+.filter-actions {
+  flex: 0 0 96px !important;
+  width: 96px !important;
+  min-width: 96px !important;
+  max-width: 96px !important;
+}
+
+body[data-engine="wishlist"] .filter-box {
+  display: block !important;
+}
+
+body[data-engine="wishlist"] .filter-box > :not(.wishlist-action-panel),
+body[data-engine="wishlist"] #basicSearchFilterGroup,
+body[data-engine="wishlist"] #levelFilters,
+body[data-engine="wishlist"] #gearSetFilters,
+body[data-engine="wishlist"] #pieceGlamourFilterGroup,
+body[data-engine="wishlist"] .filter-actions {
+  display: none !important;
+  flex: 0 0 0 !important;
+  width: 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+body[data-engine="wishlist"] .filter-box > .wishlist-action-panel {
+  display: flex !important;
+  width: 100% !important;
+}
+
+/* ===== v25：品牌标题与副标题 ===== */
+.brand-panel h1 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+}
+
+.brand-title-main {
+  display: block !important;
+  font-size: 34px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+}
+
+.brand-title-subtitle {
+  display: block !important;
+  color: #5f687a !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0 !important;
+}
+
+/* ===== v26：页面底部版权声明 ===== */
+.page-layout {
+  position: relative !important;
+  grid-template-rows: minmax(0, 1fr) !important;
+  row-gap: 0 !important;
+  height: 100% !important;
+}
+
+.left-panel {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+}
+
+.right-panel {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+}
+
+.app-copyright {
+  position: static !important;
+  grid-row: 3 !important;
+  min-height: 0 !important;
+  height: 14px !important;
+  padding: 0 8px !important;
+  color: #7a8394 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  pointer-events: none !important;
+}
+
+body[data-engine="wishlist"] .app-copyright {
+  display: block !important;
+}
+
+
+/* ===== v15：顶部搜索栏在有余量时自动松散展开 =====
+   保持各栏本身的紧凑宽度，但把剩余空间分配到栏与栏之间。
+*/
+
+.filter-box {
+  justify-content: space-between !important;
+  gap: clamp(8px, 1vw, 24px) !important;
+}
+
+/* 有 gap 以后，分隔线仍保留在每栏左侧；第一栏不加线 */
+.filter-box > .filter-group:first-child {
+  border-left: none !important;
+}
+
+/* 来源内部两列也稍微跟随屏幕宽度放松，但不夸张 */
+#gearSetFilters {
+  column-gap: clamp(14px, 1vw, 24px) !important;
+}
+
+/* 游戏内收录内部的浅分隔线和内容保持一点呼吸感 */
+.gear-set-collection-column {
+  padding-left: clamp(12px, 0.9vw, 20px) !important;
+}
+
+/* 排序栏和按钮栏之间也留出自然空隙，但不撑破外框 */
+.filter-actions {
+  margin-left: 0 !important;
+}
+
+/* 防止某些浏览器在 space-between + 固定宽度时产生 1px 横向溢出 */
+.top-search-shell,
+.filter-box {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+
+/* ===== v16：装备详情页头部改成整体 UI 风格，属性一行，标签一行 ===== */
+
+/* 详情头卡：从深色大卡改成浅色、细边框、和整体 UI 一致 */
+.gear-info-card {
+  display: grid !important;
+  grid-template-columns: 96px minmax(0, 1fr) !important;
+  gap: 16px !important;
+  align-items: start !important;
+  background: #ffffff !important;
+  color: #222 !important;
+  border: 1px solid #d8dce5 !important;
+  border-radius: 10px !important;
+  padding: 16px !important;
+  margin-bottom: 12px !important;
+  box-shadow: none !important;
+}
+
+.gear-info-icon {
+  width: 96px !important;
+  height: 96px !important;
+  border-radius: 10px !important;
+  object-fit: cover !important;
+  background: #eef1f7 !important;
+  border: 1px solid #d8dce5 !important;
+}
+
+.gear-info-main {
+  min-width: 0 !important;
+}
+
+.gear-info-name {
+  color: #2f5fd0 !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  margin-bottom: 4px !important;
+}
+
+.gear-info-subtitle {
+  color: #444 !important;
+  font-size: 16px !important;
+  line-height: 1.35 !important;
+  margin-bottom: 12px !important;
+}
+
+/* 四项属性改成同一行横排 */
+.gear-info-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(110px, max-content)) !important;
+  gap: 12px 22px !important;
+  align-items: start !important;
+}
+
+.info-label {
+  display: block !important;
+  color: #6f7f9c !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+}
+
+.info-value {
+  display: block !important;
+  color: #222 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  margin-top: 4px !important;
+  line-height: 1.2 !important;
+}
+
+/* 所有 tag 改成一行 */
+.tag-line,
+.trade-line {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 2px !important;
+  scrollbar-width: thin;
+}
+
+.status-tag,
+.trade-tag {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+  font-size: 12px !important;
+  line-height: 1.35 !important;
+}
+
+/* 让详情区域整体风格更轻一些 */
+#detailBox {
+  background: #ffffff !important;
+  border: 1px solid #d8dce5 !important;
+  border-radius: 10px !important;
+  padding: 14px !important;
+}
+
+/* 内容较窄时允许四项属性自然换成两行，避免挤爆 */
+@media (max-width: 1200px) {
+  .gear-info-grid {
+    grid-template-columns: repeat(2, minmax(110px, 1fr)) !important;
+    gap: 10px 18px !important;
+  }
+}
+
+
+/* ===== v17：修正 tag 一行目标范围 =====
+   v16 误把左侧结果列表的 tag 也强制成一行了。
+   这里改回：左侧结果列表 tag 可换行；右侧详情页 tag 单行展示。
+*/
+
+/* 左侧搜索结果卡片：tag 允许换行，不能横向溢出 */
+.item-card .tag-line,
+.item-card .trade-line {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+  gap: 6px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+  padding-bottom: 0 !important;
+}
+
+.item-card .status-tag,
+.item-card .trade-tag {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+}
+
+/* 右侧详情页：tag 区域才强制一行 */
+#detailBox > .tag-line,
+#detailBox > .trade-line {
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  overflow: visible !important;
+  width: auto !important;
+  max-width: none !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 0 !important;
+  vertical-align: top !important;
+}
+
+#detailBox > .trade-line {
+  margin-left: 8px !important;
+}
+
+#detailBox > .tag-line .status-tag,
+#detailBox > .trade-line .trade-tag {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+}
+
+/* 如果 detailBox 内部 tag 太多，允许详情盒内部横向滚动，而不是挤坏左侧列表 */
+#detailBox {
+  overflow-x: auto !important;
+}
+
+/* 详情头部属性保持一行优先 */
+#detailBox .gear-info-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(90px, max-content)) !important;
+  gap: 12px 24px !important;
+  align-items: start !important;
+}
+
+/* 取消 v16 的窄屏两行回退，避免右侧详情页又变成两行 */
+@media (max-width: 1200px) {
+  #detailBox .gear-info-grid {
+    grid-template-columns: repeat(4, minmax(90px, max-content)) !important;
+    gap: 12px 24px !important;
+  }
+}
+
+
+/* ===== v18：详情页“获取方式”放到详情排列最下端 =====
+   app.js 生成的获取方式区域使用 .source-box。
+   把详情容器改成纵向 flex，然后将 .source-box 排到最后。
+*/
+
+#detailBox {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100% !important;
+}
+
+/* 获取方式整体沉到底部 */
+#detailBox .source-box {
+  order: 999 !important;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+}
+
+/* 如果后面还有其他补充区块，不要被 source-box 压坏间距 */
+#detailBox .source-box + * {
+  margin-top: 12px !important;
+}
+
+
+/* ===== v19：详情页里“当前装备配色对比”上移到“同模信息横向对比”前面 =====
+   这两个区块由 app.js 动态生成。这里用 CSS order 调整显示顺序：
+   - 当前装备配色对比通常使用 .gallery-row / .gallery-card 系列；
+   - 同模信息横向对比通常使用 .compare-table。
+   获取方式 .source-box 继续保持最下端。
+*/
+
+#detailBox .gallery-row,
+#detailBox .gallery-card,
+#detailBox .gallery-card-wide {
+  order: 40 !important;
+}
+
+#detailBox .compare-table {
+  order: 50 !important;
+}
+
+#detailBox .source-box {
+  order: 999 !important;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+}
+
+
+/* ===== v20：五个引擎的基础搜索栏按各自规则显示 ===== */
+#equipSlotFilter.hidden,
+#weaponTypeFilter.hidden,
+#gearPieceCategoryFilterRow.hidden,
+#weaponSlotFilterRow.hidden {
+  display: none !important;
+}
+
+/* 当“只看防具/只看饰品”这一行隐藏时，推荐装备自然上移 */
+#basicSearchFilterGroup #gearPieceCategoryFilterRow.hidden + #recommendToggleBar {
+  margin-top: 0 !important;
+}
+
+/* 套装/系列引擎不使用部队徽记筛选；覆盖 .dye-checkbox-grid .wide-check 的强制 display */
+#crestOnlyFilterLabel.hidden,
+body[data-engine="gearSets"] #crestOnlyFilterLabel,
+body[data-engine="gearSeries"] #crestOnlyFilterLabel,
+body[data-engine="weaponSeries"] #crestOnlyFilterLabel {
+  display: none !important;
+}
+
+body[data-engine="weaponPieces"] #gearSetFilters,
+body[data-engine="weaponSeries"] #gearSetFilters {
+  width: max-content !important;
+  grid-template-columns: max-content max-content !important;
+}
+
+body[data-engine="weaponPieces"] .gear-set-source-column,
+body[data-engine="weaponSeries"] .gear-set-source-column {
+  width: max-content !important;
+  max-width: max-content !important;
+}
+
+body[data-engine="weaponPieces"] .gear-set-collection-column,
+body[data-engine="weaponSeries"] .gear-set-collection-column {
+  display: block !important;
+}
+
+body[data-engine="weaponPieces"] .gear-set-collection-column .collection-row:first-of-type,
+body[data-engine="weaponSeries"] .gear-set-collection-column .collection-row:first-of-type {
+  display: none !important;
+}
+
+body[data-engine="gearSets"] #dyeScopeNote,
+body[data-engine="gearSeries"] #dyeScopeNote {
+  white-space: nowrap !important;
+  width: max-content !important;
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+
+/* ===== v21：只看推荐装备后方红色提示，不影响基础搜索栏列宽 ===== */
+#recommendToggleBar label {
+  position: relative !important;
+}
+
+.recommend-reset-note {
+  position: absolute !important;
+  left: 100% !important;
+  top: 50% !important;
+  transform: translate(8px, -50%) !important;
+  color: #c93434 !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  pointer-events: none !important;
+}
+
+
+/* ===== v22：同模信息/当前装备配色对比用 JS 整块换位，取消之前只靠 order 的错误影响 ===== */
+#detailBox .gallery-row,
+#detailBox .gallery-card,
+#detailBox .gallery-card-wide,
+#detailBox .compare-table,
+#detailBox .section-title-row {
+  order: initial !important;
+}
+
+/* 获取方式仍然固定在详情页最下端 */
+#detailBox .source-box {
+  order: 999 !important;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+}
+
+
+/* ===== v23：右侧详情页 tag 真正合并成同一行 =====
+   之前 tag-line 和 trade-line 是两个兄弟块级元素，CSS 只能把各自内部变成一行，
+   不能把两个块级区域自然合成一行。这里配合 JS 把 trade-line 的 tag 移进 tag-line。
+*/
+
+#detailBox > .tag-line {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 2px !important;
+}
+
+#detailBox > .tag-line .status-tag,
+#detailBox > .tag-line .trade-tag {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+}
+
+#detailBox > .trade-line.detail-tags-merged-line {
+  display: none !important;
+}
+
+/* 左侧搜索结果列表不受影响，仍然允许换行 */
+.item-card .tag-line,
+.item-card .trade-line {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+  width: auto !important;
+}
+
+/* ===== 愿望单 ===== */
+
+/* --- 圆形图标按钮 --- */
+
+.item-card {
+  position: relative !important;
+}
+
+.gear-info-card {
+  position: relative !important;
+}
+
+.wishlist-icon-button {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  padding: 0 !important;
+  border-radius: 999px !important;
+  border: 1px solid #c8cfdd !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  color: #4b5568 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 6px rgba(31, 41, 55, 0.1) !important;
+  position: relative !important;
+}
+
+.wishlist-icon-button svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.wishlist-icon-button:hover {
+  border-color: #6f86e8 !important;
+  color: #3656d4 !important;
+  background: #f7f9ff !important;
+}
+
+.wishlist-icon-button.is-in-wishlist {
+  border-color: #4f68d7 !important;
+  background: #4f68d7 !important;
+  color: #ffffff !important;
+}
+
+.wishlist-icon-button.is-partial-wishlist {
+  border-color: #4f68d7 !important;
+  background: #eef2ff !important;
+  color: #4f68d7 !important;
+}
+
+.wishlist-mode-armorOnly::after,
+.wishlist-mode-allPieces::after {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  min-width: 13px;
+  height: 13px;
+  padding: 0 3px;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  background: #30394b;
+  color: #ffffff;
+  content: "";
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 12px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(31, 41, 55, 0.22);
+}
+
+.wishlist-mode-armorOnly::after {
+  content: "甲";
+}
+
+.wishlist-mode-allPieces::after {
+  content: "全";
+}
+
+.wishlist-icon-button.is-in-wishlist::after {
+  background: #263fb8;
+}
+
+.wishlist-icon-button.is-partial-wishlist::after {
+  background: #ffffff;
+  border-color: #4f68d7;
+  color: #4f68d7;
+}
+
+/* 结果卡片中的按钮定位 */
+
+.item-card > .wishlist-icon-button {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+  z-index: 2 !important;
+}
+
+.item-card > .wishlist-mode-buttons {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+  z-index: 2 !important;
+}
+
+.item-card .item-info {
+  padding-right: 36px;
+}
+
+.item-card:has(> .wishlist-mode-buttons) .item-info {
+  padding-right: 74px;
+}
+
+/* 详情头卡中的按钮定位 */
+
+.gear-info-card > .wishlist-icon-button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 2 !important;
+}
+
+.gear-info-card > .wishlist-mode-buttons {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 2 !important;
+}
+
+.gear-info-card .gear-info-main {
+  padding-right: 36px;
+}
+
+.gear-info-card:has(> .wishlist-mode-buttons) .gear-info-main {
+  padding-right: 78px;
+}
+
+/* --- 浮动入口按钮 --- */
+
+.wishlist-floating-button {
+  position: fixed;
+  top: auto;
+  bottom: 24px;
+  right: 24px;
+  z-index: 80;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid #c8cfdd;
+  background: #ffffff;
+  color: #30394b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.16);
+  touch-action: none;
+  user-select: none;
+  transition:
+    left 160ms ease,
+    right 160ms ease,
+    top 160ms ease,
+    border-color 120ms ease,
+    color 120ms ease,
+    background 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.wishlist-floating-button:hover {
+  border-color: #4f68d7;
+  color: #3656d4;
+  background: #f7f9ff;
+}
+
+.wishlist-floating-button.is-dragging {
+  cursor: grabbing;
+  transition: none;
+  box-shadow: 0 12px 32px rgba(31, 41, 55, 0.24);
+}
+
+.wishlist-floating-button svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#wishlistFloatingCount {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #4f68d7;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* --- 愿望单列表视图 --- */
+
+.wishlist-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 8px;
+  padding: 6px 10px;
+  background: #e0e0e0;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.wishlist-group-count {
+  font-weight: normal;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.wishlist-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.wishlist-card .item-info {
+  flex: 1;
+}
+
+.wishlist-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.wishlist-card-actions button {
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.wishlist-card-actions button:hover {
+  background: #f0f0f0;
+}
+
+.wishlist-status {
+  font-weight: bold;
+}
+
+.wishlist-status-wanted {
+  color: #916e00;
+}
+
+.wishlist-status-farming {
+  color: #0066cc;
+}
+
+.wishlist-status-acquired {
+  color: #2e7d32;
+}
+
+body[data-engine="wishlist"] .page-layout {
+  display: block !important;
+  grid-template-columns: none !important;
+  height: calc(100vh - 188px) !important;
+  overflow: hidden !important;
+}
+
+body[data-engine="wishlist"] .left-panel {
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding: 0 6px 56px 0 !important;
+  box-sizing: border-box !important;
+  scroll-padding-bottom: 56px !important;
+}
+
+body[data-engine="wishlist"] .right-panel {
+  display: none !important;
+}
+
+body[data-engine="wishlist"] .filter-box {
+  align-items: center !important;
+  padding: 10px 12px !important;
+}
+
+body[data-engine="wishlist"] .filter-box > :not(.wishlist-action-panel) {
+  display: none !important;
+}
+
+body[data-engine="wishlist"] .filter-box .wishlist-action-panel {
+  width: 100%;
+  margin: 0;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+body[data-engine="wishlist"] .filter-box .wishlist-action-panel button {
+  width: auto;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid #8ab1d6;
+  background: #ffffff;
+  color: #25557f;
+}
+
+body[data-engine="wishlist"] .filter-box .wishlist-action-panel button:hover {
+  background: #eef6ff;
+}
+
+body[data-engine="wishlist"] #resultList {
+  width: 100%;
+  padding-bottom: 28px;
+}
+
+body[data-engine="wishlist"] .left-panel > h2,
+body[data-engine="wishlist"] #activeFilters {
+  display: none !important;
+}
+
+body[data-engine="wishlist"] .floating-scroll-tools {
+  display: none !important;
+}
+
+body[data-engine="wishlist"] .wishlist-group-header {
+  margin: 12px 0 0;
+  padding: 7px 10px;
+  border: 1px solid #cfd6e4;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  background: #eef1f7;
+  color: #30394b;
+  font-size: 14px;
+}
+
+.wishlist-row-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1px;
+  margin-bottom: 14px;
+  border: 1px solid #cfd6e4;
+  border-radius: 0 0 6px 6px;
+  overflow: hidden;
+  background: #d8dce5;
+}
+
+.wishlist-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  min-height: 54px;
+  padding: 6px 8px;
+  background: #ffffff;
+}
+
+.wishlist-row:hover {
+  background: #f7f9ff;
+}
+
+.wishlist-row-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  object-fit: cover;
+  background: #d7dce7;
+  box-shadow: inset 0 0 0 1px rgba(48, 57, 75, 0.16);
+}
+
+.wishlist-row-icon-missing {
+  border: 1px dashed #aeb7ca;
+}
+
+.wishlist-row-main {
+  min-width: 0;
+  line-height: 1.25;
+}
+
+.wishlist-row-name {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 3px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #2f66d5;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.15;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wishlist-row-name:hover {
+  color: #1d4fb5;
+  text-decoration: underline;
+}
+
+.wishlist-row-meta,
+.wishlist-row-source {
+  max-width: 100%;
+  overflow: hidden;
+  color: #30394b;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wishlist-row-source {
+  color: #6a7282;
+}
+
+.wishlist-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.wishlist-row-actions button {
+  min-height: 24px;
+  padding: 3px 7px;
+  border: 1px solid #c8cede;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #30394b;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.wishlist-row-actions button:hover {
+  background: #eef3ff;
+  border-color: #9fb0e4;
+}
+
+.wishlist-row .wishlist-status {
+  min-width: 34px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.wishlist-action-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  background: #f8fbfd;
+}
+
+.wishlist-action-panel-main {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.wishlist-action-panel strong {
+  color: #263746;
+  font-size: 14px;
+}
+
+.wishlist-action-panel span {
+  color: #617083;
+  font-size: 12px;
+}
+
+.wishlist-action-buttons {
+  display: flex;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.wishlist-action-panel button,
+.gil-route-controls button,
+.gil-route-buy-list button {
+  border: 1px solid #8ab1d6;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #25557f;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.wishlist-action-panel button {
+  padding: 8px 12px;
+}
+
+.wishlist-action-panel button:hover,
+.gil-route-controls button:hover,
+.gil-route-buy-list button:hover {
+  background: #eef6ff;
+}
+
+.gil-route-modal {
+  max-width: 860px;
+}
+
+.gil-route-controls {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.gil-route-controls label {
+  display: grid;
+  gap: 6px;
+  flex: 1;
+  color: #4b5f73;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.gil-route-controls select {
+  width: 100%;
+  min-height: 36px;
+  border: 1px solid #cad6e2;
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: #fff;
+  color: #25384a;
+}
+
+.gil-route-controls button {
+  min-height: 36px;
+  padding: 6px 12px;
+}
+
+.gil-route-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.gil-route-summary div {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.gil-route-summary strong {
+  color: #263746;
+  font-size: 18px;
+}
+
+.gil-route-summary span,
+.gil-route-note,
+.gil-route-step-meta,
+.gil-route-step-total {
+  color: #66788a;
+  font-size: 12px;
+}
+
+.gil-route-steps {
+  display: grid;
+  gap: 12px;
+  max-height: min(58vh, 620px);
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.gil-route-step {
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.gil-route-step-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #263746;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.gil-route-step-meta {
+  margin-top: 4px;
+}
+
+.gil-route-buy-list {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gil-route-buy-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-top: 1px solid #eef2f5;
+  color: #2d3d4e;
+  font-size: 13px;
+}
+
+.gil-route-buy-list button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.battle-stats-modal {
+  max-width: 900px;
+}
+
+.battle-stats-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.battle-stats-summary div {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.battle-stats-summary strong {
+  color: #263746;
+  font-size: 18px;
+}
+
+.battle-stats-summary span,
+.battle-stats-meta {
+  color: #66788a;
+  font-size: 12px;
+}
+
+.battle-stats-list {
+  display: grid;
+  gap: 12px;
+  max-height: min(58vh, 620px);
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.battle-stats-group {
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.battle-stats-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #263746;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.battle-stats-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.battle-stats-columns div {
+  border: 1px solid #eef2f5;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fbfcfe;
+}
+
+.battle-stats-columns h4 {
+  margin: 0 0 6px;
+  color: #34495e;
+  font-size: 13px;
+}
+
+.battle-stats-columns ul,
+.battle-stats-items ul {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding-left: 18px;
+  color: #33465a;
+  font-size: 13px;
+}
+
+.battle-stats-items {
+  color: #33465a;
+  font-size: 13px;
+}
+
+.battle-stats-items summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.battle-stats-items li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (max-width: 760px) {
+  .wishlist-action-panel,
+  .gil-route-controls,
+  .gil-route-step-title {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .wishlist-action-buttons,
+  .battle-stats-title {
+    flex-direction: column;
+  }
+
+  .gil-route-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .battle-stats-summary,
+  .battle-stats-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .wishlist-row-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wishlist-row {
+    grid-template-columns: 38px minmax(0, 1fr);
+  }
+
+  .wishlist-row-actions {
+    grid-column: 2;
+    justify-content: flex-start;
+  }
+}
+
+/* ===== 愿望单双按钮模式 ===== */
+
+.wishlist-mode-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 2px;
+  border: 1px solid rgba(200, 207, 221, 0.92);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 3px 10px rgba(31, 41, 55, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+/* ===== 推荐比较弹窗 ===== */
+
+.wishlist-recommend-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(23, 28, 39, 0.46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.wishlist-recommend-modal {
+  background: #ffffff;
+  border: 1px solid #d8dce5;
+  border-radius: 12px;
+  padding: 18px;
+  max-width: 860px;
+  width: min(96vw, 860px);
+  max-height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 18px 54px rgba(23, 28, 39, 0.28);
+}
+
+.wishlist-recommend-modal *,
+.wishlist-recommend-modal *::before,
+.wishlist-recommend-modal *::after {
+  box-sizing: border-box;
+}
+
+.wishlist-recommend-header {
+  padding: 2px 2px 14px;
+}
+
+.wishlist-recommend-header h3 {
+  margin: 0 0 5px;
+  color: #232a3a;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.wishlist-recommend-header p {
+  margin: 0;
+  color: #687083;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.wishlist-recommend-compare {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+
+.wishlist-recommend-card {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #d8dce5;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fbfcff;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  transition:
+    border-color 120ms ease,
+    background 120ms ease,
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.wishlist-recommend-card:has(.wishlist-recommend-best) {
+  border-color: #9fb0e4;
+  background: #f6f8ff;
+  box-shadow: inset 0 0 0 1px rgba(79, 104, 215, 0.08);
+}
+
+.wishlist-recommend-card:hover {
+  border-color: #9fb0e4;
+  background: #f7f9ff;
+}
+
+.wishlist-recommend-card.is-selected {
+  border-color: #4f68d7;
+  background: #f2f5ff;
+  box-shadow:
+    inset 0 0 0 1px rgba(79, 104, 215, 0.24),
+    0 6px 18px rgba(79, 104, 215, 0.14);
+}
+
+.wishlist-recommend-card.is-selected .wishlist-recommend-label::after {
+  content: "已选择";
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid rgba(79, 104, 215, 0.28);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.wishlist-recommend-label {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 20px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eef1f7;
+  color: #4b5568;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.wishlist-recommend-label.wishlist-recommend-best {
+  background: #e9edff;
+  color: #4f68d7;
+}
+
+.wishlist-rec-card-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 112px;
+  gap: 12px;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.wishlist-rec-card-info {
+  display: flex;
+  gap: 11px;
+  min-width: 0;
+}
+
+.wishlist-rec-card-icon {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  border-radius: 7px;
+  object-fit: cover;
+  background: #d7dce7;
+  box-shadow: inset 0 0 0 1px rgba(48, 57, 75, 0.16);
+}
+
+.wishlist-rec-card-icon-missing {
+  border: 1px dashed #aeb7ca;
+}
+
+.wishlist-rec-card-body {
+  min-width: 0;
+  flex: 1;
+}
+
+.wishlist-rec-card-name {
+  display: block;
+  margin-bottom: 3px;
+  color: #232a3a;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.wishlist-rec-card-subtitle,
+.wishlist-rec-card-source {
+  overflow: hidden;
+  color: #5f687a;
+  font-size: 12px;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wishlist-rec-card-source {
+  margin-top: 2px;
+  color: #7a8394;
+}
+
+.wishlist-rec-card-tags {
+  margin-top: 6px;
+}
+
+.wishlist-rec-preview {
+  width: 112px;
+  height: 132px;
+  overflow: hidden;
+  border: 1px solid #d8dce5;
+  border-radius: 8px;
+  background: #eef1f7;
+}
+
+.wishlist-rec-preview img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.wishlist-rec-preview-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #d8dce5;
+}
+
+.wishlist-rec-preview-missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a93a5;
+  font-size: 12px;
+  text-align: center;
+}
+
+.wishlist-recommend-cleanup-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  min-width: 0;
+  margin: 10px 0 0;
+  padding: 8px 9px;
+  border: 1px solid #d8dce5;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #4b5568;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.wishlist-recommend-card.is-selected .wishlist-recommend-cleanup-option {
+  border-color: #b8c4f0;
+  background: #ffffff;
+}
+
+.wishlist-recommend-cleanup-option input {
+  width: 14px;
+  height: 14px;
+  margin: 1px 0 0;
+  flex: 0 0 auto;
+  accent-color: #4f68d7;
+}
+
+.wishlist-recommend-cleanup-option span {
+  min-width: 0;
+}
+
+.wishlist-recommend-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.wishlist-recommend-actions button {
+  min-height: 32px;
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid #c8cede;
+  background: #ffffff;
+  color: #30394b;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.wishlist-recommend-actions button:hover {
+  background: #eef3ff;
+  border-color: #9fb0e4;
+}
+
+#wishlistRecConfirm {
+  background: #4f68d7;
+  color: #fff;
+  border-color: #4f68d7;
+}
+
+#wishlistRecConfirm:hover {
+  background: #3d54c0;
+}
+
+@media (max-width: 720px) {
+  .wishlist-recommend-modal {
+    padding: 14px;
+    width: 100%;
+  }
+
+  .wishlist-recommend-compare {
+    grid-template-columns: 1fr;
+  }
+
+  .wishlist-recommend-actions {
+    flex-wrap: wrap;
+  }
+
+  .wishlist-rec-card-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .wishlist-rec-preview {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+/* ===== v24：五个引擎共用的顶部筛选栏列宽 =====
+   只在这里统一列宽，不移动旧规则，避免破坏历史覆盖顺序。 */
+.filter-box {
+  --engine-filter-column-width: clamp(188px, 10.6vw, 210px);
+  --engine-filter-gap: 10px;
+  --engine-filter-double-column-width: calc(var(--engine-filter-column-width) + var(--engine-filter-column-width) + var(--engine-filter-gap));
+  gap: 0 !important;
+  align-items: stretch !important;
+}
+
+#basicSearchFilterGroup,
+#levelFilters,
+#pieceGlamourFilterGroup,
+.gear-set-source-column,
+.gear-set-collection-column {
+  flex: 0 0 var(--engine-filter-column-width) !important;
+  width: var(--engine-filter-column-width) !important;
+  min-width: var(--engine-filter-column-width) !important;
+  max-width: var(--engine-filter-column-width) !important;
+}
+
+body[data-engine="weaponPieces"] .gear-set-source-column,
+body[data-engine="weaponSeries"] .gear-set-source-column,
+body[data-engine="weaponPieces"] .gear-set-collection-column,
+body[data-engine="weaponSeries"] .gear-set-collection-column {
+  width: var(--engine-filter-column-width) !important;
+  min-width: var(--engine-filter-column-width) !important;
+  max-width: var(--engine-filter-column-width) !important;
+}
+
+#basicSearchFilterGroup input[type="text"],
+#basicSearchFilterGroup select,
+#basicSearchFilterGroup #gearPieceCategoryFilterRow,
+#basicSearchFilterGroup #weaponSlotFilterRow,
+#basicSearchFilterGroup #recommendToggleBar,
+#levelFilters .range-filter-row,
+#levelFilters .range-filter-group,
+#pieceGlamourFilterGroup select,
+.gear-set-source-column select,
+.gear-set-source-column label,
+.gear-set-collection-column .collection-row {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#gearSetFilters,
+body[data-engine="weaponPieces"] #gearSetFilters,
+body[data-engine="weaponSeries"] #gearSetFilters {
+  flex: 0 0 var(--engine-filter-double-column-width) !important;
+  width: var(--engine-filter-double-column-width) !important;
+  min-width: var(--engine-filter-double-column-width) !important;
+  max-width: var(--engine-filter-double-column-width) !important;
+  grid-template-columns: var(--engine-filter-column-width) var(--engine-filter-column-width) !important;
+  column-gap: var(--engine-filter-gap) !important;
+}
+
+.gear-set-collection-column .collection-row {
+  grid-template-columns: minmax(0, 1fr) 42px 42px !important;
+  column-gap: 6px !important;
+}
+
+.gear-set-collection-column .collection-row > span {
+  min-width: 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.gear-set-collection-column .collection-row label {
+  width: 42px !important;
+  min-width: 42px !important;
+  justify-content: flex-start !important;
+  gap: 3px !important;
+}
+
+.filter-actions {
+  flex: 0 0 96px !important;
+  width: 96px !important;
+  min-width: 96px !important;
+  max-width: 96px !important;
+}

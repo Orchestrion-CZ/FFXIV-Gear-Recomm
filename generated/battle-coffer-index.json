@@ -1,0 +1,5820 @@
+{
+  "generatedBy": "tools/build-battle-coffer-index.py",
+  "sources": [
+    "datamining/Item.csv",
+    "weapon-data.json"
+  ],
+  "itemCount": 830,
+  "items": {
+    "1672": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1678": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1742": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1747": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1812": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1817": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1881": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1887": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1951": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1956": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "1992": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2053": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2105": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2137": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2207": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2208": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2215": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "2216": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7218": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7219": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7220": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7221": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7222": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7223": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7224": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7225": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7226": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "7227": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "8999": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9000": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9001": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9002": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9003": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9004": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9005": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9006": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9007": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9008": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9009": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9229": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9248": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "9249": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10446": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10454": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10455": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10456": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10508": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10516": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10517": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10518": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10570": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10578": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10579": [
+      {
+        "containerItemId": 35884,
+        "containerName": "亚拉戈高位武器箱（品级115）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "10580": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11510": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11511": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11512": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11513": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11514": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11515": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11516": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11517": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11518": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11519": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11520": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11521": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11522": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "11523": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13237": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13238": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13239": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13240": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13241": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13242": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13243": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13244": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13245": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13246": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13247": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13248": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13249": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "13250": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14574": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14575": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14576": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14577": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14578": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14579": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14580": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14581": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14582": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14583": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14584": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14585": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14586": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14587": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14890": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "14892": [
+      {
+        "containerItemId": 35874,
+        "containerName": "亚拉戈武器箱（品级95）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16465": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16466": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16467": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16468": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16469": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16470": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16471": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16472": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16473": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16474": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16475": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16476": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16477": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "16478": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19359": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19360": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19361": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19362": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19363": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19364": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19365": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19366": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19367": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19368": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19369": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19370": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19371": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19372": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19373": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19374": [
+      {
+        "containerItemId": 17868,
+        "containerName": "源氏之武器箱（品级345）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19771": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19772": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19773": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19774": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19775": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19776": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19777": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19778": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19779": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19780": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19781": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19782": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19783": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19784": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19785": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "19786": [
+      {
+        "containerItemId": 36148,
+        "containerName": "须佐之男武器箱（品级320）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20368": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20369": [
+      {
+        "containerItemId": 36138,
+        "containerName": "莫古莫古武器箱（品级75）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20434": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20435": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20448": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20449": [
+      {
+        "containerItemId": 35904,
+        "containerName": "戈耳狄武器箱（品级210）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20450": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20451": [
+      {
+        "containerItemId": 35914,
+        "containerName": "弥达斯武器箱（品级245）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20452": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20453": [
+      {
+        "containerItemId": 35924,
+        "containerName": "亚历山大武器箱（品级275）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20975": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "20976": [
+      {
+        "containerItemId": 35894,
+        "containerName": "龙神武器箱（品级135）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21493": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21494": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21495": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21496": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21497": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21498": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21499": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21500": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21501": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21502": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21503": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21504": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21505": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21506": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21507": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "21508": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "22867": [
+      {
+        "containerItemId": 36151,
+        "containerName": "月读命之武器箱（品级365）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25631": [
+      {
+        "containerItemId": 26824,
+        "containerName": "白橡木武器箱（品级385）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25632": [
+      {
+        "containerItemId": 26824,
+        "containerName": "白橡木武器箱（品级385）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25636": [
+      {
+        "containerItemId": 26824,
+        "containerName": "白橡木武器箱（品级385）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25637": [
+      {
+        "containerItemId": 26824,
+        "containerName": "白橡木武器箱（品级385）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25788": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25789": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25790": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25793": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25794": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25795": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25801": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25803": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25804": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25805": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25948": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25949": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25950": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25951": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25952": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25953": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25954": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25955": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25956": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25957": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25958": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25959": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25960": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25961": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25962": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25963": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25964": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "25965": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26108": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26109": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26110": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26113": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26114": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26115": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26120": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26121": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26122": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26123": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26124": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26125": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26268": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26269": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26270": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26273": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26274": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26275": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26278": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26279": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26280": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26281": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26282": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26283": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26284": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26285": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26935": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26936": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26937": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26938": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26939": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26940": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26941": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26942": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26943": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26944": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26945": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26946": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26947": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26948": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26949": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26950": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26951": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "26952": [
+      {
+        "containerItemId": 26892,
+        "containerName": "伊甸之恩武器箱（品级475）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27596": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27597": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27598": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27599": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27600": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27601": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27602": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27603": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27604": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27605": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27606": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27607": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27608": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27609": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27610": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27611": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27612": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "27613": [
+      {
+        "containerItemId": 36154,
+        "containerName": "妖灵王武器箱（品级450）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29037": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29038": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29039": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29040": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29041": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29042": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29043": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29044": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29045": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29046": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29047": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29048": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29049": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29050": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29051": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29052": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29053": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "29054": [
+      {
+        "containerItemId": 29693,
+        "containerName": "伊甸之律武器箱（品级505）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30597": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30598": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30599": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30600": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30601": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30602": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30603": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30604": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30605": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30606": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30607": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30608": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30609": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30610": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30611": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30612": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30613": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "30614": [
+      {
+        "containerItemId": 36157,
+        "containerName": "光之武器箱（品级495）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32276": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32277": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32278": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32279": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32280": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32281": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32282": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32283": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32284": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32285": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32286": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32287": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32288": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32289": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32290": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32291": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32292": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "32293": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33482": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33483": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33484": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33485": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33486": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33487": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33488": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33489": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33490": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33491": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33492": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33493": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33494": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33495": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33496": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33497": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33498": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "33499": [
+      {
+        "containerItemId": 36159,
+        "containerName": "钻石神兵武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34083": [
+      {
+        "containerItemId": 35666,
+        "containerName": "马栗木武器箱（品级515）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34084": [
+      {
+        "containerItemId": 35666,
+        "containerName": "马栗木武器箱（品级515）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34088": [
+      {
+        "containerItemId": 35666,
+        "containerName": "马栗木武器箱（品级515）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34089": [
+      {
+        "containerItemId": 35666,
+        "containerName": "马栗木武器箱（品级515）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34239": [
+      {
+        "containerItemId": 35676,
+        "containerName": "白镴武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34242": [
+      {
+        "containerItemId": 35676,
+        "containerName": "白镴武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34244": [
+      {
+        "containerItemId": 35676,
+        "containerName": "白镴武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34247": [
+      {
+        "containerItemId": 35676,
+        "containerName": "白镴武器箱（品级525）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34389": [
+      {
+        "containerItemId": 35686,
+        "containerName": "弗里金武器箱（品级533）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34392": [
+      {
+        "containerItemId": 35686,
+        "containerName": "弗里金武器箱（品级533）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34394": [
+      {
+        "containerItemId": 35686,
+        "containerName": "弗里金武器箱（品级533）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34397": [
+      {
+        "containerItemId": 35686,
+        "containerName": "弗里金武器箱（品级533）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34533": [
+      {
+        "containerItemId": 35696,
+        "containerName": "铁木武器箱（品级539）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34534": [
+      {
+        "containerItemId": 35696,
+        "containerName": "铁木武器箱（品级539）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34538": [
+      {
+        "containerItemId": 35696,
+        "containerName": "铁木武器箱（品级539）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34539": [
+      {
+        "containerItemId": 35696,
+        "containerName": "铁木武器箱（品级539）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34680": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34681": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34682": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34685": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34686": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34687": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34692": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34693": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34694": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34695": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34696": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34697": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34698": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34699": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34925": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34926": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34927": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34928": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34929": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34930": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34931": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34932": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34933": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34934": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34935": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34936": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34937": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34938": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34939": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34940": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34941": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34942": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34943": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "34944": [
+      {
+        "containerItemId": 36617,
+        "containerName": "圣光武器箱（品级580）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35245": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35246": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35247": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35248": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35249": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35250": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35251": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35252": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35253": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35254": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35255": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35256": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35257": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35258": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35259": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35260": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35261": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35262": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35263": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35264": [
+      {
+        "containerItemId": 35734,
+        "containerName": "日影兰武器箱（品级605）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35763": [
+      {
+        "containerItemId": 26835,
+        "containerName": "深金武器箱（品级395）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35765": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35767": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35769": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35772": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35783": [
+      {
+        "containerItemId": 26846,
+        "containerName": "灵青武器箱（品级403）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35785": [
+      {
+        "containerItemId": 26857,
+        "containerName": "钛铜武器箱（品级409）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35787": [
+      {
+        "containerItemId": 26868,
+        "containerName": "矮人银武器箱（品级415）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "35790": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36923": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36924": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36925": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36926": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36927": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36928": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36929": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36930": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36931": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36932": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36933": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36934": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36935": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36936": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36937": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36938": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36939": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36940": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36941": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "36942": [
+      {
+        "containerItemId": 36813,
+        "containerName": "蓝羽武器箱（品级595）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37285": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37286": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37287": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37288": [
+      {
+        "containerItemId": 36616,
+        "containerName": "苍穹之武器箱（品级205）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37856": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37857": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37858": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37859": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37860": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37861": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37862": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37863": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37864": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37865": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37866": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37867": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37868": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37869": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37870": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37871": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37872": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37873": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37874": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "37875": [
+      {
+        "containerItemId": 38687,
+        "containerName": "煞风武器箱（品级615）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38081": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38082": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38083": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38084": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38085": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38086": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38087": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38088": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38089": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38090": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38091": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38092": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38093": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38094": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38095": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38096": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38097": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38098": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38099": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "38100": [
+      {
+        "containerItemId": 38390,
+        "containerName": "深壑武器箱（品级635）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39124": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39125": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39126": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39127": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39128": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39129": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39130": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39131": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39132": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39133": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39134": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39135": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39136": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39137": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39138": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39139": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39140": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39141": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39142": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39143": [
+      {
+        "containerItemId": 39584,
+        "containerName": "炀火武器箱（品级625）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39940": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39941": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39942": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39943": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39944": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39945": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39946": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39947": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39948": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39949": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39950": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39951": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39952": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39953": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39954": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39955": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39956": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39957": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39958": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "39959": [
+      {
+        "containerItemId": 40296,
+        "containerName": "虚无武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40165": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40166": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40167": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40168": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40169": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40170": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40171": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40172": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40173": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40174": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40175": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40176": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40177": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40178": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40179": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40180": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40181": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40182": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40183": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "40184": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41836": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41837": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41838": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41845": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41846": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41847": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41849": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41851": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41852": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41853": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41855": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41857": [
+      {
+        "containerItemId": 43476,
+        "containerName": "奥阔铬铁武器箱（品级645）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41990": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41991": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41992": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "41999": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42000": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42001": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42002": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42003": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42004": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42005": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42006": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42007": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42009": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42011": [
+      {
+        "containerItemId": 43486,
+        "containerName": "钌金武器箱（品级655）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42147": [
+      {
+        "containerItemId": 43496,
+        "containerName": "深红木武器箱（品级663）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42148": [
+      {
+        "containerItemId": 43496,
+        "containerName": "深红木武器箱（品级663）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42149": [
+      {
+        "containerItemId": 43496,
+        "containerName": "深红木武器箱（品级663）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42150": [
+      {
+        "containerItemId": 43496,
+        "containerName": "深红木武器箱（品级663）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42164": [
+      {
+        "containerItemId": 43496,
+        "containerName": "深红木武器箱（品级663）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42301": [
+      {
+        "containerItemId": 43506,
+        "containerName": "相思木武器箱（品级669）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42302": [
+      {
+        "containerItemId": 43506,
+        "containerName": "相思木武器箱（品级669）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42303": [
+      {
+        "containerItemId": 43506,
+        "containerName": "相思木武器箱（品级669）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42304": [
+      {
+        "containerItemId": 43506,
+        "containerName": "相思木武器箱（品级669）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42318": [
+      {
+        "containerItemId": 43506,
+        "containerName": "相思木武器箱（品级669）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42452": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42453": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42454": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42456": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42458": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42459": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42460": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42461": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42462": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42463": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42464": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42465": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42466": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42467": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42468": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42469": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42470": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42471": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42473": [
+      {
+        "containerItemId": 43516,
+        "containerName": "卡扎纳尔武器箱（品级675）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42773": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42774": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42775": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42776": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42777": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42778": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42779": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42780": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42781": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42782": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42783": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42784": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42785": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42786": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42787": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42788": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42789": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42790": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42791": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42792": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42793": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "42794": [
+      {
+        "containerItemId": 43526,
+        "containerName": "艳翼武器箱（品级710）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43101": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43102": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43103": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43104": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43105": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43106": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43107": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43108": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43109": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43110": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43111": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43112": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43113": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43114": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43115": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43116": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43117": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43118": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43119": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43120": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43121": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43122": [
+      {
+        "containerItemId": 43527,
+        "containerName": "黑马冠军武器箱（品级735）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43629": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43641": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43648": [
+      {
+        "containerItemId": 35696,
+        "containerName": "铁木武器箱（品级539）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43650": [
+      {
+        "containerItemId": 35706,
+        "containerName": "球粒陨石武器箱（品级545）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "43662": [
+      {
+        "containerItemId": 40307,
+        "containerName": "成神武器箱（品级665）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44241": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44242": [
+      {
+        "containerItemId": 32144,
+        "containerName": "伊甸之晨武器箱（品级535）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44696": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44697": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44698": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44699": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44700": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44701": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44702": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44703": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44704": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44705": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44706": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44707": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44708": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44709": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44710": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44711": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44712": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44713": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44714": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44715": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44716": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "44717": [
+      {
+        "containerItemId": 44719,
+        "containerName": "永恒女王武器箱（品级725）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46454": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46455": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46456": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46457": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46458": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46459": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46460": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46461": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46462": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46463": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46464": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46465": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46466": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46467": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46468": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46469": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46470": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46471": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46472": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46473": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46474": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46475": [
+      {
+        "containerItemId": 46709,
+        "containerName": "女王骑士武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46630": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46631": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46632": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46633": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46634": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46635": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46636": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46637": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46638": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46639": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46640": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46641": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46642": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46643": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46644": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46645": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46646": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46647": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46648": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46649": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46650": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46651": [
+      {
+        "containerItemId": 46710,
+        "containerName": "正派冠军武器箱（品级765）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46984": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46985": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46986": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46987": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46988": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46989": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46990": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46991": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46992": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46993": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46994": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46995": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46996": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46997": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46998": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "46999": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47000": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47001": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47002": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47003": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47004": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47005": [
+      {
+        "containerItemId": 46981,
+        "containerName": "死暗武器箱（品级755）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47072": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47073": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47074": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47075": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47076": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47077": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47078": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47079": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47080": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47081": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47082": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47083": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47084": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47085": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47086": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47087": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47088": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47089": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47090": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47091": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47092": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "47093": [
+      {
+        "containerItemId": 47094,
+        "containerName": "护锁刃武器箱（品级745）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49482": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49483": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49484": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49485": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49486": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49487": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49488": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49489": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49490": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49491": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49492": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49493": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49494": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49495": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49496": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49497": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49498": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49499": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49500": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49501": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49502": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49503": [
+      {
+        "containerItemId": 49737,
+        "containerName": "狂奔武器箱（品级775）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49658": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49659": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49660": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49661": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49662": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49663": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49664": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49665": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49666": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49667": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49668": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49669": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49670": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49671": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49672": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49673": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49674": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49675": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49676": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49677": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49678": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "49679": [
+      {
+        "containerItemId": 49738,
+        "containerName": "总冠军武器箱（品级795）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50893": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50894": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50895": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50896": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50897": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50898": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50899": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50900": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50901": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50902": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50903": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50904": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50905": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50906": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50907": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50908": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50909": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50910": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50911": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50912": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50913": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "50914": [
+      {
+        "containerItemId": 50891,
+        "containerName": "虚王武器箱（品级785）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52606": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52607": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52608": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52609": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52610": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ],
+    "52611": [
+      {
+        "containerItemId": 21791,
+        "containerName": "钻石武器箱（品级375）",
+        "match": "weapon-prefix-item-level"
+      }
+    ]
+  }
+}
