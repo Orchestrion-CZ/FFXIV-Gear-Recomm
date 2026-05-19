@@ -1,0 +1,11 @@
+backups/
+reports/
+datamining/
+drafts/
+manual/
+.vscode/
+.claude/
+__pycache__/
+*.pyc
+*.bak
+*.tmp
