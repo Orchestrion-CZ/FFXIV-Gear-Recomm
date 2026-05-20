@@ -139,6 +139,7 @@ const appHelpButton = document.getElementById("appHelpButton");
 const appNoticeButton = document.getElementById("appNoticeButton");
 const appSettingsButton = document.getElementById("appSettingsButton");
 const mobileFilterToggleButton = document.getElementById("mobileFilterToggleButton");
+const mobileFilterCloseButton = document.getElementById("mobileFilterCloseButton");
 const mobileFilterBackdrop = document.getElementById("mobileFilterBackdrop");
 const engineTabs = Array.from(document.querySelectorAll(".engine-tab"));
 const mobileLayoutMedia = window.matchMedia("(max-width: 900px)");
@@ -9229,6 +9230,12 @@ resetButton.addEventListener("click", () => {
 if (mobileFilterToggleButton) {
   mobileFilterToggleButton.addEventListener("click", () => {
     setMobileFiltersOpen(document.body.dataset.mobileFiltersOpen !== "true");
+  });
+}
+
+if (mobileFilterCloseButton) {
+  mobileFilterCloseButton.addEventListener("click", () => {
+    setMobileFiltersOpen(false);
   });
 }
 
