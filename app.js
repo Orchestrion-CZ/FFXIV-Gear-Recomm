@@ -138,11 +138,7 @@ const wishlistFloatingCount = document.getElementById("wishlistFloatingCount");
 const appHelpButton = document.getElementById("appHelpButton");
 const appNoticeButton = document.getElementById("appNoticeButton");
 const appSettingsButton = document.getElementById("appSettingsButton");
-const mobileFilterToggleButton = document.getElementById("mobileFilterToggleButton");
-const mobileFilterCloseButton = document.getElementById("mobileFilterCloseButton");
-const mobileFilterBackdrop = document.getElementById("mobileFilterBackdrop");
 const engineTabs = Array.from(document.querySelectorAll(".engine-tab"));
-const mobileLayoutMedia = window.matchMedia("(max-width: 900px)");
 let weaponDataLoaded = false;
 let weaponDataPromise = null;
 let fullGearDataLoaded = false;
@@ -153,28 +149,6 @@ const TRANSPARENT_PIXEL =
   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
 
 installLiveServerReloadGuard();
-syncMobileLayoutState();
-
-function setMobileFiltersOpen(isOpen) {
-  const shouldOpen = Boolean(isOpen) && mobileLayoutMedia.matches;
-  document.body.dataset.mobileFiltersOpen = shouldOpen ? "true" : "false";
-
-  if (mobileFilterToggleButton) {
-    mobileFilterToggleButton.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
-  }
-
-  if (mobileFilterBackdrop) {
-    mobileFilterBackdrop.classList.toggle("hidden", !shouldOpen);
-    mobileFilterBackdrop.setAttribute("aria-hidden", shouldOpen ? "false" : "true");
-  }
-}
-
-function syncMobileLayoutState() {
-  document.body.dataset.mobileLayout = mobileLayoutMedia.matches ? "true" : "false";
-  if (!mobileLayoutMedia.matches) {
-    setMobileFiltersOpen(false);
-  }
-}
 
 function installLiveServerReloadGuard() {
   if (!DISABLE_LIVE_SERVER_AUTO_RELOAD || !window.WebSocket) {
@@ -556,7 +530,7 @@ const GEAR_SET_SOURCE_DETAILS = {
   deepDungeon: [
     { value: "all", label: "全部深层迷宫" },
     { value: "palaceOfTheDead", label: "死者宫殿" },
-    { value: "heavenOnHigh", label: "天之宫殿" },
+    { value: "heavenOnHigh", label: "天之御柱" },
     { value: "eurekaOrthos", label: "正统优雷卡" },
     { value: "pilgrimTraverse", label: "朝圣交错路" }
   ],
@@ -6049,6 +6023,64 @@ function getGearSetSourceText(setItem) {
   ].filter(Boolean).join(" ");
 }
 
+function getSourceOptionLabel(options, value) {
+  if (!value) {
+    return "";
+  }
+
+  const option = (options || []).find(item => item.value === value);
+  return option ? option.label : value;
+}
+
+function getGearSetSourceFilterLabel(setItem) {
+  const category = setItem.data.sourceFilterCategory || getGearSetSourceCategories(setItem)[0] || "";
+  const group = setItem.data.sourceFilterGroup || setItem.data.sourceFilterGroupId || getGearSetSourceSubCategories(setItem)[0] || "";
+  const detail = setItem.data.sourceFilterSubCategory || setItem.data.sourceFilterSubcategory || getGearSetSourceDetails(setItem)[0] || "";
+
+  if (!category || category === "uncategorized") {
+    return "";
+  }
+
+  const categoryLabel = getSourceOptionLabel(GEAR_SET_SOURCE_CATEGORIES, category);
+  const groupLabel = group && group !== "all"
+    ? getSourceOptionLabel(GEAR_SET_SOURCE_GROUPS[category] || [], group)
+    : "";
+  const detailLabel = detail && detail !== "all"
+    ? getSourceOptionLabel(GEAR_SET_SOURCE_DETAILS[group] || [], detail)
+    : "";
+
+  return [categoryLabel, groupLabel, detailLabel].filter(Boolean).join(" / ");
+}
+
+function getGearSetAcquisitionText(setItem) {
+  const explicitText = [
+    setItem.data.sourceSummary || "",
+    setItem.data.source || ""
+  ].find(text => String(text || "").trim());
+
+  if (explicitText) {
+    return explicitText;
+  }
+
+  const pieceSourceTexts = Array.from(new Set(
+    getListSetPieceItems(setItem)
+      .map(piece => getSourceText(piece))
+      .map(text => String(text || "").trim())
+      .filter(text => text && text !== "获取方式未记录")
+  ));
+
+  if (pieceSourceTexts.length === 1) {
+    return pieceSourceTexts[0];
+  }
+
+  if (pieceSourceTexts.length > 1) {
+    const shown = pieceSourceTexts.slice(0, 3).join(" / ");
+    return pieceSourceTexts.length > 3 ? `${shown} 等` : shown;
+  }
+
+  return getGearSetSourceFilterLabel(setItem) || "获取方式未记录";
+}
+
 function getGearSetSourceCategory(setItem) {
   return setItem.data.sourceFilterCategory || "uncategorized";
 }
@@ -6372,7 +6404,8 @@ function renderGearSetList() {
       <div class="item-info">
         <strong>${setItem.name}</strong><br>
         类型：${setItem.engine === "gearSets" ? "官方套装" : "自定义套装"}<br>
-        包含部位：${renderPieceSlotInitials(getListSetPieceItems(setItem))}
+        包含部位：${renderPieceSlotInitials(getListSetPieceItems(setItem))}<br>
+        获取方式：<span class="set-acquisition-line">${getGearSetAcquisitionText(setItem)}</span>
         ${renderGearSetListStatusTags(setItem)}
       </div>
     `;
@@ -9222,34 +9255,7 @@ function showDetail(item) {
 }
 
 applyFilterButton.addEventListener("click", applyFilters);
-resetButton.addEventListener("click", () => {
-  resetFilters();
-  setMobileFiltersOpen(false);
-});
-
-if (mobileFilterToggleButton) {
-  mobileFilterToggleButton.addEventListener("click", () => {
-    setMobileFiltersOpen(document.body.dataset.mobileFiltersOpen !== "true");
-  });
-}
-
-if (mobileFilterCloseButton) {
-  mobileFilterCloseButton.addEventListener("click", () => {
-    setMobileFiltersOpen(false);
-  });
-}
-
-if (mobileFilterBackdrop) {
-  mobileFilterBackdrop.addEventListener("click", () => {
-    setMobileFiltersOpen(false);
-  });
-}
-
-if (mobileLayoutMedia && typeof mobileLayoutMedia.addEventListener === "function") {
-  mobileLayoutMedia.addEventListener("change", syncMobileLayoutState);
-} else if (mobileLayoutMedia && typeof mobileLayoutMedia.addListener === "function") {
-  mobileLayoutMedia.addListener(syncMobileLayoutState);
-}
+resetButton.addEventListener("click", resetFilters);
 
 detailBox.addEventListener("click", event => {
   const navigateButton = event.target.closest("[data-navigate-engine][data-navigate-id]");
@@ -9465,7 +9471,6 @@ searchInput.addEventListener("keydown", event => {
 });
 
 function applyFilters() {
-  setMobileFiltersOpen(false);
   invalidateDetailLoad();
   focusedListWindow = null;
   clearCurrentEngineSelection();
@@ -9529,7 +9534,6 @@ recommendedGearOnly.addEventListener("change", () => {
 
 engineTabs.forEach(tab => {
   tab.addEventListener("click", () => {
-    setMobileFiltersOpen(false);
     switchEngineTo(tab.dataset.engine || "gearPieces");
   });
 });
@@ -9567,11 +9571,6 @@ modalImage.addEventListener("click", event => {
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && !imageModal.classList.contains("hidden")) {
     closeModal();
-    return;
-  }
-
-  if (event.key === "Escape" && document.body.dataset.mobileFiltersOpen === "true") {
-    setMobileFiltersOpen(false);
   }
 });
 
