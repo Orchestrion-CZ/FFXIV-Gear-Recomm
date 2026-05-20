@@ -46,7 +46,7 @@
     </button>
   </div>
 
-  <div class="filter-box">
+  <div id="mobileFilterPanel" class="filter-box">
 
     <div id="basicSearchFilterGroup" class="filter-group">
       <div class="filter-title">基础搜索</div>
@@ -236,6 +236,14 @@
     </div>
   </div></div>
 </div>
+
+<div class="mobile-filter-toolbar">
+  <button id="mobileFilterToggleButton" type="button" class="mobile-filter-toggle-button" aria-expanded="false" aria-controls="mobileFilterPanel">
+    筛选与排序
+  </button>
+</div>
+
+<div id="mobileFilterBackdrop" class="mobile-filter-backdrop hidden" aria-hidden="true"></div>
 
 <button id="wishlistFloatingButton" class="wishlist-floating-button hidden" type="button" title="打开愿望单" aria-label="打开愿望单">
   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">

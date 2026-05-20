@@ -138,7 +138,10 @@ const wishlistFloatingCount = document.getElementById("wishlistFloatingCount");
 const appHelpButton = document.getElementById("appHelpButton");
 const appNoticeButton = document.getElementById("appNoticeButton");
 const appSettingsButton = document.getElementById("appSettingsButton");
+const mobileFilterToggleButton = document.getElementById("mobileFilterToggleButton");
+const mobileFilterBackdrop = document.getElementById("mobileFilterBackdrop");
 const engineTabs = Array.from(document.querySelectorAll(".engine-tab"));
+const mobileLayoutMedia = window.matchMedia("(max-width: 900px)");
 let weaponDataLoaded = false;
 let weaponDataPromise = null;
 let fullGearDataLoaded = false;
@@ -149,6 +152,28 @@ const TRANSPARENT_PIXEL =
   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
 
 installLiveServerReloadGuard();
+syncMobileLayoutState();
+
+function setMobileFiltersOpen(isOpen) {
+  const shouldOpen = Boolean(isOpen) && mobileLayoutMedia.matches;
+  document.body.dataset.mobileFiltersOpen = shouldOpen ? "true" : "false";
+
+  if (mobileFilterToggleButton) {
+    mobileFilterToggleButton.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+  }
+
+  if (mobileFilterBackdrop) {
+    mobileFilterBackdrop.classList.toggle("hidden", !shouldOpen);
+    mobileFilterBackdrop.setAttribute("aria-hidden", shouldOpen ? "false" : "true");
+  }
+}
+
+function syncMobileLayoutState() {
+  document.body.dataset.mobileLayout = mobileLayoutMedia.matches ? "true" : "false";
+  if (!mobileLayoutMedia.matches) {
+    setMobileFiltersOpen(false);
+  }
+}
 
 function installLiveServerReloadGuard() {
   if (!DISABLE_LIVE_SERVER_AUTO_RELOAD || !window.WebSocket) {
@@ -9196,7 +9221,29 @@ function showDetail(item) {
 }
 
 applyFilterButton.addEventListener("click", applyFilters);
-resetButton.addEventListener("click", resetFilters);
+resetButton.addEventListener("click", () => {
+  resetFilters();
+  setMobileFiltersOpen(false);
+});
+
+if (mobileFilterToggleButton) {
+  mobileFilterToggleButton.addEventListener("click", () => {
+    setMobileFiltersOpen(document.body.dataset.mobileFiltersOpen !== "true");
+  });
+}
+
+if (mobileFilterBackdrop) {
+  mobileFilterBackdrop.addEventListener("click", () => {
+    setMobileFiltersOpen(false);
+  });
+}
+
+if (mobileLayoutMedia && typeof mobileLayoutMedia.addEventListener === "function") {
+  mobileLayoutMedia.addEventListener("change", syncMobileLayoutState);
+} else if (mobileLayoutMedia && typeof mobileLayoutMedia.addListener === "function") {
+  mobileLayoutMedia.addListener(syncMobileLayoutState);
+}
+
 detailBox.addEventListener("click", event => {
   const navigateButton = event.target.closest("[data-navigate-engine][data-navigate-id]");
 
@@ -9411,6 +9458,7 @@ searchInput.addEventListener("keydown", event => {
 });
 
 function applyFilters() {
+  setMobileFiltersOpen(false);
   invalidateDetailLoad();
   focusedListWindow = null;
   clearCurrentEngineSelection();
@@ -9474,6 +9522,7 @@ recommendedGearOnly.addEventListener("change", () => {
 
 engineTabs.forEach(tab => {
   tab.addEventListener("click", () => {
+    setMobileFiltersOpen(false);
     switchEngineTo(tab.dataset.engine || "gearPieces");
   });
 });
@@ -9511,6 +9560,11 @@ modalImage.addEventListener("click", event => {
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && !imageModal.classList.contains("hidden")) {
     closeModal();
+    return;
+  }
+
+  if (event.key === "Escape" && document.body.dataset.mobileFiltersOpen === "true") {
+    setMobileFiltersOpen(false);
   }
 });
 
