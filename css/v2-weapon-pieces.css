@@ -1,0 +1,177 @@
+.weapon-pieces-result-card {
+  position: relative;
+  min-height: 102px;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+.weapon-pieces-result-card + .weapon-pieces-result-card {
+  margin-top: 8px;
+}
+
+.weapon-pieces-result-card:hover,
+.weapon-pieces-result-card.is-selected {
+  border-color: var(--color-card-hover-border);
+  background: var(--color-card-hover);
+  box-shadow: var(--shadow-card-selected);
+}
+
+.weapon-pieces-result-card__icon {
+  width: 72px;
+  height: 72px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(17, 24, 39, 0.16);
+}
+
+.weapon-pieces-result-card__body {
+  min-width: 0;
+  min-height: 72px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-content: start;
+  row-gap: 3px;
+}
+
+.weapon-pieces-result-card__title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+
+.weapon-pieces-result-card__title {
+  margin: 0;
+  overflow: hidden;
+  color: #132036;
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 750;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weapon-pieces-result-card__id {
+  flex: 0 0 auto;
+  color: var(--color-muted);
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.weapon-pieces-result-card__meta,
+.weapon-pieces-result-card__source {
+  overflow: hidden;
+  color: #5f6b7d;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weapon-pieces-result-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  margin-top: 4px;
+  overflow: visible;
+}
+
+.weapon-pieces-result-chip {
+  display: inline-flex;
+  align-items: center;
+  height: 21px;
+  padding: 0 7px;
+  border: 1px solid #d5dce8;
+  border-radius: 999px;
+  color: #506078;
+  background: #f8fafc;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.weapon-pieces-result-chip--green {
+  border-color: #a9dfc4;
+  color: #007a4d;
+  background: #eefbf5;
+}
+
+.weapon-pieces-result-chip--gold {
+  border-color: #f0d48a;
+  color: #8a5b00;
+  background: #fff7d6;
+}
+
+.weapon-pieces-result-chip.is-muted {
+  color: #667085;
+  background: #f7f9fc;
+}
+
+.app-shell[data-engine="weaponPieces"] .detail-region {
+  display: grid;
+  grid-template-columns: minmax(300px, 340px) minmax(0, 2fr) minmax(300px, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) minmax(160px, 28%);
+  gap: 16px 18px;
+  overflow: hidden;
+}
+
+.app-shell[data-engine="weaponPieces"] .detail-top {
+  display: contents;
+}
+
+.app-shell[data-engine="weaponPieces"] .preview-column {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+.app-shell[data-engine="weaponPieces"] .detail-info-area {
+  display: contents;
+}
+
+.app-shell[data-engine="weaponPieces"] .basic-info-region {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.app-shell[data-engine="weaponPieces"] .relation-regions {
+  display: contents;
+}
+
+.app-shell[data-engine="weaponPieces"] .relation-region[aria-label="所属套装"] {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+}
+
+.app-shell[data-engine="weaponPieces"] .relation-region[aria-label="所属套装"] ul {
+  min-height: 0;
+  overflow: auto;
+}
+
+.app-shell[data-engine="weaponPieces"] .relation-region[aria-label="同模信息"] {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.app-shell[data-engine="weaponPieces"] .model-table-wrap {
+  min-height: 0;
+}
+
+.app-shell[data-engine="weaponPieces"] .acquisition-region {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  min-height: 160px;
+}

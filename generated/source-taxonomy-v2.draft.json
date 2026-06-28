@@ -1,0 +1,1520 @@
+{
+  "version": 4,
+  "description": "Two-level source filter taxonomy drafted from the current MD. Remarks are context hints for indirect sources, not acquisition detail text.",
+  "filterFields": {
+    "category": "sourceMeta.filters[].category",
+    "categoryLabel": "sourceMeta.filters[].categoryLabel",
+    "group": "sourceMeta.filters[].group",
+    "groupLabel": "sourceMeta.filters[].groupLabel",
+    "remark": "sourceMeta.filters[].remark"
+  },
+  "remarkPolicy": {
+    "purpose": "Only fill when the direct acquisition object does not reveal its owning content or gameplay context.",
+    "examples": [
+      "token/coffer/lockbox -> owning duty, raid tier, field zone, or activity",
+      "quest/material anchor -> owning relic series or field operation zone"
+    ],
+    "notFor": [
+      "Repeating the acquisition text already shown on the detail page",
+      "Guessing content that is not present in Garland, datamining, or a manual mapping table"
+    ]
+  },
+  "categories": [
+    {
+      "label": "商城/充值",
+      "id": "onlineStore",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "特典时装",
+          "id": "bonusOutfit",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "bonusOutfit",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "NPC时装",
+          "id": "npcOutfit",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "npcOutfit",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "节日时装",
+          "id": "seasonalOutfit",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "seasonalOutfit",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "积分商城",
+          "id": "redeemShop",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "redeemShop",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "陆行鸟礼物站",
+          "id": "chocoboGift",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "chocoboGift",
+                "kind": "group"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "onlineStore",
+            "kind": "category"
+          }
+        ]
+      }
+    },
+    {
+      "label": "副本",
+      "id": "instanceContent",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "迷宫挑战（四人本）",
+          "id": "dungeon",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "dungeon",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "讨伐歼灭战",
+          "id": "trial",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "trial",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "幻巧战（幻巧拼图）",
+          "id": "unrealTrial",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "unrealTrial",
+                "kind": "child"
+              }
+            ]
+          }
+        },
+        {
+          "label": "团队任务",
+          "id": "allianceRaid",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "allianceRaid",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "大型任务",
+          "id": "raid",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "raid",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "绝境战",
+          "id": "ultimate",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "ultimate",
+                "kind": "group"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 280,
+                "contentKey": "f1bz",
+                "contentId": 30057,
+                "contentTypeId": 142,
+                "displayName": "巴哈姆特绝境战"
+              },
+              {
+                "contentFinderConditionId": 539,
+                "contentKey": "w1fz",
+                "contentId": 30067,
+                "contentTypeId": 142,
+                "displayName": "究极神兵绝境战"
+              },
+              {
+                "contentFinderConditionId": 694,
+                "contentKey": "d2az",
+                "contentId": 30086,
+                "contentTypeId": 142,
+                "displayName": "亚历山大绝境战"
+              },
+              {
+                "contentFinderConditionId": 788,
+                "contentKey": "r1fz",
+                "contentId": 30106,
+                "contentTypeId": 142,
+                "displayName": "幻想龙诗绝境战"
+              },
+              {
+                "contentFinderConditionId": 1006,
+                "contentKey": "n4gw",
+                "contentId": 30143,
+                "contentTypeId": 142,
+                "displayName": "光暗未来绝境战"
+              }
+            ]
+          }
+        },
+        {
+          "label": "诛灭战",
+          "id": "chaoticAllianceRaid",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "chaoticAllianceRaid",
+                "kind": "group"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 1010,
+                "contentKey": "l1rz",
+                "contentId": 20098,
+                "contentTypeId": 108,
+                "displayName": "暗黑之云诛灭战"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "instanceContent",
+            "kind": "category"
+          }
+        ]
+      }
+    },
+    {
+      "label": "深层迷宫",
+      "id": "deepDungeon",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "死者宫殿",
+          "id": "palaceOfTheDead",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "palaceOfTheDead",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 174,
+                "contentKey": "f1c1_dd001",
+                "contentId": 60001,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下1～10层"
+              },
+              {
+                "contentFinderConditionId": 175,
+                "contentKey": "f1c2_dd002",
+                "contentId": 60002,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下11～20层"
+              },
+              {
+                "contentFinderConditionId": 176,
+                "contentKey": "f1c3_dd003",
+                "contentId": 60003,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下21～30层"
+              },
+              {
+                "contentFinderConditionId": 177,
+                "contentKey": "f1c4_dd004",
+                "contentId": 60004,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下31～40层"
+              },
+              {
+                "contentFinderConditionId": 178,
+                "contentKey": "f1c4_dd005",
+                "contentId": 60005,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下41～50层"
+              },
+              {
+                "contentFinderConditionId": 204,
+                "contentKey": "f1c5_dd006",
+                "contentId": 60006,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下51～60层"
+              },
+              {
+                "contentFinderConditionId": 205,
+                "contentKey": "f1c5_dd007",
+                "contentId": 60007,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下61～70层"
+              },
+              {
+                "contentFinderConditionId": 206,
+                "contentKey": "f1c5_dd008",
+                "contentId": 60008,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下71～80层"
+              },
+              {
+                "contentFinderConditionId": 207,
+                "contentKey": "f1c6_dd009",
+                "contentId": 60009,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下81～90层"
+              },
+              {
+                "contentFinderConditionId": 208,
+                "contentKey": "f1c6_dd010",
+                "contentId": 60010,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下91～100层"
+              },
+              {
+                "contentFinderConditionId": 209,
+                "contentKey": "f1c6_dd011",
+                "contentId": 60011,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下101～110层"
+              },
+              {
+                "contentFinderConditionId": 210,
+                "contentKey": "f1c8_dd012",
+                "contentId": 60012,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下111～120层"
+              },
+              {
+                "contentFinderConditionId": 211,
+                "contentKey": "f1c8_dd013",
+                "contentId": 60013,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下121～130层"
+              },
+              {
+                "contentFinderConditionId": 212,
+                "contentKey": "f1c9_dd014",
+                "contentId": 60014,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下131～140层"
+              },
+              {
+                "contentFinderConditionId": 213,
+                "contentKey": "f1c9_dd015",
+                "contentId": 60015,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下141～150层"
+              },
+              {
+                "contentFinderConditionId": 214,
+                "contentKey": "f1c7_dd016",
+                "contentId": 60016,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下151～160层"
+              },
+              {
+                "contentFinderConditionId": 215,
+                "contentKey": "f1c7_dd017",
+                "contentId": 60017,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下161～170层"
+              },
+              {
+                "contentFinderConditionId": 216,
+                "contentKey": "f1c7_dd018",
+                "contentId": 60018,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下171～180层"
+              },
+              {
+                "contentFinderConditionId": 217,
+                "contentKey": "f1c7_dd019",
+                "contentId": 60019,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下181～190层"
+              },
+              {
+                "contentFinderConditionId": 218,
+                "contentKey": "f1c7_dd020",
+                "contentId": 60020,
+                "contentTypeId": 142,
+                "displayName": "死者宫殿 地下191～200层"
+              }
+            ]
+          }
+        },
+        {
+          "label": "天之御柱",
+          "id": "heavenOnHigh",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "heavenOnHigh",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 540,
+                "contentKey": "dd002_001",
+                "contentId": 60021,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 1～10层"
+              },
+              {
+                "contentFinderConditionId": 541,
+                "contentKey": "dd002_002",
+                "contentId": 60022,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 11～20层"
+              },
+              {
+                "contentFinderConditionId": 542,
+                "contentKey": "dd002_003",
+                "contentId": 60023,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 21～30层"
+              },
+              {
+                "contentFinderConditionId": 543,
+                "contentKey": "dd002_004",
+                "contentId": 60024,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 31～40层"
+              },
+              {
+                "contentFinderConditionId": 544,
+                "contentKey": "dd002_005",
+                "contentId": 60025,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 41～50层"
+              },
+              {
+                "contentFinderConditionId": 545,
+                "contentKey": "dd002_006",
+                "contentId": 60026,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 51～60层"
+              },
+              {
+                "contentFinderConditionId": 546,
+                "contentKey": "dd002_007",
+                "contentId": 60027,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 61～70层"
+              },
+              {
+                "contentFinderConditionId": 547,
+                "contentKey": "dd002_008",
+                "contentId": 60028,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 71～80层"
+              },
+              {
+                "contentFinderConditionId": 548,
+                "contentKey": "dd002_009",
+                "contentId": 60029,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 81～90层"
+              },
+              {
+                "contentFinderConditionId": 549,
+                "contentKey": "dd002_010",
+                "contentId": 60030,
+                "contentTypeId": 142,
+                "displayName": "天之御柱 91～100层"
+              }
+            ]
+          }
+        },
+        {
+          "label": "正统优雷卡",
+          "id": "eurekaOrthos",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "eurekaOrthos",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 897,
+                "contentKey": "dd003_001",
+                "contentId": 60031,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下1～10层"
+              },
+              {
+                "contentFinderConditionId": 898,
+                "contentKey": "dd003_002",
+                "contentId": 60032,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下11～20层"
+              },
+              {
+                "contentFinderConditionId": 899,
+                "contentKey": "dd003_003",
+                "contentId": 60033,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下21～30层"
+              },
+              {
+                "contentFinderConditionId": 900,
+                "contentKey": "dd003_004",
+                "contentId": 60034,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下31～40层"
+              },
+              {
+                "contentFinderConditionId": 901,
+                "contentKey": "dd003_005",
+                "contentId": 60035,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下41～50层"
+              },
+              {
+                "contentFinderConditionId": 902,
+                "contentKey": "dd003_006",
+                "contentId": 60036,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下51～60层"
+              },
+              {
+                "contentFinderConditionId": 903,
+                "contentKey": "dd003_007",
+                "contentId": 60037,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下61～70层"
+              },
+              {
+                "contentFinderConditionId": 904,
+                "contentKey": "dd003_008",
+                "contentId": 60038,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下71～80层"
+              },
+              {
+                "contentFinderConditionId": 905,
+                "contentKey": "dd003_009",
+                "contentId": 60039,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下81～90层"
+              },
+              {
+                "contentFinderConditionId": 906,
+                "contentKey": "dd003_010",
+                "contentId": 60040,
+                "contentTypeId": 142,
+                "displayName": "正统优雷卡 地下91～100层"
+              }
+            ]
+          }
+        },
+        {
+          "label": "朝圣交错路",
+          "id": "pilgrimTraverse",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "pilgrimTraverse",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 1032,
+                "contentKey": "dd004_001",
+                "contentId": 60041,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第1～10朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1033,
+                "contentKey": "dd004_002",
+                "contentId": 60042,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第11～20朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1034,
+                "contentKey": "dd004_003",
+                "contentId": 60043,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第21～30朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1035,
+                "contentKey": "dd004_004",
+                "contentId": 60044,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第31～40朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1036,
+                "contentKey": "dd004_005",
+                "contentId": 60045,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第41～50朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1037,
+                "contentKey": "dd004_006",
+                "contentId": 60046,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第51～60朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1038,
+                "contentKey": "dd004_007",
+                "contentId": 60047,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第61～70朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1039,
+                "contentKey": "dd004_008",
+                "contentId": 60048,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第71～80朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1040,
+                "contentKey": "dd004_009",
+                "contentId": 60049,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第81～90朝圣路"
+              },
+              {
+                "contentFinderConditionId": 1041,
+                "contentKey": "dd004_010",
+                "contentId": 60050,
+                "contentTypeId": 142,
+                "displayName": "朝圣交错路 第91～100朝圣路"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "deepDungeon",
+            "kind": "group"
+          }
+        ]
+      }
+    },
+    {
+      "label": "特殊场景探索",
+      "id": "fieldOperation",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "禁地优雷卡",
+          "id": "eureka",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "eureka",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 283,
+                "contentKey": "z3fa",
+                "contentId": 3,
+                "contentTypeId": 142,
+                "displayName": "禁地优雷卡 常风之地"
+              },
+              {
+                "contentFinderConditionId": 581,
+                "contentKey": "z3fb",
+                "contentId": 4,
+                "contentTypeId": 142,
+                "displayName": "禁地优雷卡 恒冰之地"
+              },
+              {
+                "contentFinderConditionId": 598,
+                "contentKey": "z3fc",
+                "contentId": 6,
+                "contentTypeId": 142,
+                "displayName": "禁地优雷卡 涌火之地"
+              },
+              {
+                "contentFinderConditionId": 639,
+                "contentKey": "z3fd",
+                "contentId": 16,
+                "contentTypeId": 142,
+                "displayName": "禁地优雷卡 丰水之地"
+              }
+            ]
+          }
+        },
+        {
+          "label": "天佑女王（博兹雅）",
+          "id": "bozja",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "bozja",
+                "kind": "child"
+              }
+            ]
+          }
+        },
+        {
+          "label": "新月岛",
+          "id": "crescentIsle",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "crescentIsle",
+                "kind": "child"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 1018,
+                "contentKey": "o6b1",
+                "contentId": 45,
+                "contentTypeId": 142,
+                "displayName": "蜃景幻界新月岛 南征之章"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "fieldOperation",
+            "kind": "group"
+          }
+        ]
+      }
+    },
+    {
+      "label": "多变迷宫",
+      "id": "variantCriterion",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "希拉狄哈水道",
+          "id": "希拉狄哈水道",
+          "idSource": "mdLabel",
+          "evidence": {
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 868,
+                "contentKey": "w5d1",
+                "contentId": 36001,
+                "contentTypeId": 142,
+                "displayName": "多变迷宫 希拉狄哈水道"
+              },
+              {
+                "contentFinderConditionId": 878,
+                "contentKey": "w5d2",
+                "contentId": 37001,
+                "contentTypeId": 146,
+                "displayName": "异闻希拉狄哈水道"
+              },
+              {
+                "contentFinderConditionId": 879,
+                "contentKey": "w5d2_2",
+                "contentId": 37002,
+                "contentTypeId": 146,
+                "displayName": "零式异闻希拉狄哈水道"
+              }
+            ]
+          }
+        },
+        {
+          "label": "六根山",
+          "id": "六根山",
+          "idSource": "mdLabel",
+          "evidence": {
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 945,
+                "contentKey": "e5d1",
+                "contentId": 36002,
+                "contentTypeId": 142,
+                "displayName": "多变迷宫 六根山"
+              },
+              {
+                "contentFinderConditionId": 946,
+                "contentKey": "e5d2",
+                "contentId": 37003,
+                "contentTypeId": 146,
+                "displayName": "异闻六根山"
+              },
+              {
+                "contentFinderConditionId": 947,
+                "contentKey": "e5d2_2",
+                "contentId": 37004,
+                "contentTypeId": 146,
+                "displayName": "零式异闻六根山"
+              }
+            ]
+          }
+        },
+        {
+          "label": "阿罗阿罗岛",
+          "id": "阿罗阿罗岛",
+          "idSource": "mdLabel",
+          "evidence": {
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 961,
+                "contentKey": "o5d1",
+                "contentId": 36003,
+                "contentTypeId": 142,
+                "displayName": "多变迷宫 阿罗阿罗岛"
+              },
+              {
+                "contentFinderConditionId": 979,
+                "contentKey": "o5d2",
+                "contentId": 37005,
+                "contentTypeId": 146,
+                "displayName": "异闻阿罗阿罗岛"
+              },
+              {
+                "contentFinderConditionId": 980,
+                "contentKey": "o5d2_2",
+                "contentId": 37006,
+                "contentTypeId": 146,
+                "displayName": "零式异闻阿罗阿罗岛"
+              }
+            ]
+          }
+        },
+        {
+          "label": "商客奇谭",
+          "id": "商客奇谭",
+          "idSource": "mdLabel",
+          "evidence": {
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 1066,
+                "contentKey": "m6d1",
+                "contentId": 36004,
+                "contentTypeId": 142,
+                "displayName": "多变迷宫 商客奇谭"
+              },
+              {
+                "contentFinderConditionId": 1079,
+                "contentKey": "m6d1_3",
+                "contentId": 37007,
+                "contentTypeId": 146,
+                "displayName": "异闻商客奇谭"
+              },
+              {
+                "contentFinderConditionId": 1084,
+                "contentKey": "m6d1_2",
+                "contentId": 38001,
+                "contentTypeId": 142,
+                "displayName": "深读商客奇谭"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "variantCriterion",
+            "kind": "group"
+          }
+        ]
+      }
+    },
+    {
+      "label": "PVE常规玩法",
+      "id": "routinePve",
+      "idSource": "manualCategoryId",
+      "groups": [
+        {
+          "label": "神典石",
+          "id": "tomestone",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "tomestone",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "军票",
+          "id": "grandCompanySeal",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "grandCompanySeal",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "狩猎",
+          "id": "huntCurrency",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "huntCurrency",
+                "kind": "group"
+              }
+            ],
+            "contentFinderCondition": [
+              {
+                "contentFinderConditionId": 202,
+                "contentKey": "a2fc_4",
+                "contentId": 4,
+                "contentTypeId": 142,
+                "displayName": "云冠群岛白昼探索（狩猎专用）"
+              },
+              {
+                "contentFinderConditionId": 203,
+                "contentKey": "a2fc_5",
+                "contentId": 5,
+                "contentTypeId": 142,
+                "displayName": "云冠群岛黄昏探索（狩猎专用）"
+              },
+              {
+                "contentFinderConditionId": 474,
+                "contentKey": "e3fc",
+                "contentId": 20053,
+                "contentTypeId": 108,
+                "displayName": "火龙狩猎战"
+              },
+              {
+                "contentFinderConditionId": 475,
+                "contentKey": "e3fc_2",
+                "contentId": 20054,
+                "contentTypeId": 108,
+                "displayName": "火龙上位狩猎战"
+              },
+              {
+                "contentFinderConditionId": 569,
+                "contentKey": "lovm_chal018",
+                "contentId": 76,
+                "contentTypeId": 109,
+                "displayName": "第18关：小怪物狩猎"
+              },
+              {
+                "contentFinderConditionId": 1043,
+                "contentKey": "x6ff",
+                "contentId": 20102,
+                "contentTypeId": 108,
+                "displayName": "护锁刃龙狩猎战"
+              },
+              {
+                "contentFinderConditionId": 1044,
+                "contentKey": "x6ff_2",
+                "contentId": 20103,
+                "contentTypeId": 108,
+                "displayName": "护锁刃龙上位狩猎战"
+              }
+            ]
+          }
+        },
+        {
+          "label": "临危受命",
+          "id": "bicolorGemstone",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "bicolorGemstone",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "寻宝",
+          "id": "treasureHunt",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "treasureHunt",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "天书奇谈",
+          "id": "weeklyBingo",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "weeklyBingo",
+                "kind": "group"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {}
+    },
+    {
+      "label": "玩家对战（PVP）",
+      "id": "pvp",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "PVP段位赛",
+          "id": "PVPranking",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "PVPranking",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "星里路标",
+          "id": "pvpSeries",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "pvpSeries",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "狼印战绩",
+          "id": "狼印战绩",
+          "idSource": "mdLabel",
+          "evidence": {
+            "item": [
+              {
+                "itemId": 25,
+                "name": "狼印战绩",
+                "description": "大国防联军之间通用的战绩票。\r\n可以在狼狱水上竞技场换取兵装和军用品。",
+                "icon": 65014
+              }
+            ]
+          }
+        },
+        {
+          "label": "战利水晶兑换",
+          "id": "战利水晶兑换",
+          "idSource": "mdLabel",
+          "evidence": {
+            "item": [
+              {
+                "itemId": 36656,
+                "name": "战利水晶",
+                "description": "大国防联军之间通用的战绩票。\r\n可以在狼狱水上竞技场换取兵装和军用品。",
+                "icon": 65090
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "pvp",
+            "kind": "category"
+          }
+        ]
+      }
+    },
+    {
+      "label": "生产配方",
+      "id": "craftRecipe",
+      "idSource": "manualCategoryId",
+      "groups": [
+        {
+          "label": "普通配方",
+          "id": "combatCraft",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "combatCraft",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "秘籍配方（非时装）",
+          "id": "masterRecipeCombat",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "masterRecipeCombat",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "蛮神光武",
+          "id": "primalGlowWeapon",
+          "idSource": "manual",
+          "evidence": {}
+        },
+        {
+          "label": "时尚装备",
+          "id": "fashionCraft",
+          "idSource": "mdBacktick",
+          "evidence": {}
+        }
+      ],
+      "evidence": {}
+    },
+    {
+      "label": "生产常规玩法",
+      "id": "craftActivity",
+      "idSource": "manualCategoryId",
+      "groups": [
+        {
+          "label": "友好部族",
+          "id": "tribalCurrency",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "tribalCurrency",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "老主顾",
+          "id": "customDelivery",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "customDelivery",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "工票",
+          "id": "scripExchange",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "scripExchange",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "道具分解",
+          "id": "desynthesis",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "desynthesis",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "重建伊修加德",
+          "id": "ishgardRestoration",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "ishgardRestoration",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "宇宙探索",
+          "id": "cosmicExploration",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "cosmicExploration",
+                "kind": "group"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {}
+    },
+    {
+      "label": "任务",
+      "id": "questReward",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "主线任务",
+          "id": "mainScenarioQuest",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "mainScenarioQuest",
+                "kind": "child"
+              }
+            ]
+          }
+        },
+        {
+          "label": "一般支线任务",
+          "id": "sideQuest",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "sideQuest",
+                "kind": "child"
+              }
+            ]
+          }
+        },
+        {
+          "label": "职业/职能任务",
+          "id": "jobQuest",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "jobQuest",
+                "kind": "child"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "questReward",
+            "kind": "group"
+          }
+        ]
+      }
+    },
+    {
+      "label": "其他长线玩法",
+      "id": "longTermActivity",
+      "idSource": "manualCategoryId",
+      "groups": [
+        {
+          "label": "多玛飞地重建",
+          "id": "domanReconstruction",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "domanReconstruction",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "无人岛",
+          "id": "islandSanctuary",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "islandSanctuary",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "雇员探险",
+          "id": "retainerTask",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "retainerTask",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "金碟游乐场",
+          "id": "goldSaucer",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "goldSaucer",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "成就",
+          "id": "achievementReward",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "achievementReward",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "初学者学堂",
+          "id": "hallOfNovice",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "hallOfNovice",
+                "kind": "group"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {}
+    },
+    {
+      "label": "限时活动",
+      "id": "limitedEvent",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "旅行莫古力",
+          "id": "moogleTreasureTrove",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "moogleTreasureTrove",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "节日活动",
+          "id": "seasonal",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "seasonal",
+                "kind": "group"
+              }
+            ]
+          }
+        },
+        {
+          "label": "其他活动（联动等）",
+          "id": "collaboration",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "collaboration",
+                "kind": "group"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "limitedEvent",
+            "kind": "category"
+          }
+        ]
+      }
+    },
+    {
+      "label": "特殊装备（肝武）",
+      "id": "relicWeapon",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "战斗职业肝武",
+          "id": "combatRelic",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "combatRelic",
+                "kind": "child"
+              }
+            ]
+          }
+        },
+        {
+          "label": "生产职业肝武",
+          "id": "crafterGathererRelic",
+          "idSource": "mdBacktick",
+          "evidence": {
+            "oldTaxonomy": [
+              {
+                "id": "crafterGathererRelic",
+                "kind": "child"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "relicWeapon",
+            "kind": "group"
+          }
+        ]
+      }
+    },
+    {
+      "label": "其他",
+      "id": "other",
+      "idSource": "mdBacktick",
+      "groups": [
+        {
+          "label": "仅金币购买",
+          "id": "gilPurchaseOnly",
+          "idSource": "manual",
+          "evidence": {}
+        }
+      ],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "other",
+            "kind": "category"
+          }
+        ]
+      }
+    },
+    {
+      "label": "未分类",
+      "id": "uncategorized",
+      "idSource": "mdBacktick",
+      "groups": [],
+      "evidence": {
+        "oldTaxonomy": [
+          {
+            "id": "uncategorized",
+            "kind": "category"
+          }
+        ]
+      }
+    }
+  ],
+  "unresolvedIds": []
+}

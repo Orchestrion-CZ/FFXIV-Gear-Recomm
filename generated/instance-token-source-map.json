@@ -1,0 +1,7762 @@
+{
+  "generatedBy": "tools/build-instance-token-source-map.py",
+  "description": "Instance-scoped mapping from duty instances to broad acquisition tokens/coffers. Random drops are represented by supportsRandomDrop and are matched against acquisition detail.instance at runtime.",
+  "sources": {
+    "tokenMap": "manual\\npc-exchange-token-source-map.json",
+    "cofferCsv": "coffer.csv",
+    "battleCofferIndex": "generated\\battle-coffer-index.json",
+    "itemCofferAcquisition": [
+      "generated\\source-v2-gear-data.json",
+      "generated\\source-v2-weapon-data.json"
+    ],
+    "randomDropFlags": [
+      "generated\\source-v2-gear-data.json",
+      "generated\\source-v2-weapon-data.json"
+    ]
+  },
+  "instanceCount": 303,
+  "tokenCount": 732,
+  "randomDropInstanceCount": 198,
+  "instances": {
+    "监狱废墟托托·拉克千狱": {
+      "instanceId": 1,
+      "name": "监狱废墟托托·拉克千狱",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 24,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "地下灵殿塔姆·塔拉墓园": {
+      "instanceId": 2,
+      "name": "地下灵殿塔姆·塔拉墓园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 16,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "封锁坑道铜铃铜山": {
+      "instanceId": 3,
+      "name": "封锁坑道铜铃铜山",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 17,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "天然要害沙斯塔夏溶洞": {
+      "instanceId": 4,
+      "name": "天然要害沙斯塔夏溶洞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 15,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "毒雾洞窟黄金谷": {
+      "instanceId": 5,
+      "name": "毒雾洞窟黄金谷",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 47,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "名门府邸静语庄园": {
+      "instanceId": 6,
+      "name": "名门府邸静语庄园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 28,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "魔兽领域日影地修炼所": {
+      "instanceId": 7,
+      "name": "魔兽领域日影地修炼所",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 20,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "休养胜地布雷福洛克斯野营地": {
+      "instanceId": 8,
+      "name": "休养胜地布雷福洛克斯野营地",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 32,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "古代遗迹喀恩埋没圣堂": {
+      "instanceId": 9,
+      "name": "古代遗迹喀恩埋没圣堂",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 35,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "神灵圣域放浪神古神殿": {
+      "instanceId": 10,
+      "name": "神灵圣域放浪神古神殿",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "对龙城塞石卫塔": {
+      "instanceId": 11,
+      "name": "对龙城塞石卫塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 41,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "流沙迷宫樵鸣洞": {
+      "instanceId": 12,
+      "name": "流沙迷宫樵鸣洞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 38,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "山中战线泽梅尔要塞": {
+      "instanceId": 13,
+      "name": "山中战线泽梅尔要塞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 44,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "邪教驻地无限城古堡": {
+      "instanceId": 14,
+      "name": "邪教驻地无限城古堡",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "领航明灯天狼星灯塔": {
+      "instanceId": 17,
+      "name": "领航明灯天狼星灯塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "骚乱坑道铜铃铜山": {
+      "instanceId": 18,
+      "name": "骚乱坑道铜铃铜山",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "恶灵府邸静语庄园": {
+      "instanceId": 19,
+      "name": "恶灵府邸静语庄园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "纷争要地布雷福洛克斯野营地": {
+      "instanceId": 20,
+      "name": "纷争要地布雷福洛克斯野营地",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "剑斗领域日影地修炼所": {
+      "instanceId": 21,
+      "name": "剑斗领域日影地修炼所",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "腐坏遗迹无限城市街古迹": {
+      "instanceId": 22,
+      "name": "腐坏遗迹无限城市街古迹",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "财宝传说破舰岛": {
+      "instanceId": 23,
+      "name": "财宝传说破舰岛",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "惨剧灵殿塔姆·塔拉墓园": {
+      "instanceId": 24,
+      "name": "惨剧灵殿塔姆·塔拉墓园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "激战城塞石卫塔": {
+      "instanceId": 25,
+      "name": "激战城塞石卫塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "苏醒遗迹喀恩埋没圣堂": {
+      "instanceId": 26,
+      "name": "苏醒遗迹喀恩埋没圣堂",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "古董头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9387,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9389,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "51级"
+        },
+        {
+          "name": "古董铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9388,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9391,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "53级"
+        },
+        {
+          "name": "古董马裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9390,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "52级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "凛冽洞天披雪大冰壁": {
+      "instanceId": 27,
+      "name": "凛冽洞天披雪大冰壁",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "古董头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9387,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9389,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "51级"
+        },
+        {
+          "name": "古董铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9388,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9391,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "53级"
+        },
+        {
+          "name": "古董马裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9390,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "52级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "逆转要害沙斯塔夏溶洞": {
+      "instanceId": 28,
+      "name": "逆转要害沙斯塔夏溶洞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "古董头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9387,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9389,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "51级"
+        },
+        {
+          "name": "古董铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9388,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "50级"
+        },
+        {
+          "name": "古董锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9391,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "53级"
+        },
+        {
+          "name": "古董马裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9390,
+          "sourceLabel": "迷宫挑战（四人本）",
+          "level": "52级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "邪念妖地无限城古堡": {
+      "instanceId": 29,
+      "name": "邪念妖地无限城古堡",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "武装圣域放浪神古神殿": {
+      "instanceId": 30,
+      "name": "武装圣域放浪神古神殿",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "学识宝库迦巴勒幻想图书馆": {
+      "instanceId": 31,
+      "name": "学识宝库迦巴勒幻想图书馆",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 59,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "幻龙残骸密约之塔": {
+      "instanceId": 32,
+      "name": "幻龙残骸密约之塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "空中神域不获岛": {
+      "instanceId": 33,
+      "name": "空中神域不获岛",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "圣教中枢伊修加德教皇厅": {
+      "instanceId": 34,
+      "name": "圣教中枢伊修加德教皇厅",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 57,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "博物战舰无限回廊": {
+      "instanceId": 35,
+      "name": "博物战舰无限回廊",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "冰雪废堡暮卫塔": {
+      "instanceId": 36,
+      "name": "冰雪废堡暮卫塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 51,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "天山绝顶索姆阿尔灵峰": {
+      "instanceId": 37,
+      "name": "天山绝顶索姆阿尔灵峰",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 53,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "邪龙王座龙巢神殿": {
+      "instanceId": 39,
+      "name": "邪龙王座龙巢神殿",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 55,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "地脉灵灯天狼星灯塔": {
+      "instanceId": 40,
+      "name": "地脉灵灯天狼星灯塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "草木庭园圣茉夏娜植物园": {
+      "instanceId": 41,
+      "name": "草木庭园圣茉夏娜植物园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊弗利特歼灭战": {
+      "instanceId": 59,
+      "name": "伊弗利特歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "泰坦歼灭战": {
+      "instanceId": 60,
+      "name": "泰坦歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "迦楼罗歼灭战": {
+      "instanceId": 61,
+      "name": "迦楼罗歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊弗利特歼殛战": {
+      "instanceId": 63,
+      "name": "伊弗利特歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "伊弗利特武器箱（品级60）",
+          "source": "cofferCsv",
+          "itemId": 36135,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "泰坦歼殛战": {
+      "instanceId": 64,
+      "name": "泰坦歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "泰坦武器箱（品级80）",
+          "source": "cofferCsv",
+          "itemId": 36137,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "迦楼罗歼殛战": {
+      "instanceId": 65,
+      "name": "迦楼罗歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "迦楼罗武器箱（品级70）",
+          "source": "cofferCsv",
+          "itemId": 36136,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "莫古力贤王歼灭战": {
+      "instanceId": 66,
+      "name": "莫古力贤王歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "莫古力贤王歼殛战": {
+      "instanceId": 67,
+      "name": "莫古力贤王歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "莫古莫古武器箱（品级75）",
+          "source": "cofferCsv",
+          "itemId": 36138,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "究极神兵假想作战": {
+      "instanceId": 68,
+      "name": "究极神兵假想作战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "利维亚桑歼殛战": {
+      "instanceId": 73,
+      "name": "利维亚桑歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "利维亚桑武器箱（品级95）",
+          "source": "cofferCsv",
+          "itemId": 36139,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        },
+        {
+          "name": "水神魔镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 7850,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "拉姆歼殛战": {
+      "instanceId": 78,
+      "name": "拉姆歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "拉姆武器箱（品级100）",
+          "source": "cofferCsv",
+          "itemId": 36140,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "希瓦歼殛战": {
+      "instanceId": 80,
+      "name": "希瓦歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "希瓦武器箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 36141,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        },
+        {
+          "name": "钻石尘晶",
+          "source": "npcExchangeTokenMap",
+          "itemId": 9559,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "奥丁歼灭战": {
+      "instanceId": 82,
+      "name": "奥丁歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "罗波那歼殛战": {
+      "instanceId": 87,
+      "name": "罗波那歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "罗波那武器箱（品级190）",
+          "source": "cofferCsv",
+          "itemId": 36143,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "武神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12673,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "俾斯麦歼殛战": {
+      "instanceId": 89,
+      "name": "俾斯麦歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "俾斯麦武器箱（品级175）",
+          "source": "cofferCsv",
+          "itemId": 36142,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "云神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12672,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "圆桌骑士幻想歼灭战": {
+      "instanceId": 91,
+      "name": "圆桌骑士幻想歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "苍穹之武器箱（品级205）",
+          "source": "cofferCsv",
+          "itemId": 36616,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "苍穹甲胄碎片",
+          "source": "npcExchangeTokenMap",
+          "itemId": 13627,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "水晶塔 古代人迷宫": {
+      "instanceId": 92,
+      "name": "水晶塔 古代人迷宫",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 邂逅之章1": {
+      "instanceId": 93,
+      "name": "巴哈姆特大迷宫 邂逅之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 邂逅之章2": {
+      "instanceId": 94,
+      "name": "巴哈姆特大迷宫 邂逅之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈头部装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35875,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈手臂装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35877,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈脚部装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35879,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 邂逅之章4": {
+      "instanceId": 96,
+      "name": "巴哈姆特大迷宫 邂逅之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈头部装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35875,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈手臂装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35877,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈脚部装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35879,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈腿部装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35878,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 邂逅之章5": {
+      "instanceId": 97,
+      "name": "巴哈姆特大迷宫 邂逅之章5",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈武器箱（品级95）",
+          "source": "cofferCsv",
+          "itemId": 35874,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈身体装备箱（品级90）",
+          "source": "cofferCsv",
+          "itemId": 35876,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 入侵之章1": {
+      "instanceId": 98,
+      "name": "巴哈姆特大迷宫 入侵之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 入侵之章2": {
+      "instanceId": 99,
+      "name": "巴哈姆特大迷宫 入侵之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈高位头部装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35885,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位手臂装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35887,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位脚部装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35889,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 入侵之章3": {
+      "instanceId": 100,
+      "name": "巴哈姆特大迷宫 入侵之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈高位头部装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35885,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位手臂装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35887,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位脚部装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35889,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位腿部装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35888,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 入侵之章4": {
+      "instanceId": 101,
+      "name": "巴哈姆特大迷宫 入侵之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "亚拉戈高位武器箱（品级115）",
+          "source": "cofferCsv",
+          "itemId": 35884,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "亚拉戈高位身体装备箱（品级110）",
+          "source": "cofferCsv",
+          "itemId": 35886,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "水晶塔 希尔科斯塔": {
+      "instanceId": 102,
+      "name": "水晶塔 希尔科斯塔",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特零式大迷宫 入侵之章1": {
+      "instanceId": 103,
+      "name": "巴哈姆特零式大迷宫 入侵之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特零式大迷宫 入侵之章2": {
+      "instanceId": 104,
+      "name": "巴哈姆特零式大迷宫 入侵之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特零式大迷宫 入侵之章3": {
+      "instanceId": 105,
+      "name": "巴哈姆特零式大迷宫 入侵之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特零式大迷宫 入侵之章4": {
+      "instanceId": 106,
+      "name": "巴哈姆特零式大迷宫 入侵之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 真源之章1": {
+      "instanceId": 107,
+      "name": "巴哈姆特大迷宫 真源之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 真源之章2": {
+      "instanceId": 108,
+      "name": "巴哈姆特大迷宫 真源之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "龙神头部装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35895,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神手臂装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35897,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神脚部装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35899,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 真源之章3": {
+      "instanceId": 109,
+      "name": "巴哈姆特大迷宫 真源之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "龙神头部装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35895,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神手臂装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35897,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神脚部装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35899,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神腿部装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35898,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特大迷宫 真源之章4": {
+      "instanceId": 110,
+      "name": "巴哈姆特大迷宫 真源之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [
+        {
+          "name": "龙神武器箱（品级135）",
+          "source": "cofferCsv",
+          "itemId": 35894,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        },
+        {
+          "name": "龙神身体装备箱（品级130）",
+          "source": "cofferCsv",
+          "itemId": 35896,
+          "sourceLabel": "大型任务",
+          "level": "50级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "水晶塔 暗之世界": {
+      "instanceId": 111,
+      "name": "水晶塔 暗之世界",
+      "contentType": "大型任务",
+      "requiredLevel": 50,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "亚历山大机神城 启动之章1": {
+      "instanceId": 112,
+      "name": "亚历山大机神城 启动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12677,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12676,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12680,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12678,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12674,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12675,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 启动之章2": {
+      "instanceId": 113,
+      "name": "亚历山大机神城 启动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12677,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12676,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12680,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12678,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12674,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12675,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 启动之章3": {
+      "instanceId": 114,
+      "name": "亚历山大机神城 启动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12677,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12676,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12680,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12678,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12674,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12675,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 启动之章4": {
+      "instanceId": 115,
+      "name": "亚历山大机神城 启动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12677,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12676,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12680,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12678,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12674,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 12675,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大零式机神城 启动之章1": {
+      "instanceId": 116,
+      "name": "亚历山大零式机神城 启动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 启动之章2": {
+      "instanceId": 117,
+      "name": "亚历山大零式机神城 启动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄头部装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35905,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄手臂装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35907,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄脚部装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35909,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 启动之章3": {
+      "instanceId": 118,
+      "name": "亚历山大零式机神城 启动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄头部装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35905,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄手臂装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35907,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄脚部装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35909,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄腿部装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35908,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 启动之章4": {
+      "instanceId": 119,
+      "name": "亚历山大零式机神城 启动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "戈耳狄武器箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35904,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "戈耳狄身体装备箱（品级210）",
+          "source": "cofferCsv",
+          "itemId": 35906,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "魔航船虚无方舟": {
+      "instanceId": 120,
+      "name": "魔航船虚无方舟",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "萨菲洛特歼殛战": {
+      "instanceId": 135,
+      "name": "萨菲洛特歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "萨菲洛特武器箱（品级220）",
+          "source": "cofferCsv",
+          "itemId": 36145,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "魔神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14300,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大机神城 律动之章1": {
+      "instanceId": 136,
+      "name": "亚历山大机神城 律动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14304,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14303,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14307,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14305,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14301,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14302,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 律动之章2": {
+      "instanceId": 137,
+      "name": "亚历山大机神城 律动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14304,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14303,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14307,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14305,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14301,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14302,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 律动之章3": {
+      "instanceId": 138,
+      "name": "亚历山大机神城 律动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14304,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14303,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14307,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14305,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14301,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14302,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 律动之章4": {
+      "instanceId": 139,
+      "name": "亚历山大机神城 律动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14304,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14303,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14307,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14305,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14301,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 14302,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "神圣遗迹无限城市街古迹": {
+      "instanceId": 140,
+      "name": "神圣遗迹无限城市街古迹",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "星海空间颠倒塔": {
+      "instanceId": 141,
+      "name": "星海空间颠倒塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 律动之章1": {
+      "instanceId": 147,
+      "name": "亚历山大零式机神城 律动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 律动之章2": {
+      "instanceId": 148,
+      "name": "亚历山大零式机神城 律动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯头部装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35915,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯手臂装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35917,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯脚部装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35919,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 律动之章3": {
+      "instanceId": 149,
+      "name": "亚历山大零式机神城 律动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯头部装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35915,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯手臂装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35917,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯脚部装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35919,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯腿部装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35918,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 律动之章4": {
+      "instanceId": 150,
+      "name": "亚历山大零式机神城 律动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "弥达斯武器箱（品级245）",
+          "source": "cofferCsv",
+          "itemId": 35914,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "弥达斯身体装备箱（品级240）",
+          "source": "cofferCsv",
+          "itemId": 35916,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "禁忌城邦玛哈": {
+      "instanceId": 168,
+      "name": "禁忌城邦玛哈",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "尼德霍格传奇征龙战": {
+      "instanceId": 170,
+      "name": "尼德霍格传奇征龙战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "尼德霍格武器箱（品级235）",
+          "source": "cofferCsv",
+          "itemId": 36144,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "邪龙图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 15421,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "天龙宫殿忆罪宫": {
+      "instanceId": 171,
+      "name": "天龙宫殿忆罪宫",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "黑涡传说破舰岛": {
+      "instanceId": 172,
+      "name": "黑涡传说破舰岛",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "险峻峡谷塞尔法特尔溪谷": {
+      "instanceId": 182,
+      "name": "险峻峡谷塞尔法特尔溪谷",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "索菲娅歼殛战": {
+      "instanceId": 184,
+      "name": "索菲娅歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "索菲娅武器箱（品级255）",
+          "source": "cofferCsv",
+          "itemId": 36146,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "女神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16188,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大机神城 天动之章1": {
+      "instanceId": 186,
+      "name": "亚历山大机神城 天动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16549,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16548,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16552,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16550,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16546,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16547,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 天动之章2": {
+      "instanceId": 187,
+      "name": "亚历山大机神城 天动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16549,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16548,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16552,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16550,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16546,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16547,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 天动之章3": {
+      "instanceId": 188,
+      "name": "亚历山大机神城 天动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16549,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16548,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16552,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16550,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16546,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16547,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大机神城 天动之章4": {
+      "instanceId": 189,
+      "name": "亚历山大机神城 天动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16549,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16548,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16552,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16550,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16546,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 16547,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "亚历山大零式机神城 天动之章1": {
+      "instanceId": 190,
+      "name": "亚历山大零式机神城 天动之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 天动之章2": {
+      "instanceId": 191,
+      "name": "亚历山大零式机神城 天动之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大头部装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35925,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大手臂装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35927,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大脚部装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35929,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 天动之章3": {
+      "instanceId": 192,
+      "name": "亚历山大零式机神城 天动之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大头部装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35925,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大手臂装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35927,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大脚部装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35929,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大腿部装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35928,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大零式机神城 天动之章4": {
+      "instanceId": 193,
+      "name": "亚历山大零式机神城 天动之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "亚历山大武器箱（品级275）",
+          "source": "cofferCsv",
+          "itemId": 35924,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        },
+        {
+          "name": "亚历山大身体装备箱（品级270）",
+          "source": "cofferCsv",
+          "itemId": 35926,
+          "sourceLabel": "大型任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "秘本宝库迦巴勒幻想图书馆": {
+      "instanceId": 196,
+      "name": "秘本宝库迦巴勒幻想图书馆",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "坚牢铁壁巴埃萨长城": {
+      "instanceId": 219,
+      "name": "坚牢铁壁巴埃萨长城",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "影之国": {
+      "instanceId": 220,
+      "name": "影之国",
+      "contentType": "大型任务",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "究极神兵原型装甲片",
+          "source": "npcExchangeTokenMap",
+          "itemId": 17521,
+          "sourceLabel": "团队任务",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "天山深境索姆阿尔灵峰": {
+      "instanceId": 221,
+      "name": "天山深境索姆阿尔灵峰",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 60,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "祖尔宛歼殛战": {
+      "instanceId": 224,
+      "name": "祖尔宛歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 60,
+      "tokens": [
+        {
+          "name": "祖尔宛武器箱（品级265）",
+          "source": "cofferCsv",
+          "itemId": 36147,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        },
+        {
+          "name": "鬼神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 17461,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "60级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "海底宫殿紫水宫": {
+      "instanceId": 235,
+      "name": "海底宫殿紫水宫",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 63,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "修行古刹星导寺": {
+      "instanceId": 236,
+      "name": "修行古刹星导寺",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "漂流海域妖歌海": {
+      "instanceId": 238,
+      "name": "漂流海域妖歌海",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 61,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "试炼行路巴儿达木霸道": {
+      "instanceId": 240,
+      "name": "试炼行路巴儿达木霸道",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 65,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "解放决战多玛王城": {
+      "instanceId": 241,
+      "name": "解放决战多玛王城",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 67,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巨炮要塞帝国白山堡": {
+      "instanceId": 242,
+      "name": "巨炮要塞帝国白山堡",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 69,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "须佐之男歼殛战": {
+      "instanceId": 244,
+      "name": "须佐之男歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "须佐之男武器箱（品级320）",
+          "source": "cofferCsv",
+          "itemId": 36148,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "豪神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19109,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "鏖战红莲阿拉米格": {
+      "instanceId": 247,
+      "name": "鏖战红莲阿拉米格",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "欧米茄时空狭缝 德尔塔幻境1": {
+      "instanceId": 252,
+      "name": "欧米茄时空狭缝 德尔塔幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "德尔塔弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19114,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19113,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19117,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19115,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19111,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19112,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 德尔塔幻境2": {
+      "instanceId": 253,
+      "name": "欧米茄时空狭缝 德尔塔幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "德尔塔弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19114,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19113,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19117,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19115,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19111,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19112,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 德尔塔幻境3": {
+      "instanceId": 254,
+      "name": "欧米茄时空狭缝 德尔塔幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "德尔塔弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19114,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19113,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19117,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19115,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19111,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19112,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 德尔塔幻境4": {
+      "instanceId": 255,
+      "name": "欧米茄时空狭缝 德尔塔幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "德尔塔弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19114,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19113,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19117,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19115,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19111,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19112,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 德尔塔幻境1": {
+      "instanceId": 256,
+      "name": "欧米茄零式时空狭缝 德尔塔幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "源氏之指环装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35943,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之耳部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35940,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之腕部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35942,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之颈部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35941,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔战斗记录之一",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19118,
+          "sourceLabel": "大型任务",
+          "level": "70级",
+          "note": "导出表未出现：当前源氏装备已有开箱随机掉落来源，NPC兑换 token 未保留在 acquisition"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "欧米茄零式时空狭缝 德尔塔幻境2": {
+      "instanceId": 257,
+      "name": "欧米茄零式时空狭缝 德尔塔幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "源氏之头部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35935,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之手臂装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35937,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之脚部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35939,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔战斗记录之二",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19119,
+          "sourceLabel": "大型任务",
+          "level": "70级",
+          "note": "导出表未出现：当前源氏装备已有开箱随机掉落来源，NPC兑换 token 未保留在 acquisition"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "欧米茄零式时空狭缝 德尔塔幻境3": {
+      "instanceId": 258,
+      "name": "欧米茄零式时空狭缝 德尔塔幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "源氏之头部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35935,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之手臂装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35937,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之脚部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35939,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之腿部装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35938,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔战斗记录之三",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19120,
+          "sourceLabel": "大型任务",
+          "level": "70级",
+          "note": "导出表未出现：当前源氏装备已有开箱随机掉落来源，NPC兑换 token 未保留在 acquisition"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "欧米茄零式时空狭缝 德尔塔幻境4": {
+      "instanceId": 259,
+      "name": "欧米茄零式时空狭缝 德尔塔幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "源氏之武器箱（品级345）",
+          "source": "cofferCsv",
+          "itemId": 17868,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "源氏之身体装备箱（品级340）",
+          "source": "cofferCsv",
+          "itemId": 35936,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "德尔塔战斗记录之四",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19121,
+          "sourceLabel": "大型任务",
+          "level": "70级",
+          "note": "导出表未出现：当前源氏装备已有开箱随机掉落来源，NPC兑换 token 未保留在 acquisition"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "恶党孤城黄金阁": {
+      "instanceId": 262,
+      "name": "恶党孤城黄金阁",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "吉祥天女歼殛战": {
+      "instanceId": 264,
+      "name": "吉祥天女歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "美神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 19110,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "神龙梦幻歼灭战": {
+      "instanceId": 278,
+      "name": "神龙梦幻歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "神龙之武器箱（品级335）",
+          "source": "cofferCsv",
+          "itemId": 36149,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "神龙图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21196,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "沉没神殿斯卡拉遗迹": {
+      "instanceId": 279,
+      "name": "沉没神殿斯卡拉遗迹",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴哈姆特绝境战": {
+      "instanceId": 280,
+      "name": "巴哈姆特绝境战",
+      "contentType": "绝境战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "龙神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21197,
+          "sourceLabel": "绝境战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "失落之都拉巴纳斯塔": {
+      "instanceId": 281,
+      "name": "失落之都拉巴纳斯塔",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "红玉火山狱之盖": {
+      "instanceId": 284,
+      "name": "红玉火山狱之盖",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "疯狂战舰无限回廊": {
+      "instanceId": 285,
+      "name": "疯狂战舰无限回廊",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "欧米茄时空狭缝 西格玛幻境1": {
+      "instanceId": 286,
+      "name": "欧米茄时空狭缝 西格玛幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "西格玛弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21777,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21776,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21780,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21778,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21774,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21775,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 西格玛幻境2": {
+      "instanceId": 287,
+      "name": "欧米茄时空狭缝 西格玛幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "西格玛弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21777,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21776,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21780,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21778,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21774,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21775,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 西格玛幻境3": {
+      "instanceId": 288,
+      "name": "欧米茄时空狭缝 西格玛幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "西格玛弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21777,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21776,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21780,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21778,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21774,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21775,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 西格玛幻境4": {
+      "instanceId": 289,
+      "name": "欧米茄时空狭缝 西格玛幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "西格玛弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21777,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21776,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21780,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21778,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21774,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21775,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "白虎诗魂战": {
+      "instanceId": 291,
+      "name": "白虎诗魂战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "白虎之武器箱（品级355）",
+          "source": "cofferCsv",
+          "itemId": 36150,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "白虎图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21773,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "欧米茄零式时空狭缝 西格玛幻境1": {
+      "instanceId": 292,
+      "name": "欧米茄零式时空狭缝 西格玛幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "钻石指环装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35952,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石耳部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35949,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石腕部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35951,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石颈部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35950,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛战斗记录之一",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21781,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 西格玛幻境2": {
+      "instanceId": 293,
+      "name": "欧米茄零式时空狭缝 西格玛幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "钻石头部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35944,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石手臂装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35946,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石脚部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35948,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛战斗记录之二",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21782,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 西格玛幻境3": {
+      "instanceId": 294,
+      "name": "欧米茄零式时空狭缝 西格玛幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "钻石头部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35944,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石手臂装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35946,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石脚部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35948,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石腿部装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35947,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛战斗记录之三",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21783,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 西格玛幻境4": {
+      "instanceId": 295,
+      "name": "欧米茄零式时空狭缝 西格玛幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "钻石武器箱（品级375）",
+          "source": "cofferCsv",
+          "itemId": 21791,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "钻石身体装备箱（品级370）",
+          "source": "cofferCsv",
+          "itemId": 35945,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "西格玛战斗记录之四",
+          "source": "npcExchangeTokenMap",
+          "itemId": 21784,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "风水灵庙岩燕庙": {
+      "instanceId": 536,
+      "name": "风水灵庙岩燕庙",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "月读幽夜歼灭战": {
+      "instanceId": 538,
+      "name": "月读幽夜歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "月读命之武器箱（品级365）",
+          "source": "cofferCsv",
+          "itemId": 36151,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "夜神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23043,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "究极神兵绝境战": {
+      "instanceId": 539,
+      "name": "究极神兵绝境战",
+      "contentType": "绝境战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "究极图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23175,
+          "sourceLabel": "绝境战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "封闭圣塔黎铎拉纳大灯塔": {
+      "instanceId": 550,
+      "name": "封闭圣塔黎铎拉纳大灯塔",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "污染庭园圣茉夏娜植物园": {
+      "instanceId": 584,
+      "name": "污染庭园圣茉夏娜植物园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "死亡大地终末焦土": {
+      "instanceId": 585,
+      "name": "死亡大地终末焦土",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "欧米茄时空狭缝 阿尔法幻境1": {
+      "instanceId": 587,
+      "name": "欧米茄时空狭缝 阿尔法幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "阿尔法弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23966,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23965,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23969,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23967,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23963,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23964,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 阿尔法幻境2": {
+      "instanceId": 588,
+      "name": "欧米茄时空狭缝 阿尔法幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "阿尔法弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23966,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23965,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23969,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23967,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23963,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23964,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 阿尔法幻境3": {
+      "instanceId": 589,
+      "name": "欧米茄时空狭缝 阿尔法幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "阿尔法弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23966,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23965,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23969,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23967,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23963,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23964,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄时空狭缝 阿尔法幻境4": {
+      "instanceId": 590,
+      "name": "欧米茄时空狭缝 阿尔法幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "阿尔法弹簧",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23966,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法曲柄",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23965,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法螺栓",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23969,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法踏板",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23967,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法透镜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23963,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法长杆",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23964,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 阿尔法幻境1": {
+      "instanceId": 591,
+      "name": "欧米茄零式时空狭缝 阿尔法幻境1",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "欧米茄指环装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35961,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄耳部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35958,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄腕部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35960,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄颈部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35959,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法战斗记录之一",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23970,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 阿尔法幻境2": {
+      "instanceId": 592,
+      "name": "欧米茄零式时空狭缝 阿尔法幻境2",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "欧米茄头部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35953,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄手臂装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35955,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄脚部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35957,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法战斗记录之二",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23971,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 阿尔法幻境3": {
+      "instanceId": 593,
+      "name": "欧米茄零式时空狭缝 阿尔法幻境3",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "欧米茄头部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35953,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄手臂装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35955,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄脚部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35957,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄腿部装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35956,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法战斗记录之三",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23972,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "欧米茄零式时空狭缝 阿尔法幻境4": {
+      "instanceId": 594,
+      "name": "欧米茄零式时空狭缝 阿尔法幻境4",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "欧米茄装备箱（品级405）",
+          "source": "cofferCsv",
+          "itemId": 23980,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "欧米茄身体装备箱（品级400）",
+          "source": "cofferCsv",
+          "itemId": 35954,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        },
+        {
+          "name": "阿尔法战斗记录之四",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23973,
+          "sourceLabel": "大型任务",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "朱雀诗魂战": {
+      "instanceId": 597,
+      "name": "朱雀诗魂战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "朱雀之武器箱（品级385）",
+          "source": "cofferCsv",
+          "itemId": 36152,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "朱雀图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23962,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "国境防线基姆利特暗区": {
+      "instanceId": 611,
+      "name": "国境防线基姆利特暗区",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "乐欲之所瓯博讷修道院": {
+      "instanceId": 636,
+      "name": "乐欲之所瓯博讷修道院",
+      "contentType": "大型任务",
+      "requiredLevel": 70,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "青龙诗魂战": {
+      "instanceId": 638,
+      "name": "青龙诗魂战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 70,
+      "tokens": [
+        {
+          "name": "青龙之武器箱（品级395）",
+          "source": "cofferCsv",
+          "itemId": 36153,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        },
+        {
+          "name": "青龙图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 24797,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "水妖幻园多恩美格禁园": {
+      "instanceId": 649,
+      "name": "水妖幻园多恩美格禁园",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 73,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "文明古迹奇坦那神影洞": {
+      "instanceId": 651,
+      "name": "文明古迹奇坦那神影洞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 75,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "末日暗影亚马乌罗提": {
+      "instanceId": 652,
+      "name": "末日暗影亚马乌罗提",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 觉醒之章1": {
+      "instanceId": 653,
+      "name": "伊甸希望乐园 觉醒之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的觉醒头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27393,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27395,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27394,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27397,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27396,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27399,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 觉醒之章1": {
+      "instanceId": 654,
+      "name": "伊甸零式希望乐园 觉醒之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之恩指环装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26902,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩耳部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26899,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩腕部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26901,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩颈部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26900,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第1页觉醒的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27400,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "异界遗构希尔科斯孪晶塔": {
+      "instanceId": 655,
+      "name": "异界遗构希尔科斯孪晶塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "避暑离宫马利卡大井": {
+      "instanceId": 656,
+      "name": "避暑离宫马利卡大井",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 77,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "缇坦妮雅歼殛战": {
+      "instanceId": 658,
+      "name": "缇坦妮雅歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "妖灵王武器箱（品级450）",
+          "source": "cofferCsv",
+          "itemId": 36154,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "妖灵王图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27391,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "伪造天界格鲁格火山": {
+      "instanceId": 659,
+      "name": "伪造天界格鲁格火山",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 79,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "创造机构阿尼德罗学院": {
+      "instanceId": 661,
+      "name": "创造机构阿尼德罗学院",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "无瑕灵君歼殛战": {
+      "instanceId": 667,
+      "name": "无瑕灵君歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "完美神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27392,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "遇袭集落水滩村": {
+      "instanceId": 676,
+      "name": "遇袭集落水滩村",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 71,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 觉醒之章3": {
+      "instanceId": 682,
+      "name": "伊甸希望乐园 觉醒之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的觉醒头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27393,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27395,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27394,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27397,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27396,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27399,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 觉醒之章3": {
+      "instanceId": 683,
+      "name": "伊甸零式希望乐园 觉醒之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之恩头部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26893,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩手臂装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26895,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩脚部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26897,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩腿部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26896,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第3页觉醒的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27402,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 觉醒之章2": {
+      "instanceId": 684,
+      "name": "伊甸希望乐园 觉醒之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的觉醒头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27393,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27395,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27394,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27397,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27396,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27399,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 觉醒之章2": {
+      "instanceId": 685,
+      "name": "伊甸零式希望乐园 觉醒之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之恩头部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26893,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩手臂装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26895,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩脚部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26897,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩腿部装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26896,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第2页觉醒的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27401,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 觉醒之章4": {
+      "instanceId": 689,
+      "name": "伊甸希望乐园 觉醒之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的觉醒头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27393,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27395,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27394,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27397,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27396,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的觉醒饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27399,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 觉醒之章4": {
+      "instanceId": 690,
+      "name": "伊甸零式希望乐园 觉醒之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之恩武器箱（品级475）",
+          "source": "cofferCsv",
+          "itemId": 26892,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之恩身体装备箱（品级470）",
+          "source": "cofferCsv",
+          "itemId": 26894,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第4页觉醒的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 27403,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "魔法宫殿宇宙宫": {
+      "instanceId": 692,
+      "name": "魔法宫殿宇宙宫",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "哈迪斯孤念歼灭战": {
+      "instanceId": 693,
+      "name": "哈迪斯孤念歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "哈迪斯武器箱（品级465）",
+          "source": "cofferCsv",
+          "itemId": 36155,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "冥王图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 28708,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "亚历山大绝境战": {
+      "instanceId": 694,
+      "name": "亚历山大绝境战",
+      "contentType": "绝境战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "机神城图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 28633,
+          "sourceLabel": "绝境战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "复制工厂废墟": {
+      "instanceId": 700,
+      "name": "复制工厂废墟",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "黑风海底阿尼德罗追忆馆": {
+      "instanceId": 714,
+      "name": "黑风海底阿尼德罗追忆馆",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 共鸣之章1": {
+      "instanceId": 715,
+      "name": "伊甸希望乐园 共鸣之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的共鸣头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29020,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29022,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29021,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29024,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29023,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29026,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 共鸣之章1": {
+      "instanceId": 716,
+      "name": "伊甸零式希望乐园 共鸣之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之律指环装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29703,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律耳部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29700,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律腕部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29702,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律颈部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29701,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第1页共鸣的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29027,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "红宝石神兵狂想作战": {
+      "instanceId": 718,
+      "name": "红宝石神兵狂想作战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "红宝石神兵武器箱（品级485）",
+          "source": "cofferCsv",
+          "itemId": 36156,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "红色未知蛮神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29001,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 共鸣之章2": {
+      "instanceId": 719,
+      "name": "伊甸希望乐园 共鸣之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的共鸣头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29020,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29022,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29021,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29024,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29023,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29026,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 共鸣之章2": {
+      "instanceId": 720,
+      "name": "伊甸零式希望乐园 共鸣之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之律头部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29694,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律手臂装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29696,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律脚部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29698,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律腿部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29697,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第2页共鸣的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29028,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "博兹雅堡垒追忆战": {
+      "instanceId": 725,
+      "name": "博兹雅堡垒追忆战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "理想化头部装备箱（品级480）",
+          "source": "cofferCsv",
+          "itemId": 30137,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "理想化手臂装备箱（品级480）",
+          "source": "cofferCsv",
+          "itemId": 30139,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "82级"
+        },
+        {
+          "name": "理想化脚部装备箱（品级480）",
+          "source": "cofferCsv",
+          "itemId": 30141,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "84级"
+        },
+        {
+          "name": "理想化腿部装备箱（品级480）",
+          "source": "cofferCsv",
+          "itemId": 30140,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "83级"
+        },
+        {
+          "name": "理想化身体装备箱（品级480）",
+          "source": "cofferCsv",
+          "itemId": 30138,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "81级"
+        },
+        {
+          "name": "大将军的雕像",
+          "source": "npcExchangeTokenMap",
+          "itemId": 30227,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 共鸣之章3": {
+      "instanceId": 726,
+      "name": "伊甸希望乐园 共鸣之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的共鸣头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29020,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29022,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29021,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29024,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29023,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29026,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 共鸣之章3": {
+      "instanceId": 727,
+      "name": "伊甸零式希望乐园 共鸣之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之律头部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29694,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律手臂装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29696,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律脚部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29698,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律腿部装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29697,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第3页共鸣的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29029,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 共鸣之章4": {
+      "instanceId": 728,
+      "name": "伊甸希望乐园 共鸣之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的共鸣头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29020,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29022,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29021,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29024,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29023,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的共鸣饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29026,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 共鸣之章4": {
+      "instanceId": 729,
+      "name": "伊甸零式希望乐园 共鸣之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之律武器箱（品级505）",
+          "source": "cofferCsv",
+          "itemId": 29693,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之律身体装备箱（品级500）",
+          "source": "cofferCsv",
+          "itemId": 29695,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第4页共鸣的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 29030,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "人偶军事基地": {
+      "instanceId": 736,
+      "name": "人偶军事基地",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "暗影决战诺弗兰特": {
+      "instanceId": 737,
+      "name": "暗影决战诺弗兰特",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "光之战士幻耀歼灭战": {
+      "instanceId": 739,
+      "name": "光之战士幻耀歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "光之武器箱（品级495）",
+          "source": "cofferCsv",
+          "itemId": 36157,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "光之图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 30596,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "魔术工房玛托雅工作室": {
+      "instanceId": 746,
+      "name": "魔术工房玛托雅工作室",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "伊甸希望乐园 再生之章2": {
+      "instanceId": 747,
+      "name": "伊甸希望乐园 再生之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的再生头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32133,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32135,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32134,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32137,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32136,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32139,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 再生之章2": {
+      "instanceId": 748,
+      "name": "伊甸零式希望乐园 再生之章2",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之晨头部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32145,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨手臂装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32147,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨脚部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32149,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨腿部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32148,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第2页再生的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32141,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 再生之章1": {
+      "instanceId": 749,
+      "name": "伊甸希望乐园 再生之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的再生头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32133,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32135,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32134,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32137,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32136,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32139,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 再生之章1": {
+      "instanceId": 750,
+      "name": "伊甸零式希望乐园 再生之章1",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之晨指环装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32154,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨耳部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32151,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨腕部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32153,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨颈部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32152,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第1页再生的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32140,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 再生之章3": {
+      "instanceId": 751,
+      "name": "伊甸希望乐园 再生之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的再生头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32133,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32135,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32134,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32137,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32136,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32139,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 再生之章3": {
+      "instanceId": 752,
+      "name": "伊甸零式希望乐园 再生之章3",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之晨头部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32145,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨手臂装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32147,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨脚部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32149,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨腿部装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32148,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第3页再生的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32142,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸希望乐园 再生之章4": {
+      "instanceId": 758,
+      "name": "伊甸希望乐园 再生之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "古旧的再生头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32133,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32135,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32134,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32137,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32136,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "古旧的再生饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32139,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "伊甸零式希望乐园 再生之章4": {
+      "instanceId": 759,
+      "name": "伊甸零式希望乐园 再生之章4",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "伊甸之晨武器箱（品级535）",
+          "source": "cofferCsv",
+          "itemId": 32144,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "伊甸之晨身体装备箱（品级530）",
+          "source": "cofferCsv",
+          "itemId": 32146,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        },
+        {
+          "name": "第4页再生的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32143,
+          "sourceLabel": "大型任务",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "绿宝石神兵狂想作战": {
+      "instanceId": 763,
+      "name": "绿宝石神兵狂想作战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "绿宝石神兵武器箱（品级515）",
+          "source": "cofferCsv",
+          "itemId": 36158,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "绿色未知蛮神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 32132,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "黄金平原帕戈尔赞草原": {
+      "instanceId": 777,
+      "name": "黄金平原帕戈尔赞草原",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "希望之炮台：“塔”": {
+      "instanceId": 779,
+      "name": "希望之炮台：“塔”",
+      "contentType": "大型任务",
+      "requiredLevel": 80,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "钻石神兵狂想作战": {
+      "instanceId": 782,
+      "name": "钻石神兵狂想作战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 80,
+      "tokens": [
+        {
+          "name": "钻石神兵武器箱（品级525）",
+          "source": "cofferCsv",
+          "itemId": 36159,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        },
+        {
+          "name": "白色未知蛮神图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 33480,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "80级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "异形楼阁佐特塔": {
+      "instanceId": 783,
+      "name": "异形楼阁佐特塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 81,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "电脑梦境斯提格玛四": {
+      "instanceId": 784,
+      "name": "电脑梦境斯提格玛四",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "魔导神门巴别塔": {
+      "instanceId": 785,
+      "name": "魔导神门巴别塔",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 83,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "星海深幽寻因星晶镜": {
+      "instanceId": 786,
+      "name": "星海深幽寻因星晶镜",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 89,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "创造环境极北造物院": {
+      "instanceId": 787,
+      "name": "创造环境极北造物院",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 87,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "幻想龙诗绝境战": {
+      "instanceId": 788,
+      "name": "幻想龙诗绝境战",
+      "contentType": "绝境战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "龙诗图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 36810,
+          "sourceLabel": "绝境战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "末日树海万相森国": {
+      "instanceId": 789,
+      "name": "末日树海万相森国",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 85,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "海德林晖光歼灭战": {
+      "instanceId": 791,
+      "name": "海德林晖光歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "圣光武器箱（品级580）",
+          "source": "cofferCsv",
+          "itemId": 36617,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "灵极图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35816,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "最终幻想末世终迹": {
+      "instanceId": 792,
+      "name": "最终幻想末世终迹",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "乐园都市笑笑镇": {
+      "instanceId": 794,
+      "name": "乐园都市笑笑镇",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "万魔殿 边境之狱4": {
+      "instanceId": 800,
+      "name": "万魔殿 边境之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的边境头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35817,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35819,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35818,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35821,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35820,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35822,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 边境之狱4": {
+      "instanceId": 801,
+      "name": "零式万魔殿 边境之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "日影兰武器箱（品级605）",
+          "source": "cofferCsv",
+          "itemId": 35734,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰身体装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35736,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第4页边境的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35826,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "佐迪亚克暝暗歼灭战": {
+      "instanceId": 803,
+      "name": "佐迪亚克暝暗歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "星极图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35815,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "万魔殿 边境之狱3": {
+      "instanceId": 806,
+      "name": "万魔殿 边境之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的边境头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35817,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35819,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35818,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35821,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35820,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35822,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 边境之狱3": {
+      "instanceId": 807,
+      "name": "零式万魔殿 边境之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "日影兰头部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35735,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰手臂装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35737,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰脚部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35739,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰腿部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35738,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第3页边境的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35825,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 边境之狱1": {
+      "instanceId": 808,
+      "name": "万魔殿 边境之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的边境头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35817,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35819,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35818,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35821,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35820,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35822,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 边境之狱1": {
+      "instanceId": 809,
+      "name": "零式万魔殿 边境之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "日影兰指环装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35743,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰耳部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35740,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰腕部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35742,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰颈部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35741,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第1页边境的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35823,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 边境之狱2": {
+      "instanceId": 810,
+      "name": "万魔殿 边境之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的边境头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35817,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35819,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35818,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35821,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35820,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的边境饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35822,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 边境之狱2": {
+      "instanceId": 811,
+      "name": "零式万魔殿 边境之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "日影兰头部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35735,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰手臂装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35737,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰脚部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35739,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "日影兰腿部装备箱（品级600）",
+          "source": "cofferCsv",
+          "itemId": 35738,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第2页边境的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 35824,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "间歇灵泉哈姆岛": {
+      "instanceId": 822,
+      "name": "间歇灵泉哈姆岛",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "异界深渊月面地下溪谷": {
+      "instanceId": 823,
+      "name": "异界深渊月面地下溪谷",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "艳翼蛇鸟歼殛战": {
+      "instanceId": 833,
+      "name": "艳翼蛇鸟歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "艳翼武器箱（品级710）",
+          "source": "cofferCsv",
+          "itemId": 43526,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "天灾图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43539,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "近东秘宝阿尔扎达尔海底遗迹群": {
+      "instanceId": 844,
+      "name": "近东秘宝阿尔扎达尔海底遗迹群",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "终极之战": {
+      "instanceId": 846,
+      "name": "终极之战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "蓝羽武器箱（品级595）",
+          "source": "cofferCsv",
+          "itemId": 36813,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "终极图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 36809,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "灿烂神域阿格莱亚": {
+      "instanceId": 866,
+      "name": "灿烂神域阿格莱亚",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "异界孤城特罗亚宫廷": {
+      "instanceId": 869,
+      "name": "异界孤城特罗亚宫廷",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巴尔巴莉希娅歼殛战": {
+      "instanceId": 871,
+      "name": "巴尔巴莉希娅歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "煞风武器箱（品级615）",
+          "source": "cofferCsv",
+          "itemId": 38687,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "煞风大妖异图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38374,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "万魔殿 炼净之狱1": {
+      "instanceId": 872,
+      "name": "万魔殿 炼净之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的炼净头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38375,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38377,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38376,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38379,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38378,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38380,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 炼净之狱1": {
+      "instanceId": 873,
+      "name": "零式万魔殿 炼净之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "深壑指环装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38399,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑耳部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38396,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑腕部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38398,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑颈部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38397,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第1页炼净的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38381,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 炼净之狱3": {
+      "instanceId": 876,
+      "name": "万魔殿 炼净之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的炼净头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38375,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38377,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38376,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38379,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38378,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38380,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 炼净之狱3": {
+      "instanceId": 877,
+      "name": "零式万魔殿 炼净之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "深壑头部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38391,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑手臂装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38393,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑脚部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38395,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑腿部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38394,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第3页炼净的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38383,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 炼净之狱2": {
+      "instanceId": 880,
+      "name": "万魔殿 炼净之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的炼净头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38375,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38377,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38376,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38379,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38378,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38380,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 炼净之狱2": {
+      "instanceId": 881,
+      "name": "零式万魔殿 炼净之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "深壑头部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38391,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑手臂装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38393,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑脚部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38395,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑腿部装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38394,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第2页炼净的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38382,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 炼净之狱4": {
+      "instanceId": 883,
+      "name": "万魔殿 炼净之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的炼净头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38375,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38377,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38376,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38379,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38378,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的炼净饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38380,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 炼净之狱4": {
+      "instanceId": 884,
+      "name": "零式万魔殿 炼净之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "深壑武器箱（品级635）",
+          "source": "cofferCsv",
+          "itemId": 38390,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "深壑身体装备箱（品级630）",
+          "source": "cofferCsv",
+          "itemId": 38392,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第4页炼净的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38384,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "雪山奥窟冥魂石洞": {
+      "instanceId": 896,
+      "name": "雪山奥窟冥魂石洞",
+      "contentType": "迷宫挑战",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "欧米茄绝境验证战": {
+      "instanceId": 908,
+      "name": "欧米茄绝境验证战",
+      "contentType": "绝境战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "欧米茄图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38951,
+          "sourceLabel": "绝境战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "喜悦神域欧芙洛绪涅": {
+      "instanceId": 911,
+      "name": "喜悦神域欧芙洛绪涅",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "卢比坎特歼殛战": {
+      "instanceId": 924,
+      "name": "卢比坎特歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "炀火武器箱（品级625）",
+          "source": "cofferCsv",
+          "itemId": 39584,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "炀火大妖异图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 38949,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "万魔殿 荒天之狱1": {
+      "instanceId": 936,
+      "name": "万魔殿 荒天之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的荒天头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40297,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40299,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40298,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40301,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40300,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40302,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 荒天之狱1": {
+      "instanceId": 937,
+      "name": "零式万魔殿 荒天之狱1",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "成神指环装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40316,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神耳部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40313,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神腕部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40315,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神颈部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40314,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第1页荒天的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40303,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 荒天之狱2": {
+      "instanceId": 938,
+      "name": "万魔殿 荒天之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的荒天头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40297,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40299,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40298,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40301,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40300,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40302,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 荒天之狱2": {
+      "instanceId": 939,
+      "name": "零式万魔殿 荒天之狱2",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "成神头部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40308,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神手臂装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40310,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神脚部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40312,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第2页荒天的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40304,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 荒天之狱3": {
+      "instanceId": 940,
+      "name": "万魔殿 荒天之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的荒天头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40297,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40299,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40298,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40301,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40300,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40302,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 荒天之狱3": {
+      "instanceId": 941,
+      "name": "零式万魔殿 荒天之狱3",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "成神腿部装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40311,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "成神身体装备箱（品级660）",
+          "source": "cofferCsv",
+          "itemId": 40309,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第3页荒天的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40305,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "万魔殿 荒天之狱4": {
+      "instanceId": 942,
+      "name": "万魔殿 荒天之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "腐朽的荒天头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40297,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40299,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40298,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天锁甲靴",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40301,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天长裤",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40300,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "腐朽的荒天饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40302,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "零式万魔殿 荒天之狱4": {
+      "instanceId": 943,
+      "name": "零式万魔殿 荒天之狱4",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "成神武器箱（品级665）",
+          "source": "cofferCsv",
+          "itemId": 40307,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        },
+        {
+          "name": "第4页荒天的断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40306,
+          "sourceLabel": "大型任务",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "高贝扎歼殛战": {
+      "instanceId": 950,
+      "name": "高贝扎歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "虚无武器箱（品级645）",
+          "source": "cofferCsv",
+          "itemId": 40296,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "虚无大妖异图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 40295,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "荣华神域塔利亚": {
+      "instanceId": 962,
+      "name": "荣华神域塔利亚",
+      "contentType": "大型任务",
+      "requiredLevel": 90,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "泽罗姆斯歼殛战": {
+      "instanceId": 965,
+      "name": "泽罗姆斯歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 90,
+      "tokens": [
+        {
+          "name": "虚器装备箱（品级655）",
+          "source": "cofferCsv",
+          "itemId": 41054,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        },
+        {
+          "name": "暗黑图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 41053,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "90级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "阿卡狄亚登天斗技场 轻量级1": {
+      "instanceId": 985,
+      "name": "阿卡狄亚登天斗技场 轻量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "轻量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43541,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43543,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43545,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43544,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43542,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43546,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 轻量级1": {
+      "instanceId": 986,
+      "name": "阿卡狄亚零式登天斗技场 轻量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "黑马冠军指环装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43536,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军耳部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43533,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军腕部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43535,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军颈部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43534,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第1页轻量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43549,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 轻量级2": {
+      "instanceId": 987,
+      "name": "阿卡狄亚登天斗技场 轻量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "轻量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43541,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43543,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43545,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43544,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43542,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43546,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 轻量级2": {
+      "instanceId": 988,
+      "name": "阿卡狄亚零式登天斗技场 轻量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "黑马冠军头部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43528,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军手臂装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43530,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军脚部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43532,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第2页轻量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43550,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 轻量级3": {
+      "instanceId": 989,
+      "name": "阿卡狄亚登天斗技场 轻量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "轻量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43541,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43543,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43545,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43544,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43542,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43546,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 轻量级3": {
+      "instanceId": 990,
+      "name": "阿卡狄亚零式登天斗技场 轻量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "黑马冠军腿部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43531,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "黑马冠军身体装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 43529,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第3页轻量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43551,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 轻量级4": {
+      "instanceId": 991,
+      "name": "阿卡狄亚登天斗技场 轻量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "轻量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43541,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43543,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43545,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43544,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43542,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "轻量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43546,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 轻量级4": {
+      "instanceId": 992,
+      "name": "阿卡狄亚零式登天斗技场 轻量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "黑马冠军武器箱（品级735）",
+          "source": "cofferCsv",
+          "itemId": 43527,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第4页轻量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43552,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "加加财富天坑": {
+      "instanceId": 993,
+      "name": "加加财富天坑",
+      "contentType": "寻宝",
+      "requiredLevel": 1,
+      "tokens": [
+        {
+          "name": "幻梦武器箱",
+          "source": "itemAcquisition",
+          "itemId": 45070,
+          "sourceLabel": "寻宝",
+          "level": "1级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "佐拉加歼殛战": {
+      "instanceId": 996,
+      "name": "佐拉加歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "奇迹图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 43540,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "光暗未来绝境战": {
+      "instanceId": 1006,
+      "name": "光暗未来绝境战",
+      "contentType": "绝境战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "巫女图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 44743,
+          "sourceLabel": "绝境战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "暗黑之云诛灭战": {
+      "instanceId": 1010,
+      "name": "暗黑之云诛灭战",
+      "contentType": "诛灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "黯云头部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 45074,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        },
+        {
+          "name": "黯云手臂装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 45076,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        },
+        {
+          "name": "黯云脚部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 45078,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        },
+        {
+          "name": "黯云腿部装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 45077,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        },
+        {
+          "name": "黯云身体装备箱（品级730）",
+          "source": "cofferCsv",
+          "itemId": 45075,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        },
+        {
+          "name": "暗云半魔晶石",
+          "source": "npcExchangeTokenMap",
+          "itemId": 44868,
+          "sourceLabel": "诛灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "朱诺：第一巡行": {
+      "instanceId": 1015,
+      "name": "朱诺：第一巡行",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "永恒女王忆想歼灭战": {
+      "instanceId": 1017,
+      "name": "永恒女王忆想歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "永恒女王武器箱（品级725）",
+          "source": "cofferCsv",
+          "itemId": 44719,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "永恒女王图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 44718,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "阿卡狄亚登天斗技场 中量级1": {
+      "instanceId": 1019,
+      "name": "阿卡狄亚登天斗技场 中量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "中量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46721,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46723,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46725,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46724,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46722,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46726,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 中量级1": {
+      "instanceId": 1020,
+      "name": "阿卡狄亚零式登天斗技场 中量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "正派冠军指环装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46719,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军耳部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46716,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军腕部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46718,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军颈部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46717,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第1页中量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46732,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 中量级2": {
+      "instanceId": 1021,
+      "name": "阿卡狄亚登天斗技场 中量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "中量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46721,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46723,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46725,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46724,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46722,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46726,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 中量级2": {
+      "instanceId": 1022,
+      "name": "阿卡狄亚零式登天斗技场 中量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "正派冠军头部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46711,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军手臂装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46713,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军脚部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46715,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第2页中量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46733,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 中量级3": {
+      "instanceId": 1023,
+      "name": "阿卡狄亚登天斗技场 中量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "中量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46721,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46723,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46725,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46724,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46722,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46726,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 中量级3": {
+      "instanceId": 1024,
+      "name": "阿卡狄亚零式登天斗技场 中量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "正派冠军腿部装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46714,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "正派冠军身体装备箱（品级760）",
+          "source": "cofferCsv",
+          "itemId": 46712,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第3页中量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46734,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "阿卡狄亚登天斗技场 中量级4": {
+      "instanceId": 1025,
+      "name": "阿卡狄亚登天斗技场 中量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "中量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46721,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46723,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46725,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46724,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46722,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "中量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46726,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "二型通用规格神典石",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46728,
+          "sourceLabel": "大型任务",
+          "level": "100级",
+          "note": "4个中量级全息投影利刃换一个"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 中量级4": {
+      "instanceId": 1026,
+      "name": "阿卡狄亚零式登天斗技场 中量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "正派冠军武器箱（品级765）",
+          "source": "cofferCsv",
+          "itemId": 46710,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第4页中量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46735,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "泽莲尼娅歼殛战": {
+      "instanceId": 1031,
+      "name": "泽莲尼娅歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "女王骑士武器箱（品级745）",
+          "source": "cofferCsv",
+          "itemId": 46709,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "守护机关图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46720,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "护锁刃龙狩猎战": {
+      "instanceId": 1043,
+      "name": "护锁刃龙狩猎战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "护锁刃武器箱（品级745）",
+          "source": "cofferCsv",
+          "itemId": 47094,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "护龙的鳞",
+          "source": "npcExchangeTokenMap",
+          "itemId": 47100,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "护锁刃龙上位狩猎战": {
+      "instanceId": 1044,
+      "name": "护锁刃龙上位狩猎战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "护锁刃武器箱（品级745）",
+          "source": "cofferCsv",
+          "itemId": 47094,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "护龙狩猎证",
+          "source": "npcExchangeTokenMap",
+          "itemId": 47101,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "护龙的鳞",
+          "source": "npcExchangeTokenMap",
+          "itemId": 47100,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "桑多利亚：第二巡行": {
+      "instanceId": 1058,
+      "name": "桑多利亚：第二巡行",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [],
+      "supportsRandomDrop": true
+    },
+    "巡梦金库": {
+      "instanceId": 1060,
+      "name": "巡梦金库",
+      "contentType": "寻宝",
+      "requiredLevel": 1,
+      "tokens": [
+        {
+          "name": "幻梦武器箱",
+          "source": "itemAcquisition",
+          "itemId": 45070,
+          "sourceLabel": "寻宝",
+          "level": "1级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "永远之暗悲惶歼灭战": {
+      "instanceId": 1062,
+      "name": "永远之暗悲惶歼灭战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "死暗武器箱（品级755）",
+          "source": "cofferCsv",
+          "itemId": 46981,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "死暗图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 46982,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "阿卡狄亚登天斗技场 重量级1": {
+      "instanceId": 1068,
+      "name": "阿卡狄亚登天斗技场 重量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "重量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49749,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49751,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49753,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49752,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49750,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49754,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 重量级1": {
+      "instanceId": 1069,
+      "name": "阿卡狄亚零式登天斗技场 重量级1",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "总冠军指环装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49747,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军耳部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49744,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军腕部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49746,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军颈部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49745,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第1页重量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49760,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 重量级2": {
+      "instanceId": 1070,
+      "name": "阿卡狄亚登天斗技场 重量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "重量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49749,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49751,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49753,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49752,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49750,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49754,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 重量级2": {
+      "instanceId": 1071,
+      "name": "阿卡狄亚零式登天斗技场 重量级2",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "总冠军头部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49739,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军手臂装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49741,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军脚部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49743,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第2页重量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49761,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 重量级3": {
+      "instanceId": 1072,
+      "name": "阿卡狄亚登天斗技场 重量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "重量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49749,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49751,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49753,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49752,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49750,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49754,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 重量级3": {
+      "instanceId": 1073,
+      "name": "阿卡狄亚零式登天斗技场 重量级3",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "总冠军腿部装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49742,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "总冠军身体装备箱（品级790）",
+          "source": "cofferCsv",
+          "itemId": 49740,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第3页重量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49762,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚登天斗技场 重量级4": {
+      "instanceId": 1074,
+      "name": "阿卡狄亚登天斗技场 重量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "三型通用规格神典石",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49756,
+          "sourceLabel": "大型任务",
+          "level": "100级",
+          "note": "4个重量级全息投影利刃换一个"
+        },
+        {
+          "name": "重量级全息投影头盔",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49749,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影手铠",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49751,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影胫甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49753,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影裤袜",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49752,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影铠甲",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49750,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "重量级全息投影饰品",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49754,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "阿卡狄亚零式登天斗技场 重量级4": {
+      "instanceId": 1075,
+      "name": "阿卡狄亚零式登天斗技场 重量级4",
+      "contentType": "大型任务",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "总冠军武器箱（品级795）",
+          "source": "cofferCsv",
+          "itemId": 49738,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        },
+        {
+          "name": "第4页重量级断章",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49763,
+          "sourceLabel": "大型任务",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "格莱杨拉波尔歼殛战": {
+      "instanceId": 1077,
+      "name": "格莱杨拉波尔歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "狂奔武器箱（品级775）",
+          "source": "cofferCsv",
+          "itemId": 49737,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "狂奔列车图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 49748,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "恩欧歼殛战": {
+      "instanceId": 1116,
+      "name": "恩欧歼殛战",
+      "contentType": "讨伐歼灭战",
+      "requiredLevel": 100,
+      "tokens": [
+        {
+          "name": "虚王武器箱（品级785）",
+          "source": "cofferCsv",
+          "itemId": 50891,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        },
+        {
+          "name": "虚王图腾",
+          "source": "npcExchangeTokenMap",
+          "itemId": 50892,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": true
+    },
+    "妖星乱舞绝境战": {
+      "instanceId": null,
+      "name": "妖星乱舞绝境战",
+      "contentType": "",
+      "requiredLevel": null,
+      "tokens": [
+        {
+          "name": "小丑图腾",
+          "source": "npcExchangeTokenMap",
+          "sourceLabel": "绝境战",
+          "level": "100级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "火龙上位讨伐战": {
+      "instanceId": null,
+      "name": "火龙上位讨伐战",
+      "contentType": "",
+      "requiredLevel": null,
+      "tokens": [
+        {
+          "name": "火龙的上鳞",
+          "source": "npcExchangeTokenMap",
+          "itemId": 23383,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    },
+    "火龙讨伐战": {
+      "instanceId": null,
+      "name": "火龙讨伐战",
+      "contentType": "",
+      "requiredLevel": null,
+      "tokens": [
+        {
+          "name": "火龙的鳞",
+          "source": "npcExchangeTokenMap",
+          "itemId": 22599,
+          "sourceLabel": "讨伐歼灭战",
+          "level": "70级"
+        }
+      ],
+      "supportsRandomDrop": false
+    }
+  }
+}

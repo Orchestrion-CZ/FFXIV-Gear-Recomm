@@ -8792,6 +8792,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "火龙上位狩猎战",
+    "sourceFilterSubcategory": "火龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "火龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "火龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "火龙的上鳞",
+        "contentName": "火龙上位狩猎战",
+        "contentNames": [
+          "火龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 23383,
+          "name": "火龙的上鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：火龙的上鳞（火龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "火龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 23383,
+          "itemName": "火龙的上鳞",
+          "category": "讨伐歼灭战",
+          "note": "火龙上位狩猎战",
+          "contentNames": [
+            "火龙上位狩猎战"
+          ],
+          "amount": 2
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -8845,6 +8905,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "火龙上位狩猎战",
+    "sourceFilterSubcategory": "火龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "火龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "火龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "火龙的上鳞",
+        "contentName": "火龙上位狩猎战",
+        "contentNames": [
+          "火龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 23383,
+          "name": "火龙的上鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：火龙的上鳞（火龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "火龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 23383,
+          "itemName": "火龙的上鳞",
+          "category": "讨伐歼灭战",
+          "note": "火龙上位狩猎战",
+          "contentNames": [
+            "火龙上位狩猎战"
+          ],
+          "amount": 2
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -9359,6 +9479,68 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "火龙狩猎战；火龙上位狩猎战",
+    "sourceFilterSubcategory": "火龙狩猎战；火龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "火龙狩猎战；火龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "火龙狩猎战；火龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "火龙的鳞",
+        "contentName": "火龙狩猎战；火龙上位狩猎战",
+        "contentNames": [
+          "火龙狩猎战",
+          "火龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 22599,
+          "name": "火龙的鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：火龙的鳞（火龙狩猎战；火龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "火龙狩猎战；火龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 22599,
+          "itemName": "火龙的鳞",
+          "category": "讨伐歼灭战",
+          "note": "火龙狩猎战；火龙上位狩猎战",
+          "contentNames": [
+            "火龙狩猎战",
+            "火龙上位狩猎战"
+          ],
+          "amount": 4
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -9412,6 +9594,68 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "火龙狩猎战；火龙上位狩猎战",
+    "sourceFilterSubcategory": "火龙狩猎战；火龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "火龙狩猎战；火龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "火龙狩猎战；火龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "火龙的鳞",
+        "contentName": "火龙狩猎战；火龙上位狩猎战",
+        "contentNames": [
+          "火龙狩猎战",
+          "火龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 22599,
+          "name": "火龙的鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：火龙的鳞（火龙狩猎战；火龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "火龙狩猎战；火龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 22599,
+          "itemName": "火龙的鳞",
+          "category": "讨伐歼灭战",
+          "note": "火龙狩猎战；火龙上位狩猎战",
+          "contentNames": [
+            "火龙狩猎战",
+            "火龙上位狩猎战"
+          ],
+          "amount": 4
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -21259,6 +21503,68 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+    "sourceFilterSubcategory": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "护龙的鳞",
+        "contentName": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+        "contentNames": [
+          "护锁刃龙狩猎战",
+          "护锁刃龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 47100,
+          "name": "护龙的鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：护龙的鳞（护锁刃龙狩猎战；护锁刃龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 47100,
+          "itemName": "护龙的鳞",
+          "category": "讨伐歼灭战",
+          "note": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+          "contentNames": [
+            "护锁刃龙狩猎战",
+            "护锁刃龙上位狩猎战"
+          ],
+          "amount": 2
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -21312,6 +21618,68 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+    "sourceFilterSubcategory": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+    "sourceFilterSubCategories": [
+      "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "护龙的鳞",
+        "contentName": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+        "contentNames": [
+          "护锁刃龙狩猎战",
+          "护锁刃龙上位狩猎战"
+        ],
+        "requiredItem": {
+          "id": 47100,
+          "name": "护龙的鳞"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：护龙的鳞（护锁刃龙狩猎战；护锁刃龙上位狩猎战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "护锁刃龙狩猎战；护锁刃龙上位狩猎战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 47100,
+          "itemName": "护龙的鳞",
+          "category": "讨伐歼灭战",
+          "note": "护锁刃龙狩猎战；护锁刃龙上位狩猎战",
+          "contentNames": [
+            "护锁刃龙狩猎战",
+            "护锁刃龙上位狩猎战"
+          ],
+          "amount": 2
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27520,6 +27888,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27573,6 +28001,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27626,6 +28114,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27679,6 +28227,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27732,6 +28340,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27785,6 +28453,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27838,6 +28566,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27891,6 +28679,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27944,6 +28792,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -27997,6 +28905,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28050,6 +29018,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28103,6 +29131,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28156,6 +29244,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28209,6 +29357,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28262,6 +29470,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28315,6 +29583,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {
@@ -28368,6 +29696,66 @@
         "male": "",
         "female": ""
       }
+    },
+    "sourceFilterCategory": "instanceContent",
+    "sourceFilterCategories": [
+      "instanceContent"
+    ],
+    "sourceFilterGroup": "trial",
+    "sourceFilterGroupId": "trial",
+    "sourceFilterGroups": [
+      "trial"
+    ],
+    "sourceFilterSubCategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubcategory": "博兹雅堡垒追忆战",
+    "sourceFilterSubCategories": [
+      "博兹雅堡垒追忆战"
+    ],
+    "sourceMetaFilters": [
+      {
+        "category": "instanceContent",
+        "group": "trial",
+        "remark": "博兹雅堡垒追忆战"
+      }
+    ],
+    "sources": [
+      {
+        "type": "NPC兑换",
+        "detail": "大将军的雕像",
+        "contentName": "博兹雅堡垒追忆战",
+        "contentNames": [
+          "博兹雅堡垒追忆战"
+        ],
+        "requiredItem": {
+          "id": 30227,
+          "name": "大将军的雕像"
+        }
+      }
+    ],
+    "sourceSummary": "NPC兑换：大将军的雕像（博兹雅堡垒追忆战）",
+    "sourceMeta": {
+      "filters": [
+        {
+          "category": "instanceContent",
+          "group": "trial",
+          "remark": "博兹雅堡垒追忆战"
+        }
+      ],
+      "acquisition": [
+        {
+          "type": "tokenExchange",
+          "itemId": 30227,
+          "itemName": "大将军的雕像",
+          "category": "讨伐歼灭战",
+          "note": "博兹雅堡垒追忆战",
+          "contentNames": [
+            "博兹雅堡垒追忆战"
+          ],
+          "amount": 3
+        }
+      ],
+      "anchors": [],
+      "confidence": "derivedFromPieces"
     }
   },
   {

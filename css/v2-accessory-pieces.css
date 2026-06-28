@@ -1,0 +1,95 @@
+.accessory-pieces-result-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+.accessory-pieces-result-card + .accessory-pieces-result-card {
+  margin-top: 8px;
+}
+
+.accessory-pieces-result-card:hover,
+.accessory-pieces-result-card.is-selected {
+  border-color: var(--color-card-hover-border);
+  background: var(--color-card-hover);
+  box-shadow: var(--shadow-card-selected);
+}
+
+.accessory-pieces-result-card__icon {
+  width: 72px;
+  height: 72px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(17, 24, 39, 0.16);
+}
+
+.accessory-pieces-result-card__body {
+  min-width: 0;
+  min-height: 72px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-content: start;
+  row-gap: 3px;
+}
+
+.accessory-pieces-result-card__title-row {
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.accessory-pieces-result-card__title {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #202938;
+  font-size: 17px;
+  font-weight: 750;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.accessory-pieces-result-card__id {
+  flex: 0 0 auto;
+  color: #8a94a6;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.accessory-pieces-result-card__meta,
+.accessory-pieces-result-card__source {
+  overflow: hidden;
+  color: #5f6b7d;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.accessory-pieces-result-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  margin-top: 4px;
+  overflow: visible;
+}
+
+.app-shell[data-engine="accessoryPieces"][data-accessory-view-mode="group"] .model-table-wrap {
+  max-height: 420px;
+  overflow: auto;
+}
+
+.app-shell[data-engine="accessoryPieces"][data-accessory-view-mode="group"] .relation-region[aria-label="同模信息"] {
+  min-height: 0;
+}
